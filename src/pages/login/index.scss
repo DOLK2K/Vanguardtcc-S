@@ -1,0 +1,41 @@
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: #A4A4A4;
+    height: 100%;
+    
+}
+
+.login-elemento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-elemento a {
+    font-size: 26px;
+    color: black;
+}
+
+
+.primeiro-input img {
+    position: relative;
+    top: 68px;
+    left: 12px;
+    height: 30px;
+    width: 30px;
+}
+
+.segundo-input img {
+    position: relative;
+    top: 38px;
+    left: 12px;
+    height: 30px;
+    width: 30px;
+}
+
+.segundo-input input::placeholder {
+    padding: 50px;
+}

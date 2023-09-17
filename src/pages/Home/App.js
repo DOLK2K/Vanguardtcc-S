@@ -144,7 +144,7 @@ function App() {
 
           </div>
           
-          <div className='promocoes'>
+          {/* <div className='promocoes'>
             <h1>PROMOÇÕES</h1>
             <div className='faixa04'>
               <div className='bolsa'>
@@ -186,6 +186,24 @@ function App() {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div>
+            <h1>Quem somos</h1>
+            <p>SOMOS APAIXONADOS POR FORNECER OS MELHORES EQUIPAMENTOS E SOLUÇÕES PARA AQUELES QUE BUSCAM AVENTURAS, SOBREVIVÊNCIA E PREPARAÇÃO TÁTICA. nOSSA EMPRESA NASCEU DO DESEJO DE FORNECER ARTIGOS DE QUALIDADE PARA PESSOAS QUE VALORIZAM A SEGURANÇA, A CONFIABILIDADE E EXCELÊNCIA EM TODAS AS SUAS EXPERIÊNCIAS AO AR LIVRE. cOM UMA EQUIPE ESPECIALIZADA E DEDICADA, SELECIONAMOS CUIDADOSAMENTE OS MELHORES PRODUTOS DE MARCAS RENOMADAS, GARANTINDO QUE VOCÊ TENHA ACESSO AOS EQUIPAMENTOS MAIS AVANÇADOS E FUNCIONAIS DO MERCADO. seja você um aventureiro, um entusiasta de esportes ao ar livre ou um profissional em busca de equipamentos confiáveis, estamos aqui para atender suas necessidades e superar suas expectativas. junte-se à nossa comunidade de exploradores e conte conosco para equipá-lo com tudo o que você precisa para enfrentar qualquer desafio com segurança.</p>
+
+            <button>Saiba mais</button>
+          </div>
+
+          <div>
+            <h1>FALE CONOSCO</h1>
+            <p>Estamos ansiosos para ouvir de você! Envie-nos quaisquer perguntas que você tiver</p>
+
+          </div>
+
+          <div>
+            <p>Nome</p>
+             
           </div>
        </div>
   );
