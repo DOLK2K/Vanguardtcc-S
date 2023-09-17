@@ -1,6 +1,7 @@
 import Simbolo from '../../assets/images/simbolo-esquerdo.png'
 import './index.scss'
 import Atualizar from '../../assets/images/refrescar (1) 1.png'
+
 export default function Login() {
     return (
         <div className="loginadm">
