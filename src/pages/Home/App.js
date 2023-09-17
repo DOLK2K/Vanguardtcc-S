@@ -112,7 +112,7 @@ function App() {
 
               <div className='slc'>
           
-                <h1>Catálogo</h1>
+                <h1>Catálogoo</h1>
             <div className='faixaa'>
             <div className='faixa-02'>
 
