@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.parte-inicial {
+    background-image: url('../../assets/images/Untitled\ \(1\).png');
+    height: 100vh;
+    width: 100%;
+    
+    background-size: cover;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+       width: 500px;
+       height: 30px;
+       border-radius: 10px;
+       border: none;
+    }
+
+    input::placeholder {
+        padding: 30px;
+
+    }
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Lupa {
+    position: relative;
+    left: 25px;
+}
+.links a  {
+    text-decoration: none;
+    color: #000000;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+
+}
+
+.cabecalho2 p, a {
+    color: #ffff;
+}
+
+
+.cabecalho2 a {
+   margin: 30px;
+}
+
+#Vestuario {
+    margin-left: 220px;
+}
+
+.Centro{
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+}
+
+.Centro h1 {
+    width: 420px;
+    text-align: center;
+    color: #ffff;
+}
+
+.Centro button {
+    background-color: #0F1A00;
+    height: 45px;
+    border-radius: 10px;
+    width: 165px;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    margin: 70px;
+}
+
+.fundo {
+    background-size: cover;
+    background-image: url('../../assets/images/image\ 55.png');
+}
+
+.pagina-segunda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.maisprocurado {
+    margin: 20px;
+}
+.procurado {
+    display: flex;
+    flex-direction: row;
+}
+
+.procurado img {
+   height: 260px;
+   width: 250px;
+   
+}
+
+
+.procurado1, .procurado2, .procurado3, .procurado4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+}
+
+.procurado1 h1 {
+    font-size: 16px;
+    width: 230px;
+    text-align:center;
+    color: #ffff;
+    margin: 2px;
+}
+
+
+
+.procurado1-2, .procurado2-3, .procurado3-4, .procurado4-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0F1A00;
+    width: 250px;
+    height: 90px;
+
+}
+
+.procurado1-2, .procurado2-3, .procurado3-4, .procurado4-5 p {
+    color: #ffff;
+}
+.procurado2 h1 {
+    font-size: 16px;
+    text-align:center;
+    color: #ffff;
+    margin: 5px;
+
+}
+
+.procurado3 h1 {
+    font-size: 16px;
+    color: #ffff;
+    margin: 5px;
+    text-align:center;
+}
+
+.procurado4 h1 {
+    font-size: 16px;
+    color: #ffff;
+    margin: 5px;
+    text-align:center;
+}
+
+.botaoo {
+    margin-left: 65px;
+    width: 120px;
+    height: 135px;
+    border-radius: 14px;
+    background-color: #3E3E3E;
+    color: #ffff;
+    border: none;
+    align-items:center ;
+}
+
+.faixaa {
+    display: flex;
+    flex-direction: row;
+}
+
+.faixaa h1, h2 {
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+    color: #000;
+}
+.faixa-02{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+.slc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slc img {
+    display: flex;
+    align-items: center;
+    height: 240px;
+    width: 630px;
+    margin: 10px;
+}
+
+.faixa-02 h1, h2{
+       
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+
+
+
+.faixa-03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faixa-03 h1, h2{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+ 
+
+
+
+.faixa-button button{
+    
+    
+    
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #011b07;
+    height: 30px;
+    border: none;
+    color: aliceblue;
+    font-size: 10px;
+    
+}
+
+.div-itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.promocoes {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url('../../assets/images/Rectangle\ 4.png');
+}
+
+.faixa04 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bolsa {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
+
+.bolsa img {
+    width: 300px;
+    height: 300px;
+
+}
+.abaixo {
+    background-color: #00081D;
+    height: 200px;
+    border-radius: 14px;
+    width: 400px;
+    text-align: center;
+}
+
+.abaixo h1, p {
+    font-size: 18px;
+    color: #ffff;
+}
+.abaixo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.lanterna {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
+
+.jaqueta {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
