@@ -188,23 +188,59 @@ function App() {
             </div>
           </div> */}
 
-          <div>
+          <div className='fundo2'>
+          <div className='baixo'>
             <h1>Quem somos</h1>
             <p>SOMOS APAIXONADOS POR FORNECER OS MELHORES EQUIPAMENTOS E SOLUÇÕES PARA AQUELES QUE BUSCAM AVENTURAS, SOBREVIVÊNCIA E PREPARAÇÃO TÁTICA. nOSSA EMPRESA NASCEU DO DESEJO DE FORNECER ARTIGOS DE QUALIDADE PARA PESSOAS QUE VALORIZAM A SEGURANÇA, A CONFIABILIDADE E EXCELÊNCIA EM TODAS AS SUAS EXPERIÊNCIAS AO AR LIVRE. cOM UMA EQUIPE ESPECIALIZADA E DEDICADA, SELECIONAMOS CUIDADOSAMENTE OS MELHORES PRODUTOS DE MARCAS RENOMADAS, GARANTINDO QUE VOCÊ TENHA ACESSO AOS EQUIPAMENTOS MAIS AVANÇADOS E FUNCIONAIS DO MERCADO. seja você um aventureiro, um entusiasta de esportes ao ar livre ou um profissional em busca de equipamentos confiáveis, estamos aqui para atender suas necessidades e superar suas expectativas. junte-se à nossa comunidade de exploradores e conte conosco para equipá-lo com tudo o que você precisa para enfrentar qualquer desafio com segurança.</p>
 
             <button>Saiba mais</button>
           </div>
-
-          <div>
+          </div>
+          <div className='infopess'>
+          <div className='rodape2'>
             <h1>FALE CONOSCO</h1>
             <p>Estamos ansiosos para ouvir de você! Envie-nos quaisquer perguntas que você tiver</p>
 
           </div>
 
-          <div>
+          <div className='rodape3'>
             <p>Nome</p>
-             
+            <p2>Telefone</p2>
+
           </div>
+
+          <div className='rodape4'>
+            <p>Email</p>
+          </div>
+
+          <div className='rodape5'>
+            <p>Mensagem</p>
+          </div>
+
+          <div className='rodape6'>
+            <button>Enviar</button>
+          </div>
+       </div>
+       
+
+
+
+
+
+        
+        <div className='cabecario'>
+        <div className='alinhamento2'>
+        <h1>10% de desconto no boleto ou no pix</h1>
+        <img src={cartao} />
+        <h2>6x sem juros no cartão de credito</h2>
+        <img src={caminhao} />
+        <h3>ENTREGA EM TODO O BRASIL ENTREGA EM TODO O BRASIL</h3>
+        <img src={troca} />
+        <h4>1ª TROCA GRÁTIS a primeira troca é por nossa conta </h4>
+
+        <img src={pagar} />
+        </div>
+        </div>
        </div>
   );
 }
