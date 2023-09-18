@@ -39,3 +39,15 @@
 .segundo-input input::placeholder {
     padding: 50px;
 }
+
+.botaoooo  {
+    display: flex;
+
+    .buto {
+        margin-left: 200px;
+        background-color: #0B1B45;
+        border: none;
+        cursor: pointer;
+        width: 920px  !important ;
+    }
+}

@@ -29,8 +29,8 @@ function App() {
         </div>
         <div className='links'>
         <a href=''>Fale conosco</a>
-        <a>Entrar</a>
-        <a>Cadastrar</a>
+        <a href='/login' >Entrar</a>
+        <a href='/cadastro'>Cadastrar</a>
         </div>
         <img src={Carro} />
         

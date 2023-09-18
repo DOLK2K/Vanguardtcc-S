@@ -34,7 +34,7 @@ export default function Login () {
         <div className='login'>
             <div className='login-elemento'>
             <img src={Simbolo} />
-            <a href=''>Inicio</a>
+            <a href='/'>Inicio</a>
         </div>
         <div className='logo'>
             <img src={Logo} />
@@ -52,9 +52,9 @@ export default function Login () {
                 <img src={Chave} />
                 <input type='number' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
             </div>
-
-            <button onClick={entrarClick} className='botao'>Continue</button>
-
+            <div className='botaoooo'>
+            <button className='buto' onClick={entrarClick} >Continue</button>
+            </div>
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
             <div className='botoes'>
                 <div className='facebook'>

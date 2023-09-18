@@ -10,7 +10,7 @@ export default function Cadastro() {
         <div className='Cadastro'>
         <div className='ELEMENTO'>
             <img src={Simbolo} />
-            <a href=''>Inicio</a>
+            <a href='/'>Inicio</a>
         </div>
         <div className='logo'>
             <img src={Logo} />
@@ -47,7 +47,7 @@ export default function Cadastro() {
             </div>
 
 
-            <button className='botao'>Continue</button>
+            <button className='botao-cadastro'>Continue</button>
 
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
             <div className='botoes'>
