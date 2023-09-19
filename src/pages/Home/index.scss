@@ -427,3 +427,100 @@
     align-items: center;
 }
 
+.fundo8{
+    background-color: F8F8F8;
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: 100px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    height: 200px;
+
+}
+.cabecario h3{
+    font-size: 20px;
+    text-decoration-line:underline
+
+
+}
+.cabecario h4{
+    font-size: 20px;
+    text-decoration-line:underline
+
+
+}
+.cabecario h5{
+    font-size: 20px;
+    text-decoration-line:underline
+
+
+}
+.cabecario h6{
+    font-size: 20px;
+    text-decoration-line:underline
+
+
+
+}
+.pagamento img{
+    width: 1200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+.rodape7{
+    background-color: #000;
+
+
+    height: 170px;
+}
+
+.faixa-img{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    height: 10px;
+}
+
+.faixa-img img{
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    justify-content:center;
+    justify-content: space-between;
+    padding-left: 390px;
+    width: 890px;
+
+
+}
+
+.rodape p{
+    color: #F8F8F8;
+
+    padding-bottom: 80px;
+    position: relative;
+
+}
+
+.elements p{
+    color: #F8F8F8;
+    display: flex;
+    position: fixed;
+    padding-left: 1100px;
+    width: 1500px;
+
+}

@@ -239,6 +239,21 @@ function App() {
         <h4>1ª TROCA GRÁTIS a primeira troca é por nossa conta </h4>
 
         <img src={pagar} />
+
+        <div className='cabecario'>
+
+        <h3>10% De desconto no boleto ou no pix</h3>
+        <img src={cartao} />
+        <h4>6x Sem juros no cartão de credito</h4>
+        <img src={caminhao} />
+        <h5>Entrega Em Todo O Brasil </h5>
+        <img src={troca} />
+        <h6>1ª Troca grátis a primeira troca é por nossa conta </h6>
+
+        </div>
+        <div className='pagamento'>
+          <img src={pagar} />
+        </div>
         </div>
         </div>
        </div>
