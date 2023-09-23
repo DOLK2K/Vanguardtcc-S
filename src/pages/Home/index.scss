@@ -323,9 +323,85 @@
 //     background-color: #ffff;
 // }
 
+
+
+
+.promocoes-mae{
+    display: flex;
+    flex-direction: row;
+   
+    padding-left: 250px;
+    background-image: url('../../assets/images/Rectangle\ 4.png');
+}
+
+.promocoes-mae {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.titulo h1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.itensgeral{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.itens1{
+    
+    background-color: #F8F8F8;
+    height: 400px;
+    
+}
+
+.itens1 img{
+    height: 230px;
+    padding-top: 40px;
+}
+
+.itens2{
+    
+   
+    height: 400px;
+    background-color: #F8F8F8;
+    
+}
+
+.itens2 img{
+    padding-left: 200px;
+    padding-top: 40px;
+    height: 230px;
+}
+
+.itens3{
+    background-color: #F8F8F8;
+    height: 400px;
+
+}
+
+
+
+.itens3 img{
+    height: 200px;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
 .fundo2{
     background-size: cover;
-    background-image: url('../../assets/images/fundover.png');
+    background-image: url('../../assets/images/fundo2.png');
    
 }
 
@@ -342,12 +418,15 @@
     align-items: center;
     justify-content: center;
     color: antiquewhite; 
+    
 }
     
 .baixo p{
     color: antiquewhite;
     width: 750px;
-    height: 200px;
+    height: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
      
     
 }
@@ -356,9 +435,15 @@
     cursor: pointer;
     background-color: #3E3E3E;
     height: 30px;
+    width: 170px;
+    
     color: aliceblue;
     font-size: 10px;
     
+}
+
+.infopess{
+    padding-top: 20px;
 }
 
 .rodape2 p {
@@ -380,6 +465,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+    text-decoration: underline;
 }
 
 .rodape3 p{
@@ -391,6 +477,7 @@
     justify-content: center;
     padding-right: 350px;
     padding-top: 50px;
+    text-decoration: underline;
 
 }
 
@@ -400,10 +487,11 @@
     justify-content: center;
     padding-right: 350px;
     padding-top: 50px;
+    text-decoration: underline;
 }
 
 .rodape6{
-    padding-left: 370px;
+    padding-left: 500px;
 }
 
 .rodape6 button{
@@ -413,6 +501,7 @@
     background-color: #1b1a1a;
     border: none;
     border-radius: 3px;
+    padding-left: 20px;
 }
 
 
@@ -442,42 +531,64 @@
     height: 200px;
 
 }
+
 .cabecario h3{
-    font-size: 20px;
-    text-decoration-line:underline
-
+    font-size: 17px;
+    text-decoration-line:underline;
+    padding-left: 30px;
+    
 
 }
+
 .cabecario h4{
-    font-size: 20px;
-    text-decoration-line:underline
+    font-size: 17px;
+    text-decoration-line:underline;
+    padding-left: 38px;
 
 
 }
+
 .cabecario h5{
-    font-size: 20px;
-    text-decoration-line:underline
+    font-size: 17px;
+    text-decoration-line:underline;
+    width: 270px;
+    padding-left: 38px;
 
 
 }
+
 .cabecario h6{
     font-size: 20px;
-    text-decoration-line:underline
-
-
+    text-decoration-line:underline;
+    width: 270px;
+    font-size: 17px;
+    padding-left: 48px;
+    
 
 }
+
+
+.cabecario img{
+    width: 80px;
+    padding-left: 37px;
+}
+
+
+.pagamento{
+padding-top: 20px;
+padding: 20px;
+}
+
 .pagamento img{
-    width: 1200px;
-    height: 100px;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 390px;
 }
 
 
 .rodape7{
+    
     background-color: #000;
-
-
     height: 170px;
 }
 
@@ -490,8 +601,8 @@
 }
 
 .faixa-img img{
-    width: 200px;
-    padding-left: 30px;
+    width: 280px;
+    padding-left: 100px;
     padding-top: 10px;
 }
 
@@ -504,16 +615,22 @@
     justify-content: space-between;
     padding-left: 390px;
     width: 890px;
-
+    
+    
 
 }
 
 .rodape p{
     color: #F8F8F8;
-
+    
     padding-bottom: 80px;
     position: relative;
 
+}
+
+.rodape img{
+    padding-left: 90px;
+    width: 500px;
 }
 
 .elements p{
@@ -522,5 +639,8 @@
     position: fixed;
     padding-left: 1100px;
     width: 1500px;
-
+    
 }
+
+
+   

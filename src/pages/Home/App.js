@@ -16,7 +16,19 @@ import Bolsa from '../../assets/images/Untitled (5).png'
 import Luva from '../../assets/images/Untitled (6).png'
 import Bolsaaa from '../../assets/images/image 16.png'
 import fundo4 from '../../assets/images/Rectangle 4.png'
+import cartao from '../../assets/images/cartao.png';
+import caminhao from '../../assets/images/caminhao.png';
+import troca from '../../assets/images/troca.png';
+import pagar from '../../assets/images/pagar.png' ;
+import vanguard from '../../assets/images/vanguard.png'
+import correio from '../../assets/images/correio.png'
+import face from '../../assets/images/facebook.png'
+import twitter from '../../assets/images/twitter.png'
+import insta from '../../assets/images/insta.png'
+import youtube from '../../assets/images/youtube.png'
+import pagamentoo from '../../assets/images/pagamento1.png'
 import './index.scss'
+
 
 function App() {
   return (
@@ -188,10 +200,44 @@ function App() {
             </div>
           </div> */}
 
+
+
+            
+
+
+          <div className='promocoes-mae'>
+            <div className='titulo'>
+            
+            </div>
+
+            <div className='itensgeral'>     
+
+            <div className='itens1'>
+            <img src={Bolsaaa}/>
+
+
+            </div>
+
+            <div className='itens2'>
+              <img src={Lanterna}/>
+
+            </div>
+
+            <div className='itens3'>
+              <img src={Jaqueta}/>
+
+            </div>
+
+          </div>
+          </div>   
+
+
+
+
           <div className='fundo2'>
           <div className='baixo'>
             <h1>Quem somos</h1>
-            <p>SOMOS APAIXONADOS POR FORNECER OS MELHORES EQUIPAMENTOS E SOLUÇÕES PARA AQUELES QUE BUSCAM AVENTURAS, SOBREVIVÊNCIA E PREPARAÇÃO TÁTICA. nOSSA EMPRESA NASCEU DO DESEJO DE FORNECER ARTIGOS DE QUALIDADE PARA PESSOAS QUE VALORIZAM A SEGURANÇA, A CONFIABILIDADE E EXCELÊNCIA EM TODAS AS SUAS EXPERIÊNCIAS AO AR LIVRE. cOM UMA EQUIPE ESPECIALIZADA E DEDICADA, SELECIONAMOS CUIDADOSAMENTE OS MELHORES PRODUTOS DE MARCAS RENOMADAS, GARANTINDO QUE VOCÊ TENHA ACESSO AOS EQUIPAMENTOS MAIS AVANÇADOS E FUNCIONAIS DO MERCADO. seja você um aventureiro, um entusiasta de esportes ao ar livre ou um profissional em busca de equipamentos confiáveis, estamos aqui para atender suas necessidades e superar suas expectativas. junte-se à nossa comunidade de exploradores e conte conosco para equipá-lo com tudo o que você precisa para enfrentar qualquer desafio com segurança.</p>
+            <p>Somos apaixonados por fornecer os melhores equipamentos e soluções para aqueles que buscam aventuras sobrevivência e preparação tática.Nossa empresa nasceu do desejo de fornecer equipamentos de qualidade para pessoas que valorizam a segurança, a confiabilidade e excelência em todas as suas expêriencias ao ar livre. Com uma equipe especializada e dedicada, selecionamos cuidadosamente os melhores produtos de marcas renomadas, garantindo que voçê tenha acesso aos equipamentos mais avançados e funcionais do mercado. Seja voçê um aventureiro, um entusiasta de esportes ao ar livre ou um profissional em busca de equipamentos confiáveis, estamos aqui para atender suas necessidades e superar suas expectativas.Junte-se à nossa comunidade de exploradores e conte conosco para equipá-lo com tudo o que voçê precisa para enfrentar qualquer desafio com segurança.</p>
 
             <button>Saiba mais</button>
           </div>
@@ -228,34 +274,55 @@ function App() {
 
 
         
-        <div className='cabecario'>
-        <div className='alinhamento2'>
-        <h1>10% de desconto no boleto ou no pix</h1>
-        <img src={cartao} />
-        <h2>6x sem juros no cartão de credito</h2>
-        <img src={caminhao} />
-        <h3>ENTREGA EM TODO O BRASIL ENTREGA EM TODO O BRASIL</h3>
-        <img src={troca} />
-        <h4>1ª TROCA GRÁTIS a primeira troca é por nossa conta </h4>
+                  <div className='cabecario'>
 
-        <img src={pagar} />
+            <h3>10% De desconto no boleto ou no pix</h3>
+            <img src={cartao} />
+            <h4>6x Sem juros no cartão de credito</h4>
+            <img src={caminhao} />
+            <h5>Entrega Em Todo O Brasil </h5>
+            <img src={troca} />
+            <h6>1ª Troca grátis a primeira troca é por nossa conta </h6>
 
-        <div className='cabecario'>
+            </div>
+            <div className='pagamento'>
+              <img src={pagamentoo} />
+            </div>
 
-        <h3>10% De desconto no boleto ou no pix</h3>
-        <img src={cartao} />
-        <h4>6x Sem juros no cartão de credito</h4>
-        <img src={caminhao} />
-        <h5>Entrega Em Todo O Brasil </h5>
-        <img src={troca} />
-        <h6>1ª Troca grátis a primeira troca é por nossa conta </h6>
+
+        <div className='rodape7'>
+
+          <div className='faixa-img'>
+
+            <img src={vanguard}/>
+
+          </div>
+
+          <div className='rodape'>
+          
+
+            <img src={correio}/>
+
+            <img src={face}/>
+
+            <img src={twitter}/>
+
+            <img src={insta}/>
+
+            <img src={youtube}/>
+
+            
+
+            
+          </div>
+          <div className='elements'>
+          <p>+012 345 6789</p>
+
+            
+          </div>
 
         </div>
-        <div className='pagamento'>
-          <img src={pagar} />
-        </div>
-        </div>
-        </div>
+
        </div>
   );
 }
