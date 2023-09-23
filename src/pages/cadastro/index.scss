@@ -87,7 +87,7 @@ section input {
     display: flex;
     flex-direction: column;
     margin: 30px 200px 28px;
-    width: 97vh;
+    width: 140vh;
     height: 40px;
      border-radius: 10px;
     border: none;
@@ -132,6 +132,10 @@ section input {
     margin: 30px 200px 10px;
     }
 
+    .quarto-input input::placeholder {
+        padding: 50px;
+    }
+
     .quarto-input h1 {
     font-size: 19px;
     margin: 0px 0px 10px;
@@ -142,6 +146,10 @@ section input {
     height: 40px;
     border-radius: 10px;
     border: none;
+    }
+
+    .quinto-input input::placeholder {
+        padding: 50px;
     }
 
     .quinto-input {
