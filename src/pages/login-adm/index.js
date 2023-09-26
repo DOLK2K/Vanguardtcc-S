@@ -7,7 +7,7 @@ export default function Login() {
         <div className="loginadm">
              <div className='ELEMENTO'>
             <img src={Simbolo} />
-            <a href=''>Inicio</a>
+            <a href='/'>Inicio</a>
         </div>
 
         <div className="principal">
