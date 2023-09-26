@@ -13,21 +13,28 @@ export default function Login () {
 
     const [email, setemail] = useState('')
     const [senha, setsenha] = useState('')
-    const [erro, seterro] = useState('')
+    const [erro, setErro] = useState('')
 
     const navigate = useNavigate()
    async function entrarClick() {
     
-        const r = await axios.post('https://localhost:5000/usuario/login', {email: email, senha: senha  });
+        const r = await axios.post('https://localhost:5000/usuario/login', {
+            email: email, 
+            senha: senha 
+         });
         try {
         
     
-          navigate('/adm')
+          navigate('/adm')     
     
     } catch (err) {
-        if(err.response.status === 401) {
-            seterro(err.response.data.erro)
+
+        if(r.response.status === 401) {
+            setErro(r.data.erro)
         } 
+        else {
+            navigate('/adm')
+        }
     }
     }
     return(
