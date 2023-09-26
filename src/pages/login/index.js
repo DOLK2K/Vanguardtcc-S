@@ -18,7 +18,7 @@ export default function Login () {
     const navigate = useNavigate()
    async function entrarClick() {
     
-        const r = await axios.post('http    ://localhost:5000/usuario/login', {
+        const r = await axios.post('http://localhost:5000/usuario/login', {
             email: email, 
             senha: senha 
          });
