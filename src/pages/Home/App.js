@@ -207,6 +207,7 @@ function App() {
 
           <div className='promocoes-mae'>
             <div className='titulo'>
+              
             
             </div>
 
@@ -216,16 +217,54 @@ function App() {
             <img src={Bolsaaa}/>
 
 
+              <div className='caixaazul'>
+                <div className='item1'>
+                  <h1>MOCHILA MILITAR WOLF CARGO DOUBLE BLACK</h1>
+                  <h5>CORDURA 1000D ZÍPER YKK</h5>
+                  <h3>DE 700,00 R$  POR R$500,00</h3>
+                  <h4>8X R$62,50</h4>
+                  <button>Comprar</button>
+                </div>
+              </div>
+
+
             </div>
+
+
+
 
             <div className='itens2'>
               <img src={Lanterna}/>
+
+              <div className='caixaazul2'>
+              
+              <div className='item2'>
+              <h1>Lanterna Jetbeam Bc25 1480 Lúmens</h1>
+              <h3>DE 450R$ POR R$300,00</h3>
+              <h4>5x de 60,00</h4>
+
+              <button>Comprar</button>
+              </div>
+              </div>
 
             </div>
 
             <div className='itens3'>
               <img src={Jaqueta}/>
 
+              <div className='caixaazul3'>
+                <div className='item3'>
+                  <h1>JAQUETA MILITAR IMPERMEÁVEL</h1>
+                  <h3>DE 584,99 R$ POR R$497,00</h3>
+                  <h4>12x de 51,24</h4>
+                  <button>Comprar</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div className='itens4'>
+              
             </div>
 
           </div>
