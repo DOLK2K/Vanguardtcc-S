@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+       width: 500px;
+       height: 30px;
+       border-radius: 10px;
+       border: none;
+    }
+
+    input::placeholder {
+        padding: 30px;
+
+    }
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Lupa {
+    position: relative;
+    left: 25px;
+}
+.links a  {
+    text-decoration: none;
+    color: #000000;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+
+}
+
+.cabecalho2 p, a {
+    color: #ffff;
+}
+
+
+.cabecalho2 a {
+   margin: 30px;
+}
+
+#Vestuario {
+    margin-left: 220px;
+}
+
+
+.englobarrrr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.cimaaaa{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.cimaaaa h3{
+    font-size: 54px;
+    padding-left: 100px;
+}
+.cimaaaa h4{
+    font-size: 54px;
+    padding-left: 100px;
+}
+.descricaoooo{
+   display: flex;
+   flex-direction: row;
+   padding: 20px;
+   background-color: #F1EDED;
+   font-size: 30px;
+}
+
+
+.a97{
+    display: flex;
+    flex-direction: row;   
+    font-size: 12px;
+}
+.a97 h4{
+    padding-left: 430px;
+    font-size: 50px;
+    
+}
+
+.a97 img{
+    
+}
+
+.a440{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1EDED;
+    font-size: 12px;
+    
+}
+.a440 h4{
+    padding-left: 605px;
+    font-size: 50px;
+}
+.a364{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.a364 h4{
+    padding-left: 496px;
+    font-size: 50px;
+}
+.a123{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1EDED;
+    font-size: 12px;
+}
+.a123 h4{
+    padding-left: 530px;
+    font-size: 50px;
+}
+
+
+.a443{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.a443 h4{
+    padding-left: 540px;
+    font-size: 50px;
+}
+
+.a279{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1EDED;
+    font-size: 12px;
+}
+.a279 h4{
+    padding-left: 360px;
+    font-size: 50px;
+}
+
+
+.meioooo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
