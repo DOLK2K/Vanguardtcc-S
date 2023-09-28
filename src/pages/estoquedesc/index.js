@@ -57,38 +57,38 @@ return (
         </div>
 
         <div className='a97'>
-        <img src={Quadradobranco} />
-        <h1>#097  <img src={Image62} /> Lanterna Jetbeam BC25 1480 Lúmens     </h1> 
+        <h1> <img src={Quadradobranco} />
+        #097  </h1> <h3>  <img src={Image62} />  Lanterna Jetbeam BC25 1480 Lúmens    </h3>
         <h4>10</h4>
         </div>
 
         <div className='a440'>
-        <img src={Quadradobranco} />
-        <h1>#440 <img src={Image62} /> Mochila Tática Assault  </h1>
+        <h1><img src={Quadradobranco} />
+        #440  </h1> <h3> <img src={Image62} /> Mochila Tática Assault </h3>
         <h4>24</h4>
         </div>
 
         <div className='a364'>
-        <img src={Quadradobranco} />
-        <h1>#364 <img src={Image62} /> Óculos Tático Echo Laranja Evo  </h1>
+        <h1><img src={Quadradobranco} />
+        #364 </h1> <h3> <img src={Image62} /> Óculos Tático Echo Laranja Evo  </h3>
         <h4>97</h4>
        
         </div>
         <div className='a123'>
-        <img src={Quadradobranco} />
-        <h1>#123 <img src={Image62} /> Tênis Nomade  Warskin Black  </h1>
+        <h1> <img src={Quadradobranco} />
+        #123  </h1> <h3> <img src={Image62} /> Tênis Nomade  Warskin Black </h3>
         <h4>21</h4>
         
         </div>
         <div className='a443'>
-        <img src={Quadradobranco} />     
-        <h1>#443 <img src={Image62}/> Jaqueta militar Impermeável </h1> 
+        <h1><img src={Quadradobranco} />     
+        #443 </h1>  <h3><img src={Image62}/> Jaqueta militar Impermeável </h3> 
         
         <h4>50</h4>
         </div>
         <div className='a279'>
-        <img src={Quadradobranco} />    
-        <h1>#279 <img src={Image62}  /> Calça Cargo Tática Preta -Ribstop- 7 Bolsos </h1>
+        <h1><img src={Quadradobranco} />    
+        #279 </h1> <h3> <img src={Image62}  /> Calça Cargo Tática Preta -Ribstop- 7 Bolsos </h3>
         <h4>30</h4  >
         
         </div>
