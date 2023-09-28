@@ -1,5 +1,6 @@
 import Carrinho from '../../assets/images/image 74.png'
 import Calça from '../../assets/images/image 73.png'
+import './index.scss'
 export default function  Produto() {
     return(
         <div>
