@@ -1,72 +1,92 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
- }
 
- .faixa-01{
+
+
+.geral2{
+   
+   padding-top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.geral2 img{
+margin: 6px;
+}
+
+ .faixa-011{
     display: flex;
     flex-direction: row;
     padding-left: 40px;
     padding-top: 20px;
+   
+    
     
  }
 
- .faixa-01 img{
-    padding-left: 0px;
+ .faixa-011 img{
+    padding-left: 100px;
  }
 
- .faixa-01 h1{
+ .faixa-011 h1{
     font-size: 20px;
     padding-left: 60px;
  }
 
- .faixa-01 h3{
+ .faixa-011 h3{
     font-size: 20px;
-    padding-left: 230px;
+    padding-left: 320px;
 
  }
 
- .faixa-01 h4{
+ .faixa-011 h4{
     font-size: 20px;
-    padding-left: 270px;
+    padding-left: 289px;
  }
 
- .faixa-01 h5{
+ .faixa-011 h5{
     font-size: 20px;
     padding-left: 240px;
  }
 
  
 
- .faixa-02{
+ .faixa-022{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 30px;
+    background-color: darkgray;
+    padding-right: 30px;
+
     
  }
 
- .faixa-02 h3{
+ .faixa-022 h3{
     font-size: 20px;
     padding-left: 40px;
  }
 
- .faixa-02 img{
-    padding-left: 40px;
+ .faixa-022 img{
+    padding-left: 140px;
  }
  
- .faixa-02 h4{
+ .faixa-022 h4{
     font-size: 20px;
     padding-left: 50px;
  }
 
- .faixa-02 h5{
+ .faixa-022 h5{
     font-size: 20px;
     padding-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+   
  }
 
- .faixa-02 h6{
+ .faixa-022 h5:hover{
+   transition: 0.3s;
+   color: rgb(251, 186, 106);
+ }
+
+ .faixa-022 h6{
     font-size: 20px;
-    padding-left: 200px;
+    padding-left: 209px;
  }
 
 
@@ -75,142 +95,202 @@
 
 
 
- .faixa-03{
+ .faixa-033{
     display: flex;
     flex-direction: row;
     
-    padding-top: 20px;
+    padding-top: 30px;
  }
 
- .faixa-03 h4{
+ .faixa-033 h4{
     font-size: 20px;
     padding-left: 40px;
     
  }
 
- .faixa-03 img{
-    padding-left: 40px;
+ .faixa-033 img{
+    padding-left: 140px;
  }
  
- .faixa-03 h3{
+ .faixa-033 h3{
     font-size: 20px;
     padding-left: 50px;
  }
 
- .faixa-03 h6{
+ .faixa-033 h6{
     font-size: 20px;
     padding-left: 190px;
+    font-family: Arial, Helvetica, sans-serif
  }
 
- .faixa-03 h1{
+ .faixa-033 h6:hover{
+   transition: 0.3s;
+   color: rgb(157, 157, 157);
+ }
+
+ .faixa-033 h1{
     font-size: 20px;
-    padding-left: 217px;
+    padding-left: 225px;
     color: black;
  }
  
 
- .faixa-04{
+ .faixa-044{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 30px;
+    background-color: darkgray;
  }
  
-.faixa-04 img{
-    
-    
-    padding-left: 40px;
+.faixa-044 img{
+   padding-left: 140px;
 }
 
- .faixa-04 h1{
+ .faixa-044 h1{
     font-size: 20px;
     padding-left: 40px;
     padding-top: 5px;
  }
  
- .faixa-04 h3{
+ .faixa-044 h3{
     font-size: 20px;
+    padding-left: 50px;
  }
 
- .faixa-04 h4{
+ .faixa-044 h4{
     font-size: 20px;
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
- .faixa-04 h5{
+ .faixa-044 h4:hover{
+   transition: 0.3s;
+   color: rgb(255, 0, 0);
+   
+ }
+
+ .faixa-044 h5{
     font-size: 20px;
+    padding-left: 225px;
  }
 
 
 
- .faixa-05{
+ .faixa-055{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 30px;
+    
+ }
+
+ .faixa-055 h1{
+    font-size: 20px;
     padding-left: 40px;
  }
-
- .faixa-05 h1{
-    font-size: 20px;
- }
  
- .faixa-05 h3{
-    font-size: 20px;
+ .faixa-055 img{
+   padding-left: 140px;
  }
 
- .faixa-05 h4{
+ .faixa-055 h3{
     font-size: 20px;
+    padding-left: 50px;
  }
 
- .faixa-05 h5{
+ .faixa-055 h4{
     font-size: 20px;
+    padding-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .faixa-055 h4:hover{
+   transition: 0.3s;
+   color: rgb(255, 247, 26);
+ }
+
+ .faixa-055 h5{
+    font-size: 20px;
+    padding-left: 190px;
  }
 
 
- .faixa-06{
+ .faixa-066{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 30px;
+    background-color: darkgray;
+    
  }
 
- .faixa-06 h1{
+ .faixa-066 h1{
     font-size: 20px;
+    padding-left: 38px;
  }
  
- .faixa-06 h3{
+.faixa-066 img{
+   padding-left: 140px;
+}
+
+ .faixa-066 h3{
     font-size: 20px;
+    padding-left: 50px;
  }
 
- .faixa-06 h4{
+ .faixa-066 h4{
     font-size: 20px;
+    padding-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    
  }
 
- .faixa-06 h6{
+ .faixa-066 h4:hover{
+   transition: 0.3s;
+   color: rgb(160, 255, 123);
+ }
+
+ .faixa-066 h6{
     font-size: 20px;
+    padding-left: 210px;
  }
 
 
 
 
- .faixa-07{
+ .faixa-077{
     display: flex;
     flex-direction: row;
-    padding-left: 40px;
-    padding-top: 21px;
+    
+    padding-top: 30px;
  }
 
- .faixa-07 h1{
+ .faixa-077 h1{
     font-size: 20px;
+    padding-left: 38px;
+ }
+
+ .faixa-077 img{
+   padding-left: 140px;
+
  }
  
- .faixa-07 h3{
+ .faixa-077 h3{
     font-size: 20px;
+    padding-left: 47px;
  }
 
- .faixa-07 h4{
+ .faixa-077 h4{
     font-size: 20px;
+    padding-left: 170px;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
- .faixa-07 h5{
+ .faixa-077 h4:hover{
+   transition: 0.3s;
+   color: rgb(0, 199, 13);
+ }
+
+ .faixa-077 h5{
     font-size: 20px;
+    padding-left: 222px;
  }
 

@@ -39,10 +39,12 @@ export default function(){
           <a>Profissional</a>
           <a>Acessórios</a>
           </div>
-</div>
+        </div>
           </div>
 
-            <div className='faixa-01'>
+          <div className='geral2'>
+
+            <div className='faixa-011'>
                 <img src={Retangulo} />
                 <h1>Pedido</h1>
                 <h3>Data</h3>
@@ -52,7 +54,7 @@ export default function(){
 
             </div>
 
-            <div className='faixa-02'>
+            <div className='faixa-022'>
             <img src={Retangulo} />
             <h3>#220 Cliente-01</h3>
             <img src={Olho}/>
@@ -61,7 +63,7 @@ export default function(){
             <h6>R$79,50</h6>
             </div>
 
-            <div className='faixa-03'>
+            <div className='faixa-033'>
             <img src={Retangulo} />
             <h4>#128 Cliente-02</h4>
             <img src={Olho}/>
@@ -70,7 +72,7 @@ export default function(){
             <h1>R$29,70</h1>
             </div>
 
-            <div className='faixa-04'>
+            <div className='faixa-044'>
             <img src={Retangulo} />
             <h1>#056 Cliente-03</h1>
             <img src={Olho}/>
@@ -80,7 +82,7 @@ export default function(){
 
             </div>
 
-            <div className='faixa-05'>
+            <div className='faixa-055'>
             <img src={Retangulo} />
             <h1>#322 Cliente-04</h1>
             <img src={Olho}/>
@@ -89,7 +91,7 @@ export default function(){
             <h5>R$98,50</h5>
             </div>
 
-            <div className='faixa-06'>
+            <div className='faixa-066'>
             <img src={Retangulo} />
             <h1>#289 Cliente-05</h1>
             <img src={Olho}/>
@@ -99,7 +101,7 @@ export default function(){
 
             </div>
 
-            <div className='faixa-07'>
+            <div className='faixa-077'>
             <img src={Retangulo} />
             <h1>#162 Cliente-06</h1>
             <img src={Olho}/>
@@ -107,6 +109,7 @@ export default function(){
             <h4>Entregue</h4>
             <h5>R$69,99</h5>
 
+            </div>
             </div>
 
 

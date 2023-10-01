@@ -276,7 +276,7 @@
     flex-direction: row;
     padding-top: 20px;
     height: 550px;
-    padding-left: 50px;
+    padding-left: 160px;
     background-image: url('../../assets/images/Rectangle\ 4.png');
 }
 
@@ -380,6 +380,14 @@
     width: 100px;
     border-radius: 10px;
     margin-left: 55px;
+    border: 10px;
+    
+}
+
+.item1 button:hover{
+    
+    transition: 1.0s;
+    color: #00f0b0;
 }
 
 .caixaazul2{
@@ -442,6 +450,15 @@
     width: 100px;
     border-radius: 10px;
     margin-left: 55px;
+    border:none;
+    
+    
+}
+
+.item2 button:hover{
+    transition: 0.8s;
+    color: #00f0b0;
+    border-color: #00f0b0;
 }
 
 
@@ -533,8 +550,13 @@
     height: 20px;
     border-radius: 10px;
     margin-left: 60px;
+    border: none;
 }
 
+.item3 button:hover{
+    transition: 1.0s;
+    color: #00f0b0;
+}
 
 
 
@@ -575,15 +597,21 @@
     
 }
 .baixo button{
-    border-radius: 4px;
+    border-radius: 9px;
     cursor: pointer;
     background-color: #3E3E3E;
     height: 30px;
     width: 170px;
+    border: none;
     
     color: aliceblue;
     font-size: 10px;
     
+}
+
+.baixo button:hover{
+    color: #052846;
+    transition: 0.7s;
 }
 
 .infopess{
@@ -644,8 +672,14 @@
     padding-top: 10px;
     background-color: #1b1a1a;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     padding-left: 20px;
+    cursor: pointer;
+}
+
+.rodape6 button:hover{
+    transition: 0.7s;
+    color: #189ce9;
 }
 
 
