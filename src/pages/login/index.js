@@ -6,28 +6,35 @@ import Facebook from '../../assets/images/image 59.png'
 import Google from '../../assets/images/image 60 (1).png'
 import axios from 'axios'
 import './index.scss'
+import LoadingBar from 'react-top-loading-bar'
 import {useNavigate} from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 
 export default function Login () {
-
     const [email, setemail] = useState('')
     const [senha, setsenha] = useState('')
     const [erro, setErro] = useState('')
 
     const navigate = useNavigate()
+    const ref = useRef();
+
    async function entrarClick() {
-    
+        ref.current.continuousStart()
+
     try {
+        
         const r = await axios.post('http://localhost:5000/usuario/login', {
             email: email, 
             senha: senha 
          });
        
-        navigate('/adm')
-    
-    } catch (err) {
+         setTimeout(() => {
+          navigate('/adm')
 
+         }, 2000);
+         
+    } catch (err) {
+        ref.current.complete();
         if(err.response.status === 401) {
             setErro(err.response.data.erro)
         } 
@@ -38,6 +45,7 @@ export default function Login () {
     }
     return(
         <div className='login'>
+            <LoadingBar ref={ref} />
             <div className='login-elemento'>
             <img src={Simbolo} />
             <a href='/'>Inicio</a>
