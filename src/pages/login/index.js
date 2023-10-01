@@ -18,19 +18,18 @@ export default function Login () {
     const navigate = useNavigate()
    async function entrarClick() {
     
+    try {
         const r = await axios.post('http://localhost:5000/usuario/login', {
             email: email, 
             senha: senha 
          });
-        try {
-        
-    
-          navigate('/adm')     
+       
+        navigate('/adm')
     
     } catch (err) {
 
-        if(r.response.status === 401) {
-            setErro(r.data.erro)
+        if(err.response.status === 401) {
+            setErro(err.response.data.erro)
         } 
         else {
             navigate('/adm')
@@ -48,19 +47,23 @@ export default function Login () {
             <hr />
         </div>
 
-        <div className='primeiro-input'>
+        <div className='primeiro-input-login'>
             <img src={Email} />
                 <h1>ENDEREÇO DE EMAIL</h1>
                 <input type='text' placeholder='Digite seu e-mail'  value={email} onChange={e => setemail(e.target.value)}/>
             </div>
 
-            <div className='segundo-input'>
+            <div className='segundo-input-login'>
                 <h1>DIGITE SUA SENHA</h1>
                 <img src={Chave} />
-                <input type='number' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
+                <input type='text' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
             </div>
             <div className='botaoooo'>
-            <button className='buto' onClick={entrarClick} >Continue</button>
+            <button  onClick={entrarClick} >Continue</button>
+            </div>
+
+            <div className='erro'>
+            {erro}
             </div>
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
             <div className='botoes'>
@@ -71,9 +74,7 @@ export default function Login () {
                 <img src={Google} /> <button>connect With Google</button>
                 </div>
             </div>
-            <div>
-                {erro}
-            </div>
+        
 
         </div>
     )
