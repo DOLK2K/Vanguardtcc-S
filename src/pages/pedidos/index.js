@@ -45,7 +45,7 @@ export default function(){
           <div className='geral2'>
 
             <div className='faixa-011'>
-                <img src={Retangulo} />
+                
                 <h1>Pedido</h1>
                 <h3>Data</h3>
                 <h4>Status</h4>

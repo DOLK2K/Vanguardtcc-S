@@ -1,0 +1,67 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.cabecalho1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+       width: 500px;
+       height: 30px;
+       border-radius: 11px;
+       border: none;
+    }
+
+    input::placeholder {
+        padding: 30px;
+
+    }
+}
+
+.alinhamento2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Lupa {
+    position: relative;
+    left: 25px;
+}
+.links a  {
+    text-decoration: none;
+    color: #000000;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+
+}
+
+.cabecalho22 p, a {
+    color: #ffff;
+}
+
+
+.cabecalho22 a {
+   margin: 30px;
+}
+
+#Vestuario {
+    margin-left: 220px;
+}
+
+
+
