@@ -6,6 +6,10 @@ import Seta from '../../assets/images/Untitled (3).png'
 import Calçados from '../../assets/images/acessórios.png'
 import Mochila from '../../assets/images/mochila1.png'
 import Acessório from '../../assets/images/acess.png'
+
+import User2 from '../../assets/images/user2.png'
+
+
 import './index.scss'
 
 export default function Compra() {
@@ -39,9 +43,41 @@ export default function Compra() {
           <a>Profissional</a>
           <a>Acessórios</a>
           </div>  
-          </div>   
-</div>
-</div>
-</div>          
+          </div>  
+
+          <div className='tudo'>
+          <div className='primeira'>
+            
+            <h1>Usuário</h1>
+
+          </div>
+
+          
+
+          <div className='terceira'>
+            <h1>TODOS</h1>
+            <h3>A PAGAR</h3>
+            <h4>PREPARANDO</h4>
+            <h5>A CAMINHO</h5>
+            <h6>FINALIZADO</h6>
+
+
+
+          </div>
+          </div>
+
+          <div className='segunda'>
+            <img src ={User2} />
+            <h1>Minha Conta</h1>
+
+          </div>
+
+          
+
+
+
+        </div>
+        </div>
+        </div>          
   );
 }
