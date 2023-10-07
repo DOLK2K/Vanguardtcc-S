@@ -10,6 +10,10 @@ import LoadingBar from 'react-top-loading-bar'
 import {useNavigate} from 'react-router-dom'
 import { useState, useRef } from 'react'
 
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito
+
 export default function Login () {
     const [email, setemail] = useState('')
     const [senha, setsenha] = useState('')

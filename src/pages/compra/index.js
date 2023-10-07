@@ -6,12 +6,13 @@ import Seta from '../../assets/images/Untitled (3).png'
 import Calçados from '../../assets/images/acessórios.png'
 import Mochila from '../../assets/images/mochila1.png'
 import Acessório from '../../assets/images/acess.png'
-
 import User2 from '../../assets/images/user2.png'
-
-
 import './index.scss'
 
+
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito
 export default function Compra() {
   return (
 <div className='globamento'>

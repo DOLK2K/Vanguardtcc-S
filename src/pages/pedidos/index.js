@@ -8,6 +8,10 @@ import Retangulo from '../../assets/images/retanguloo.png'
 import Olho from '../../assets/images/olho.png'
 
 
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito
+
 export default function(){
     return(
         <div className='geral'>

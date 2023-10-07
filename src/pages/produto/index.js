@@ -1,6 +1,11 @@
 import Carrinho from '../../assets/images/image 74.png'
 import Calça from '../../assets/images/image 73.png'
 import './index.scss'
+
+
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito
 export default function  Produto() {
     return(
         <div>

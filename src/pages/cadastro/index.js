@@ -4,6 +4,11 @@ import Olho from '../../assets/images/image 62 (1).png'
 import Facebook from '../../assets/images/image 59.png'
 import Google from '../../assets/images/image 60 (1).png'
 import './index.scss'
+
+
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito
 export default function Cadastro() {
 
     return(
