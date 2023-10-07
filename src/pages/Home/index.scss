@@ -510,10 +510,7 @@
     
 }
 
-.item3{
-    
 
-}
 
 .item3 h1{
     display: flex;
@@ -792,41 +789,37 @@ padding: 20px;
     padding-top: 10px;
 }
 
-.rodape{
+.rodape-home{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 90px;
-    justify-content:center;
-    justify-content: space-between;
-    padding-left: 390px;
-    width: 890px;
-    
-    
-
+    justify-content: space-around;
+    background-color: #000;
+    height: 170px;
 }
 
-.rodape p{
+.rodape-home p{
     color: #F8F8F8;
     
-    padding-bottom: 80px;
-    position: relative;
+    
 
 }
 
 .rodape img{
-    padding-left: 90px;
-    width: 500px;
+    display: flex;
+    height: 50px;
 }
 
 .elements p{
     color: #F8F8F8;
-    display: flex;
-    position: fixed;
-    padding-left: 1100px;
-    width: 1500px;
+    
     
 }
+// rodapé arrumado/feito
 
 
-   
+
+
+// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
+// nao usar padding desnecessariamente, com proporção muito alta
+// tem coisas q não está igual no figma, e não está alinhado direito

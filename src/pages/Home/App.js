@@ -329,16 +329,12 @@ function App() {
             </div>
 
 
-        <div className='rodape7'>
 
-          <div className='faixa-img'>
+        
 
-            <img src={vanguard}/>
+          <div className='rodape-home'>
 
-          </div>
-
-          <div className='rodape'>
-          
+            <img src={vanguard}/>          
 
             <img src={correio}/>
 
@@ -351,16 +347,15 @@ function App() {
             <img src={youtube}/>
 
             
-
-            
-          </div>
           <div className='elements'>
           <p>+012 345 6789</p>
-
+          <p>sac@vanguardtactical.com</p>
+          <p>Avenida Coronel Octaviano de Freitas Costa, 69, Socorro, São Paulo</p>
             
           </div>
 
-        </div>
+          </div>
+          {/* rodapé arrumado/feito */}
 
        </div>
   );
