@@ -1,13 +1,22 @@
 import Simbolo from '../../assets/images/simbolo-esquerdo.png'
 import './index.scss'
-import Atualizar from '../../assets/images/refrescar (1) 1.png'
 
 
-// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
-// nao usar padding desnecessariamente, com proporção muito alta
-// tem coisas q não está igual no figma, e não está alinhado direito
+import { useState } from 'react'
+
 
 export default function Login() {
+
+    const[email, setemail] = useState('')
+    const[senha, setsenha] = useState('')
+    const[erro, seterro] = useState('')
+
+
+
+
+
+
+
     return (
         <div className="loginadm">
              <div className='ELEMENTO'>

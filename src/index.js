@@ -9,6 +9,7 @@ import Produto from './pages/produto';
 import Estoquedesc from './pages/estoquedesc'
 import Pedido from './pages/pedidos'
 import Compra from './pages/compra'
+import Destaques from './pages/destaques'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ root.render(
       <Route path='/estoquedesc' element = {<Estoquedesc/>} />
       <Route path='/pedido' element = {<Pedido/>} />
       <Route path= '/compra' element = {<Compra/>} />
+      <Route path= '/destaques' element = {<Destaques/>} />
 
 
     </Routes>
