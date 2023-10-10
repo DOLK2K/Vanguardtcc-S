@@ -9,7 +9,7 @@ import './index.scss'
 export default function  Produto() {
     return(
         <div>
-            <div className='caarrriinnhhoo'>
+            <div>
                 <h1>
                     Meus pedidos
                 </h1>
@@ -19,79 +19,48 @@ export default function  Produto() {
             <hr />
 
             <div>
-                <div className='prooduuto1'>
-                    <div className='prro'>
+                <div>
                     <button>PRODUTO</button>
-
-                    <p></p>
+                    <div>
+                    <img src={Calça} />
+                    <p>Calça Cargo Tática Preta -Ribstop- 7 Bolsos</p>
                     </div>
-                    <div className='prreeçoo'>
+
+                    <div>
                     <button>PREÇO</button>
-                    <p></p>
+                    <p>R$49,90</p>
                     </div>
 
-                    <div className='quaannttiiddaaddee'>
+                    <div>
                         <button>QUANTIDADE</button>
-
+                        <input type='' />
                     </div>
 
-                    <div className='ttoottaall'>
+                    <div>
                         <button>TOTAL</button>
-
+                        <p>r$49,90</p>
                     </div>
                 </div>
             </div>
 
-
-
-
-            <div className='bbaaiixxoo'>
-                    <div className='ppproduto'>
-
-
-                    </div>
-                    <div className='pppreco'>
-
-
-                    </div>
-                    <div className='qqquant'>
-
-
-                    </div>
-                    <div className='tttotal'></div>
-
-
-
-
-
-                </div>
-
-                
-                 <div className='vveennddaass'></div>
-
             <div>
-                <div className='suubbttoottaall'>
+                <div>
                     <p>SUBTOTAL</p>
-                    <hr />
-                    <p>...</p>
+                    <p>49,90</p>
                     <button>ADICIONAR MAIS PRODUTOS</button>
                 </div>
-                <div className='eennttrreeggaa'>
+                <div>
                     <p>ENTREGA</p>
-                    <hr />
-                    <p>...</p>
+                    <p>15 DIAS</p>
 
                 </div>
 
-                <div className='ttoottaall'>
+                <div>
                     <p>TOTAL</p>
-                    <hr />
-                    <p>...</p>
+                    <p>R$49,90</p>
                 </div>
-
                 
-
-                <div className='fiinnaalliizzaarr'>
+                <div>
                 <button>FINALIZAR PEDIDO</button>
                 <button>EXCLUIR PEDIDO</button>
                 </div>
