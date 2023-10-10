@@ -30,11 +30,12 @@
        height: 30px;
        border-radius: 10px;
        border: none;
+      padding-left: 25px;
+       
     }
 
-    input::placeholder {
-        padding: 30px;
-
+    .cabecalho input::placeholder {
+        padding-left: 2%;
     }
 }
 
@@ -43,6 +44,8 @@
     flex-direction: row;
     align-items: center;
 }
+
+
 #Lupa {
     position: relative;
     left: 25px;
@@ -222,6 +225,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .slc img {
@@ -230,11 +234,17 @@
     height: 240px;
     width: 630px;
     margin: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
+.slc img:hover {
+    transform: scale(1.2);
+}
 .slc h1{
     padding-left: 10px;
 }
+
 
 .faixa-02 h1, h2{
        
@@ -261,7 +271,9 @@
     font-size: 20px;
 }
 
-
+.faixa-03 img {
+    width: 580px;
+}
  
 
 
