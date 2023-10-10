@@ -73,7 +73,7 @@
 .primeira{
     display: flex;
     flex-direction: row;
-    padding-top: 70px;
+    padding-top: 20px;
     padding-left: 80px;
 
 }
@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 50px;
 }
 .segunda img{
@@ -153,22 +153,29 @@
 .terceira{
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 100px;
     width: 700px;
-    height: 300px;
     border-radius: 5px;
     padding-top: 5px;
     background-color: #000000;
-    height: 30px;
+    height: 40px;
     
 }
 
 
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .terceira h1{
+    padding-top: 5px;
     font-size: 18px;
     color: aliceblue;
-    padding-left: 30px;
+    padding-left: 35px;
     cursor: pointer;
 }
 
@@ -179,6 +186,7 @@
 
 
 .terceira h3{
+    padding-top: 5px;
     font-size: 18px;
     padding-left: 30px;
     color: aliceblue;
@@ -192,6 +200,7 @@
 
 
 .terceira h4{
+    padding-top: 5px;
     font-size: 18px;
     padding-left: 30px;
     color: aliceblue;
@@ -204,6 +213,7 @@
 }
 
 .terceira h5{
+    padding-top: 5px;
     font-size: 18px;
     padding-left: 30px;
     color: aliceblue;
@@ -216,6 +226,7 @@
 }
 
 .terceira h6{
+    padding-top: 5px;
     font-size: 18px;;
     padding-left: 30px;
     color: aliceblue;
@@ -226,10 +237,6 @@
     color: rgb(99, 234, 249);
     transition: 0.3s;
 }
-
-
-
-
 
 .terceira h6:hover{
     color: rgb(99, 234, 249);

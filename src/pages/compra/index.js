@@ -66,6 +66,24 @@ export default function Compra() {
 
           
 
+          
+          </div>
+
+          <div className='segunda'>
+            <img src ={User2} />
+            <h1>Minha Conta</h1>
+
+          </div>
+
+
+          <div className='opcoes'>
+        
+          <div className='segunda2'>
+          <img src ={Comprasss} />
+            <h3>Minhas Compras</h3>
+          </div>
+
+          
           <div className='terceira'>
             <h1>TODOS</h1>
             <h3>A PAGAR</h3>
@@ -76,17 +94,10 @@ export default function Compra() {
 
 
           </div>
-          </div>
 
-          <div className='segunda'>
-            <img src ={User2} />
-            <h1>Minha Conta</h1>
+          
 
-          </div>
 
-          <div className='segunda2'>
-          <img src ={Comprasss} />
-            <h3>Minhas Compras</h3>
           </div>
 
 
