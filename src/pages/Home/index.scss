@@ -141,6 +141,10 @@
     margin: 2px;
 }
 
+.procurado1 p{
+    padding-top: 5px;
+}
+
 
 
 .procurado1-2, .procurado2-3, .procurado3-4, .procurado4-5 {
@@ -226,6 +230,10 @@
     height: 240px;
     width: 630px;
     margin: 10px;
+}
+
+.slc h1{
+    padding-left: 10px;
 }
 
 .faixa-02 h1, h2{
@@ -671,7 +679,9 @@
 }
 
 .rodape6{
-    padding-left: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .rodape6 button{
@@ -681,7 +691,7 @@
     background-color: #1b1a1a;
     border: none;
     border-radius: 8px;
-    padding-left: 20px;
+    padding-left: 10px;
     cursor: pointer;
 }
 
@@ -770,7 +780,9 @@ padding: 20px;
 .pagamento img{
     display: flex;
     flex-direction: row;
-    padding-left: 390px;
+    width: 1000px;
+    height: 100px;
+    margin-left: 105px;
 }
 
 

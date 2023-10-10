@@ -26,7 +26,7 @@ import face from '../../assets/images/facebook.png'
 import twitter from '../../assets/images/twitter.png'
 import insta from '../../assets/images/insta.png'
 import youtube from '../../assets/images/youtube.png'
-import pagamentoo from '../../assets/images/pagamento1.png'
+import Formapag from '../../assets/images/bandeirascartoes.png'
 import './index.scss'
 
 
@@ -75,7 +75,7 @@ function App() {
             <div className='procurado1'>
               <img src={Sapato} />
                 <div className='procurado1-2'>
-                <h1>Bota Impermeável Timberland PRO</h1>
+                <h1>Bota Impermeável Timberland   </h1>
                 <p>R$39.99</p>
                 <button className='botaoo'>Comprar</button>
                 </div>
@@ -124,7 +124,7 @@ function App() {
 
               <div className='slc'>
           
-                <h1>Catálogoo</h1>
+                <h1>Catálogo</h1>
             <div className='faixaa'>
             <div className='faixa-02'>
 
@@ -325,7 +325,7 @@ function App() {
 
             </div>
             <div className='pagamento'>
-              <img src={pagamentoo} />
+              <img src={Formapag} />
             </div>
 
 
