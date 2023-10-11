@@ -289,7 +289,11 @@
     border: none;
     color: aliceblue;
     font-size: 10px;
-    
+    transition: (0.5)s;
+}
+
+.faixa-button button:hover {
+    transform: scale(1.1);
 }
 
 .div-itens{
@@ -643,9 +647,14 @@
 }
 
 .infopess{
-    padding-top: 20px;
+    margin: 20px;    
 }
 
+.alinhamento-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .rodape2 p {
     display: flex;
     justify-content: center;
@@ -664,30 +673,50 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
-    text-decoration: underline;
+    align-items: center;   
+    margin: 20px; 
 }
 
+.RODAPE3-1 input {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 1px solid #000; 
+    padding: 0; 
+    margin: 0; 
+    outline: none;
+}
 .rodape3 p{
     padding-right: 290px;
 }
 
-.rodape4{
+.telefone-home {
     display: flex;
-    justify-content: center;
-    padding-right: 350px;
-    padding-top: 50px;
-    text-decoration: underline;
+    flex-direction: column;
+}
+.telefone-home input {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 1px solid #000; 
+    padding: 0; 
+    margin: 0; 
+    outline: none;
+}
 
+.alinhamento2-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.rodape4-home{
+    display: flex;
+    flex-direction: column;
 }
 
 
 .rodape5{
     display: flex;
-    justify-content: center;
-    padding-right: 350px;
-    padding-top: 50px;
-    text-decoration: underline;
+    flex-direction: column;    
 }
 
 .rodape6{

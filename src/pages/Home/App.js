@@ -288,22 +288,33 @@ function App() {
 
           </div>
 
+            <div className='alinhamento-home'>
           <div className='rodape3'>
+            <div className='RODAPE3-1'>
             <p>Nome</p>
+            <input type='text' />
+            </div>
+            <div className='telefone-home'>
             <p2>Telefone</p2>
-
+            <input type='' />
+            </div>
           </div>
 
-          <div className='rodape4'>
+          <div className='alinhamento2-home'>
+          <div className='rodape4-home'>
             <p>Email</p>
+            <input type='text' />
           </div>
 
           <div className='rodape5'>
             <p>Mensagem</p>
+            <input type='text' />
+          </div>
           </div>
 
           <div className='rodape6'>
             <button>Enviar</button>
+          </div>
           </div>
        </div>
        
