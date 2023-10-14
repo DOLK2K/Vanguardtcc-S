@@ -72,12 +72,64 @@
 
 
 .cabecalho2 a {
-   margin: 30px;
 }
 
-#Vestuario {
-    margin-left: 220px;
+.lista {
+    display: flex;
+    flex-direction: row;
 }
+
+#vestuario-home {
+    margin-left: 400px;
+    color: #ffff;
+}
+
+.lista ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .lista li {
+    
+  }
+  
+  .lista  .dropdown-menu {
+   display: none;
+   background-color: #ffff;
+   position: absolute;
+   width: 120px;
+   height: 100px;
+   border-radius: 2px;
+   padding: 20px;
+}
+
+.dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.5s ease ;
+}
+
+.dropdown-menu:hover {
+    display: block;
+    opacity: 1;
+}
+
+.lista .dropdown:hover .dropdown-menu {
+    display: block;
+     
+}
+
+
+  .lista .dropdown-menu li a {
+    color: #000;
+  }
+ 
+  
+  
+  
+  .lista a:hover {
+    text-decoration: underline;
+  }
+  
 
 .Centro{
     display: flex;

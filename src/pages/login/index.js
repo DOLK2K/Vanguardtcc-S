@@ -33,7 +33,7 @@ export default function Login () {
          });
        
          setTimeout(() => {
-          navigate('/adm')
+          navigate('/')
 
          }, 2000);
          

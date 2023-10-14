@@ -53,13 +53,25 @@ function App() {
           <p>Todas as Categorias</p>
           <img src={Seta} />
 
-          <div className='lista'>
-          <a id='Vestuario'>Vestuario</a>
-          <a>Mochilas</a>
-          <a>Calçados</a>
-          <a>Profissional</a>
-          <a>Acessórios</a>
+          <div class='lista'>
+            <nav>
+              <ul>
+                <li class='dropdown'>
+                  <a id='Vestuario-home'>Vestuario</a>
+                  <ul class='dropdown-menu'>
+                    <li>Camiseta</li>
+                    <li>Calça</li>
+                    <li>Boné</li>
+                  </ul>
+                </li>
+                <li><a>Mochilas</a></li>
+                <li><a>Calçados</a></li>
+                <li><a>Profissional</a></li>
+                <li><a>Acessórios</a></li>
+              </ul>
+            </nav>
           </div>
+
           </div>  
 
           <div className='Centro'>
