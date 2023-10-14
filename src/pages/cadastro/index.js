@@ -4,12 +4,35 @@ import Olho from '../../assets/images/image 62 (1).png'
 import Facebook from '../../assets/images/image 59.png'
 import Google from '../../assets/images/image 60 (1).png'
 import './index.scss'
+import { useState } from 'react'
+import axios from 'axios'
 
 
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
 // nao usar padding desnecessariamente, com proporção muito alta
 // tem coisas q não está igual no figma, e não está alinhado direito
 export default function Cadastro() {
+    const [email, setEmail] = useState('')
+    const[telefone, setTelefone] = useState('')
+    const[senha, setSenha] = useState('')
+    const[Confirme, setConfirme] = useState('')
+    const[nomecompleto, setNomecompleto] = useState('')
+    const [erro, setErro] = useState('')
+
+    async function entrarCadastro () {
+        try {
+            const api = await axios.post('http://localhost:5000/usuario', {
+                email: email,
+                telefone:telefone,
+                senha:senha,
+                nome_completo: nomecompleto
+            })
+        }catch(err) {
+            if(err.response.status === 500) {
+               setErro(err.response.data.erro) 
+            }
+        }
+    }
 
     return(
         <div className='Cadastro'>
@@ -24,35 +47,36 @@ export default function Cadastro() {
  
             <div className='primeiro-input'>
                 <h1>ENDEREÇO DE EMAIL</h1>
-                <input type='text' placeholder='Digite seu e-mail' />
+                <input type='text' placeholder='Digite seu e-mail' value={email} onChange={e => setEmail (e.target.value)} />
             </div>
 
             <div className='segundo-input'>
                 <h1>NÚMERO DE TELEFONE</h1>
-                <input type='number' placeholder='Digite seu numero de telefone' />
+                <input type='number' placeholder='Digite seu numero de telefone' value={telefone} onChange={e => setTelefone (e.target.value)} />
             </div>
 
             <div className='terceiro-input'>
                 <h1>CRIE SUA SENHA</h1>
                 <div className='elemento-input'>
-                    <input type='password' placeholder='Insira sua senha' /> <img src={Olho} />
+                    <input type='password' placeholder='Insira sua senha' value={senha} onChange={e => setSenha (e.target.value)} />  <img src={Olho} />
                 </div>
             </div>
 
             <div className='quarto-input'>
                 <h1>CONFIRME SUA SENHA</h1>
-                <input type='password' placeholder='Confirme sua senha' />
+                <input type='password' placeholder='Confirme sua senha' value={Confirme} onChange={e => setConfirme(e.target.value)} />
             </div>
 
             <div className='quinto-input'>
                 <h1>NOME COMPLETO</h1>
                 <div className='ele'>
-                    <input className='input' type='text' placeholder='Nome e Sobrenome' />
+                    <input className='input' type='text' placeholder='Nome e Sobrenome' value={nomecompleto} onChange={e => setNomecompleto(e.target.value)} />
                 </div>
             </div>
 
 
-            <button className='botao-cadastro'>Continue</button>
+            <button onClick={entrarCadastro} className='botao-cadastro'>Continue</button>
+            <div className='erro-cadastro'>{erro}</div>
 
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
             <div className='botoes'>

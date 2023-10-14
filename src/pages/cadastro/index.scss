@@ -185,6 +185,7 @@ section input {
     border: none;
     color: #ffff;
     background-color: #0B1B45;
+    cursor: pointer;
 }
 
 .texto {
@@ -210,6 +211,16 @@ span{
     left: 60px;
     width: 30px;
     height: 30px;
+}
+
+.erro-cadastro {
+    display: flex;
+    align-items: center;
+    color: #FF3333;
+    font-size: 18px;
+    justify-content: center;
+    text-transform: uppercase;
+
 }
 
 .facebook {
