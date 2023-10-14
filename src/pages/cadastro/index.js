@@ -6,6 +6,7 @@ import Google from '../../assets/images/image 60 (1).png'
 import './index.scss'
 import { useState } from 'react'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
@@ -19,6 +20,8 @@ export default function Cadastro() {
     const[nomecompleto, setNomecompleto] = useState('')
     const [erro, setErro] = useState('')
 
+    const navigate = useNavigate()
+
     async function entrarCadastro () {
         try {
             const api = await axios.post('http://localhost:5000/usuario', {
@@ -26,10 +29,16 @@ export default function Cadastro() {
                 telefone:telefone,
                 senha:senha,
                 nome_completo: nomecompleto
+
+                
             })
+
+            navigate('/Login')
         }catch(err) {
             if(err.response.status === 500) {
-               setErro(err.response.data.erro) 
+               setErro(err.response.data.erro)
+               
+               
             }
         }
     }
