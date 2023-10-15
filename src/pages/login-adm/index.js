@@ -1,18 +1,35 @@
 import Simbolo from '../../assets/images/simbolo-esquerdo.png'
 import './index.scss'
+import { useNavigate } from 'react-router-dom'
 
 
 import { useState } from 'react'
+import axios from 'axios'
 
 
-export default function Login() {
+export default function loginadm() {
 
     const[email, setemail] = useState('')
     const[senha, setsenha] = useState('')
     const[erro, seterro] = useState('')
+    const navigate = useNavigate()
 
+   async function Buscaapi () {
+        
+        
+        try {
+            const apiadmin = await axios.post  ('http://localhost:5000/administrador', {
+                email2: email,
+                senha2: senha
+            })
 
-
+            navigate('/add')
+        }catch(err){
+            if(err.response.status === 401) {
+                seterro(err.response.data.erro)
+            }
+        }
+    }
 
 
 
@@ -29,13 +46,14 @@ export default function Login() {
 
             <div className='login'>
             <p>Login</p>
-            <input type="text" />
+            <input type="text" value={email} onChange={e => setemail(e.target.value)} />
             </div>
             <div className='senha'>
             <p>Senha</p>
-            <input type="password" />
+            <input type="password" value={senha} onChange={e => setsenha(e.target.value)} />
             </div>
-            <button>Entrar</button>
+            <button onClick={Buscaapi} >Entrar</button>
+            <div>{erro}</div>
         </div>
         </div>
     )

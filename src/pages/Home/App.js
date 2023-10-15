@@ -275,9 +275,7 @@ function App() {
 
             </div>
 
-            <div className='itens4'>
-              
-            </div>
+            
 
           </div>
           </div>   

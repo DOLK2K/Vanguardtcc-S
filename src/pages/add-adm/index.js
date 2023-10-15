@@ -12,8 +12,8 @@ export default function Produtoo() {
             <h1>CADASTRO DO PRODUTO</h1>
 
             <div className='elemento-produto'>
-                <p>Código</p>
-                    <input type='number' />
+                <p>imagem</p>
+                    <input type='file'  />
 
             </div>
 
