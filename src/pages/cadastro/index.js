@@ -20,6 +20,7 @@ export default function Cadastro() {
     const[nomecompleto, setNomecompleto] = useState('')
     const [erro, setErro] = useState('')
 
+    ///daqwdqwdw
     const navigate = useNavigate()
 
     async function entrarCadastro () {
