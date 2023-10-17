@@ -4,12 +4,20 @@ import Lupa from '../../assets/images/Frame.png'
 import Carro from '../../assets/images/Untitled.png'
 import Barra from '../../assets/images/Untitled (2).png'
 import Seta from '../../assets/images/Untitled (3).png'
+import Retangulo from '../../assets/images/retanguloo.png'
+
 
 import './index.scss';
+import React,{ useState } from 'react'
 
 
 export default function Destaques() {
-    return (
+
+ const [inputValue, setInputValue] = useState('');
+
+
+
+    return (  
   <div className='globamento'>
   <div className="App">
         <div className='parte-inicial1'>
@@ -43,8 +51,47 @@ export default function Destaques() {
             </div> 
 
     </div> 
+
+            <div className='Title'>
+              <h1>Produtos em Destaque</h1>
+            </div>
+
+            
+              <div className='Filtros'>
+                <h1>Filtrar por</h1>
+                <h3>Produtos</h3>
+              </div>
+
+
+
+              <div className='primeirapt'>
+
+              <div className='produtoz'>
+                <div className='inputs'>
+                  <label htmlFor="inputclicavel"> </label>
+                  <input type='checkbox' id='greencheckbox' className={inputValue}></input>
+                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  
+                </div>
+
+                <div className='objeto'>
+                 
+                   <img src='' />
+                </div>
+                </div>
+                
+                
+
+              </div>
+            </div>
+
+
     </div> 
-    </div> 
+   
 
     )
 }

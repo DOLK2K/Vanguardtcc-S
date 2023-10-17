@@ -221,7 +221,6 @@ function App() {
           <div className='promocoes-mae'>
             <div className='titulo'>
               
-            
             </div>
 
             <div className='itensgeral'> 
