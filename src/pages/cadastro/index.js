@@ -84,7 +84,7 @@ export default function Cadastro() {
             </div>
 
             <div className='botao-cadastro'>
-            <button></button>
+            <button onClick={entrarCadastro} >Continue</button>
             </div>
 
             <div className='erro-cadastro'>{erro}</div>

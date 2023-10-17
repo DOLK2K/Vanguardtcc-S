@@ -757,7 +757,7 @@
 .alinhamento2-home {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     
 }
 .rodape4-home{
@@ -765,10 +765,28 @@
     flex-direction: column;
 }
 
+.rodape4-home input {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 1px solid #000; 
+    padding: 0; 
+    margin: 0; 
+    outline: none;
+}
 
 .rodape5{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    padding-left: 143px;  
+}
+
+.rodape5 input {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 1px solid #000; 
+    padding: 0; 
+    margin: 0; 
+    outline: none;
 }
 
 .rodape6{
@@ -786,11 +804,14 @@
     border-radius: 8px;
     padding-left: 10px;
     cursor: pointer;
+    transition:  0.5s ease;
 }
 
 .rodape6 button:hover{
     transition: 0.7s;
-    color: #189ce9;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
 }
 
 

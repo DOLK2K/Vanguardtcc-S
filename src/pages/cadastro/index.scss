@@ -180,12 +180,20 @@ section input {
     width: 220px;
     }
 
-.botao-cadastro {
+.botao-cadastro  { 
     display: flex;
-    align-items: center;
-    
+    align-items: center !important;
+    justify-content: center !important; 
+
 }
 
+.botao-cadastro button {
+    background-color: #0B1B45 !important;
+    border: none;
+    border-radius: 5px;
+    width: 64% !important;
+    cursor: pointer;
+}
 .texto {
     margin-top: 30px;
     
