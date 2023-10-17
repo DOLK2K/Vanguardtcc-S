@@ -87,7 +87,7 @@ section input {
     display: flex;
     flex-direction: column;
     margin: 30px 200px 28px;
-    width: 140vh;
+    
     height: 40px;
      border-radius: 10px;
     border: none;
@@ -107,6 +107,10 @@ section input {
     position: relative;
     right: 45px;
 
+    }
+
+    .terceiro-input input {
+        width: 100%;
     }
 
     .elemento-input {
@@ -177,15 +181,9 @@ section input {
     }
 
 .botao-cadastro {
-    width: 95vh;
-    margin-left: 366px;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: none;
-    color: #ffff;
-    background-color: #0B1B45;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
 }
 
 .texto {

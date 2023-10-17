@@ -83,8 +83,10 @@ export default function Cadastro() {
                 </div>
             </div>
 
+            <div className='botao-cadastro'>
+            <button></button>
+            </div>
 
-            <button onClick={entrarCadastro} className='botao-cadastro'>Continue</button>
             <div className='erro-cadastro'>{erro}</div>
 
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>

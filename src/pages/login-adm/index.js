@@ -7,7 +7,7 @@ import { useState } from 'react'
 import axios from 'axios'
 
 
-export default function loginadm() {
+export default function Loginadm() {
 
     const[email, setemail] = useState('')
     const[senha, setsenha] = useState('')
