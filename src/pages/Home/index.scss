@@ -376,13 +376,15 @@
 .itensgeral{
     display: flex;
     flex-direction: row;
+    margin-top: 35px;
     padding-top: 50px;
-    
+    background-image: url('../../assets/images/texturizado.png');
+    height: 430px;
 }
 
 .itens1{
     
-    background-color: #F8F8F8;
+    
     height: 400px;
     width: 250px;
     
@@ -555,7 +557,9 @@
     
    
     height: 400px;
-    background-color: #F8F8F8;
+
+    
+
     
 }
 
@@ -566,7 +570,7 @@
 }
 
 .itens3{
-    background-color: #F8F8F8;
+    
     height: 400px;
     width: 420px;
     

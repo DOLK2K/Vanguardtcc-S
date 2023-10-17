@@ -27,6 +27,7 @@ import twitter from '../../assets/images/twitter.png'
 import insta from '../../assets/images/insta.png'
 import youtube from '../../assets/images/youtube.png'
 import Formapag from '../../assets/images/bandeirascartoes.png'
+
 import './index.scss'
 
 
@@ -223,12 +224,11 @@ function App() {
             
             </div>
 
-            <div className='itensgeral'>     
+            <div className='itensgeral'> 
+            
 
             <div className='itens1'>
-            <img src={Bolsaaa}/>
-
-
+              <img src={Bolsaaa}/>
               <div className='caixaazul'>
                 <div className='item1'>
                   <h1>MOCHILA MILITAR WOLF CARGO DOUBLE BLACK</h1>
