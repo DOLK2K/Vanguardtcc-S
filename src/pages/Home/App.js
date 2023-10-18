@@ -122,7 +122,7 @@ function App() {
             <div className='procurado1'>
               <img src={Sapato} />
                 <div className='procurado1-2'>
-                <h1>Bota Impermeável Timberland   </h1>
+                <h1>Bota Impermeável Timberland</h1>
                 <p>R$39.99</p>
                 <button className='botaoo'>Comprar</button>
                 </div>

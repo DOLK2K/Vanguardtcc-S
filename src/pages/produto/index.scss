@@ -56,7 +56,7 @@ height: 100px;
 }
 .ttoottaall{
     font-size: 10px;
-
+   
 }
 .ttoottaall button{
     width: 200px;
@@ -141,11 +141,12 @@ height: 100px;
     flex-direction: row;
     padding-left: 20px;
     padding-top: 50px;
+   
 }
 
 .suubbttoottaall p{
     font-size: 15px;
-    background-color: #F1EDED;
+    background-color: #FAFAFA;
     padding: 30px;
     width: 200px;
 
@@ -165,7 +166,7 @@ height: 100px;
 }
 
 .eennttrreeggaa p{
-    background-color: #F1EDED;
+    background-color: #FAFAFA;
     font-size: 15px;
     margin-top:10px;
     padding: 30px;
@@ -179,7 +180,7 @@ height: 100px;
 }
 
 .ttoottaall p{
-    background-color: #F1EDED;
+    background-color: #FAFAFA;
     padding-top: 30px;
     font-size: 15px;
     margin-top:10px;
@@ -199,6 +200,10 @@ height: 100px;
 }
 #finalizar-button {
     background-color: green;
+}
+#adicionar-button{
+width: 500px;
+background-color: #071027;
 }
 #excluir-button {
     background-color: red;
