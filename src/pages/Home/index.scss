@@ -221,6 +221,8 @@
     margin-bottom: 6px;
 }
 
+
+
 .procurado2 h1 {
     font-size: 16px;
     text-align:center;
@@ -252,6 +254,27 @@
     color: #ffff;
     border: none;
     align-items:center ;
+    cursor: pointer;
+}
+
+.procurado1-2 button:hover{
+    transition: 0.3s;
+    color: #0b5e48;
+}
+
+.procurado2-3 button:hover{
+    transition: 0.3s;
+    color: #0b5e48;
+}
+
+.procurado3-4 button:hover{
+    transition: 0.3s;
+    color: #0b5e48;
+}
+
+.procurado4-5 button:hover{
+    transition: 0.3s;
+    color: #0b5e48;
 }
 
 .faixaa {
@@ -475,13 +498,14 @@
     border-radius: 10px;
     margin-left: 55px;
     border: 10px;
-    
+    cursor: pointer;
 }
 
 .item1 button:hover{
     
     transition: 1.0s;
     color: #00f0b0;
+    
 }
 
 .caixaazul2{
@@ -545,6 +569,7 @@
     border-radius: 10px;
     margin-left: 55px;
     border:none;
+    cursor: pointer;
     
     
 }
@@ -644,6 +669,7 @@
     border-radius: 10px;
     margin-left: 60px;
     border: none;
+    cursor: pointer;
 }
 
 .item3 button:hover{
@@ -848,23 +874,28 @@
     padding: 20px;
     background-color: #F8F8F8;
     height: 200px;
-
 }
 
 .cabecario h3{
     font-size: 17px;
     text-decoration-line:underline;
     padding-left: 30px;
-    
+}
 
+.cabecario h3:hover{
+    transition: 0.4s;
+    color: rgb(1, 117, 212);
 }
 
 .cabecario h4{
     font-size: 17px;
     text-decoration-line:underline;
     padding-left: 38px;
+}
 
-
+.cabecario h4:hover{
+    transition: 0.4s;
+    color: rgb(1, 117, 212);
 }
 
 .cabecario h5{
@@ -872,8 +903,11 @@
     text-decoration-line:underline;
     width: 270px;
     padding-left: 38px;
+}
 
-
+.cabecario h5:hover{
+    transition: 0.4s;
+    color: rgb(1, 117, 212);
 }
 
 .cabecario h6{
@@ -882,8 +916,11 @@
     width: 270px;
     font-size: 17px;
     padding-left: 48px;
-    
+}
 
+.cabecario h6:hover{
+    transition: 0.4s;
+    color: rgb(1, 117, 212);
 }
 
 
@@ -952,9 +989,16 @@ padding: 20px;
 
 .elements p{
     color: #b3b3b3;
-    
-    
+
 }
+
+.elements p:hover{
+    transition: 0.4s;
+    color: rgb(122, 255, 122);
+}
+
+
+
 // rodapé arrumado/feito
 
 

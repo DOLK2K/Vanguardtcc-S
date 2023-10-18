@@ -5,6 +5,7 @@ import Carro from '../../assets/images/Untitled.png'
 import Barra from '../../assets/images/Untitled (2).png'
 import Seta from '../../assets/images/Untitled (3).png'
 import Retangulo from '../../assets/images/retanguloo.png'
+import Temporario from '../../assets/images/fundotemporario.png'
 
 
 import './index.scss';
@@ -78,11 +79,24 @@ export default function Destaques() {
                   
                 </div>
 
-                <div className='objeto'>
-                 
-                   <img src='' />
+                <div className='objetoss'>
+
+                <div className='objeto'>                
+                   <img src={Temporario} />
                 </div>
+
+                <div className='objeto1'>
+                <img src={Temporario} />
                 </div>
+
+                <div className='objeto2'>
+                <img src={Temporario} />
+                </div>
+
+                </div>
+
+                </div>
+
                 
                 
 

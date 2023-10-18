@@ -117,6 +117,57 @@
 }
 
 
-.objeto{
-    background-color: aqua;
+
+.objetoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 435px;
 }
+
+
+.objeto{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 100px;
+    height: 300px;
+    
+}
+
+.objeto img{
+    
+    width: 100px;
+    height: 100px;
+}
+
+
+.objeto1{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 100px;
+    height: 300px;
+    
+}
+
+.objeto1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.objeto2{
+    
+    background-color: #ffffff;
+    border: solid;
+    width: 100px;
+    height: 300px;   
+}
+
+.objeto2 img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
