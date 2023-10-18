@@ -94,7 +94,7 @@ export default function  Produto() {
                     <p>SUBTOTAL</p>
                     <hr />
                     <p>...</p>
-                    <button>ADICIONAR MAIS PRODUTOS</button>
+                    
                 </div>
                 <div className='eennttrreeggaa'>
                     <p>ENTREGA</p>
@@ -111,6 +111,7 @@ export default function  Produto() {
 
                 <div className='fiinnaalliizzaarr'>
                 <button id='finalizar-button'>FINALIZAR PEDIDO</button>
+                <button id='adicionar-button'>ADICIONAR MAIS PRODUTOS</button>
                 <button id='excluir-button'>EXCLUIR PEDIDO</button>
                 </div>
             </div>
