@@ -20,7 +20,7 @@ export default function Produtoo() {
             <div className='elemento2-produto'>
                 <h3>Descrição do produto</h3>
                 <input type='text' />
-
+                
             
             </div>
             <div className='terror'>
