@@ -800,6 +800,7 @@
 
 .rodape6{
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
 }
@@ -823,8 +824,15 @@
     color: #000;
 }
 
+#erro-home {
+    color: #ff0000;
+    font-size: 16px;
+}
 
-
+#enviado {
+    font-size: 16px;
+    color: rgb(79, 158, 0);
+}
 
 
 

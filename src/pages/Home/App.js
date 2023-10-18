@@ -27,11 +27,45 @@ import twitter from '../../assets/images/twitter.png'
 import insta from '../../assets/images/insta.png'
 import youtube from '../../assets/images/youtube.png'
 import Formapag from '../../assets/images/bandeirascartoes.png'
-
 import './index.scss'
+import { useState } from 'react'
+import axios from 'axios'
+
 
 
 function App() {
+
+  const [nome, setNome ] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [email, setEmail] = useState('');
+  const [mensagem, setMensagem ] = useState('');
+  const [erro, setErro] = useState('')
+  const [certo, setCerto] = useState('')
+
+  async function Suporte() {
+
+    
+    try{
+  
+      const s = await axios.post ('http://localhost:5000/Suportehome', {
+        nome:nome,
+        telefone:telefone,
+        email:email,
+        mensagem:mensagem 
+
+        
+      })
+
+      setCerto('Enviado para o suporte com sucesso')
+      setErro('');
+      
+    }catch(err){
+      if(err.response.status===404) {
+        setErro(err.response.data.erro)
+      }
+    }
+  }
+
   return (
     <div className="App">
       <div className='parte-inicial'>
@@ -301,28 +335,30 @@ function App() {
           <div className='rodape3'>
             <div className='RODAPE3-1'>
             <p>Nome</p>
-            <input type='text' />
+            <input type='text' value={nome} onChange={e => setNome(e.target.value)} />
             </div>
             <div className='telefone-home'>
             <p2>Telefone</p2>
-            <input type='' />
+            <input type='number' value={telefone} onChange={e => setTelefone(e.target.value)} />
             </div>
           </div>
 
           <div className='alinhamento2-home'>
           <div className='rodape4-home'>
             <p>Email</p>
-            <input type='text' />
+            <input type='text' value={email} onChange={e => setEmail(e.target.value)} />
           </div>
 
           <div className='rodape5'>
             <p>Mensagem</p>
-            <input type='text' />
+            <input type='text' value={mensagem} onChange={e => setMensagem(e.target.value)} />
           </div>
           </div>
 
           <div className='rodape6'>
-            <button>Enviar</button>
+            <button onClick={Suporte}>Enviar</button>
+            <div id='erro-home'>{erro}</div>
+            <div id='enviado'>{certo}</div>
           </div>
           </div>
        </div>
