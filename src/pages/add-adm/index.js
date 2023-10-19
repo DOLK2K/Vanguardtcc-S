@@ -11,41 +11,45 @@ export default function Produtoo() {
     <div className='aaaa'>
             <h1>CADASTRO DO PRODUTO</h1>
 
-            <div className='elemento-produto'>
-                <p>imagem</p>
-                    <input type='file'  />
+            <hr/>
 
-            </div>
-
-            <div className='elemento2-produto'>
-                <h3>Descrição do produto</h3>
-                <input type='text' />
-                
-            
-            </div>
-            <div className='terror'>
-            <div className='terror1'>
-                <p>Quantidade</p>
-                <input type='number' />
-                <button>Cadastrar</button>
-            </div>
-            <div className='terror2'>
-            <p className='cor'>preço do produto</p>
             <div>
-                <input type='number' />
-                <img src={Atualizar} />
+                <input type='file' />
+
+                <div>
+                    <p>Descrição do Produto</p>
+                    <input type='text' />
+
+                    <div>
+                        <div>
+                            <p>Tipo do produto</p>
+                            <input type='text' />
+                        </div>
+
+                        <div>
+                            <p>categoria</p>
+                            <input type='text' />
+                        </div>
+                    </div>
+                    <hr />
+
                 </div>
-                <button>atualizar</button>
             </div>
 
-            <div className='terror3'>
-            <p>Valor total</p>
             <div>
-                <input type='number' />
-                <img src={Lixeira} />
+                <div>
+                    <p>preço do produto</p>
+                    <input type='text' />
                 </div>
-                <button>deletar</button>
-            </div>
+
+                <div>
+                    <p>preço da venda</p>
+                    <input type='' />
+                </div>
+
+                <div>
+                    
+                </div>
             </div>
     </div>
     )

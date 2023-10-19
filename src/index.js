@@ -30,7 +30,6 @@ root.render(
       <Route path= '/destaques' element = {<Destaques/>} />
       <Route path='/pagamento' element ={<Pagamento/>} />
 
-
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
