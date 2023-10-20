@@ -1,138 +1,39 @@
 
-
-.aaaa {
-    display: flex;
-    flex-direction: column;
-
-    h1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 30px;
-    }
-}
-
-.elemento-produto {
-    display:flex;
-    flex-direction: row;    
-    margin: 20px;
-    align-items: center;
-
-    p {
-        color: black;
-        margin: 20px;
-    }
-}
-
-.elemento2-produto {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-
-    h2 {
-        color: black;
-        font-size: 20px;
-    }
-
-     input {
-        width: 100em;
-    }
-}
-
-.terror {
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    align-items:center ;
-}
-
-.terror1 {
+.Cadastro-produtos {
     display: flex;
     flex-direction: column;
     
-
-    p {
-        color: black;
-        margin-left: 20px;
-    }
-
-    input {
-        width: 200px;
-        height: 40px;
-        margin: 20px;
-    }
-
-    button {
-        background-color: #1EBC41;
-        color: #ffff;
-        width: 150px;
-        border: none;
-        border-radius: 14px;
-        cursor: pointer;
-    }
 }
 
-.terror2 {
+.cadastro-produto-cabecalho h1 {
+    margin: 10px;
+}
+
+#chuvisco {
     display: flex;
     flex-direction: column;
-
-    input {
-        width: 200px;
-        height: 40px;
-        margin: 20px; 
-    }
-
-    img {
-        position: relative;
-        top: 85px;
-        right: 200px;
-        height: 20px;
-        width: 20px;
-    }
-    button {
-        background-color: #123069;
-        color: #ffff;
-        width: 150px;
-        border: none;
-        border-radius: 14px; 
-        cursor: pointer;
-    }
+    margin: 10px;   
 }
 
-.cor {
-    color: #000;
-    margin-left: 20px;
-}
-
-.terror3 {
+.patre-do-meio-produto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+#hrr {
+    width: 100%;
+}
 
-    p {
-        color: #000;
-        margin-left: 20px;
-     }
-    input {
-        width: 200px;
-        height: 40px;
-        margin: 20px; 
-    }
+.descricao-produto
 
-    img {
-        position: relative;
-        top: 85px;
-        right: 200px;
-        height: 20px;
-        width: 20px;
-    }
+.relaxa {
+    display: flex;
+    flex-direction:row ;
+}
 
-    button {
-        background-color: #FF2626;
-        color: #ffff;
-        width: 150px;
-        border: none;
-        border-radius: 14px; 
-        cursor: pointer;
-    }
+.relaxa input {
+    display: flex;
+   flex-wrap: wrap;
+    padding-bottom: 50px;
+    height: 60px;
     
 }
