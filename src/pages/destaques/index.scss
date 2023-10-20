@@ -121,8 +121,9 @@
 .objetoss{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 435px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 
 
@@ -130,15 +131,19 @@
     display: flex;
     background-color: #ffffff;
     border: solid;
-    width: 100px;
-    height: 300px;
+    border-color: #535353;
+    width: 200px;
+    height: 170px;
+    margin-left: 130px;
     
 }
 
 .objeto img{
     
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
 }
 
 
@@ -146,28 +151,57 @@
     display: flex;
     background-color: #ffffff;
     border: solid;
-    width: 100px;
-    height: 300px;
+    width: 200px;
+    border-color: #535353;
+    height: 170px;
+    margin-left: 130px;
     
 }
 
 .objeto1 img{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
 }
 
 .objeto2{
     
     background-color: #ffffff;
     border: solid;
-    width: 100px;
-    height: 300px;   
+    border-color: #535353;
+    width: 200px;
+    height: 170px;   
+    margin-left: 130px;
 }
 
 .objeto2 img{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
 }
 
+.Nomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Nomes h1{
+    
+    font-size: 18px;
+}
+
+
+.Nomes h3{
+    font-size: 18px;
+}
+
+.Nomes h4{
+    font-size: 18px;
+    
+}
 
 

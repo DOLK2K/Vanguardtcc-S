@@ -95,12 +95,28 @@ export default function Destaques() {
 
                 </div>
 
+                               
+                </div>
+                                            
+              </div>
+
+                <div className='detalhes'>
+
+                
+
+                <div className='Nomes'>
+                  <h1>Nome do Produto</h1>
+                  <h3>Nome do Produto</h3>
+                  <h4>Nome do Produto</h4>
+
+                </div>
+                
                 </div>
 
-                
-                
 
-              </div>
+
+
+
             </div>
 
 
