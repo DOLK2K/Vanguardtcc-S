@@ -20,8 +20,8 @@ export default function Produtoo() {
                     <label for="arquivo" >Envie sua imagem</label>
                 <input className='input-file' name='arquivo' id='arquivo' type='file' />
                 </div>
-                <div>
-                    <div>
+                <div className='element-produto'>
+                    <div className='input-produto'>
                         <p>Descrição do produto</p>
                         <input type='text' />
                     </div>
@@ -66,9 +66,35 @@ export default function Produtoo() {
                     </div>
                 </div>
                 </div>
+
+                
+            </div>
+            <hr id='hr'/>
+
+            <div className='parte-do-preco'>
+                <div>
+                    <p>preço do produto</p>
+                    <input type='number' />
+
+                </div>
+
+                <div className='valor-venda'>
+                    <p>preço da venda</p>
+                    <input type='number' />
+                </div>
+
+                <div className='valor-total'>
+                    <p>valor total</p>
+                    <input type='number' />
+                </div>
             </div>
 
+            <div className='produto-botao'>
+                <button className='produto-botao2'>Cancelar</button>
+                <button className='produto-botao3'>Salvar</button>
             </div>
+            </div>
+            
 
 
      )}
