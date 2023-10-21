@@ -9,31 +9,58 @@
     margin: 10px;
 }
 
-#chuvisco {
+.parte-meio {
     display: flex;
-    flex-direction: column;
-    margin: 10px;   
+    flex-direction: row;
+    margin: 15px;
+    text-transform: uppercase;
 }
 
-.patre-do-meio-produto {
+.parte2 {
     display: flex;
     flex-direction: row;
 }
-#hrr {
-    width: 100%;
+
+input[type="file"] {
+    display: none;
 }
 
-.descricao-produto
+.labell {
+    margin-top: 45px;
 
-.relaxa {
-    display: flex;
-    flex-direction:row ;
 }
 
-.relaxa input {
+label {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 50px 20px;
+    cursor: pointer;
+}
+
+.produto-categoria {
     display: flex;
-   flex-wrap: wrap;
-    padding-bottom: 50px;
-    height: 60px;
-    
+    flex-direction: row;
+}
+
+.pra-baixo1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pra-baixo2 {
+    display: flex;
+    flex-direction: column;
+    margin:  0px 35px;
+
+}
+
+
+.pro-lado {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-lado2 {
+    display: flex;
+    flex-direction: column;
 }

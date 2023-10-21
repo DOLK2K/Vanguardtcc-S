@@ -11,97 +11,64 @@ export default function Produtoo() {
     <div className='Cadastro-produtos'>
         <div className='cadastro-produto-cabecalho'>
             <h1>CADASTRO DO PRODUTO</h1>
-
             <hr/>
             </div>
-            <div id='chuvisco'>
-                <input type='file' />
 
-                <div className='patre-do-meio-produto'>
-
-                    <div className='relaxa'>
-                        <div className='descricao-produto'>
-                    <p>Descrição do Produto</p>
-                    <input type='text' />
-                    </div>
-                    <label>
-                        UNIDADE
-                    </label>
-                    <input type='number' /> 
-                    </div>
+            <div className='parte-meio'>
+                <div className='parte2'>
+                    <div className='labell'>
+                    <label for="arquivo" >Envie sua imagem</label>
+                <input className='input-file' name='arquivo' id='arquivo' type='file' />
+                </div>
+                <div>
                     <div>
-                        <div>
+                        <p>Descrição do produto</p>
+                        <input type='text' />
+                    </div>
 
-                            <span>
-                            <label>Tipo do Produto</label>
-                            
+                    <div className='produto-categoria'>
+                        <div className='pra-baixo1'>
+                            <p>Tipo do produto</p>
                             <select>
-                                <option>Camiseta</option>
                                 <option>Calça</option>
-                                <option>Sapato</option>
-                                <option>Chapéu</option>
-                                <option>Óculos</option>
-                                <option>Barraca</option>
-                                <option>Lanterna</option>
-                                <option>Mochila</option>
+                                <option>Camiseta</option>
+                                <option>Oculos </option>
                                 <option>Jaqueta</option>
+                                <option>Barraca</option>
+                                <option>Chapéu</option>
                             </select>
-                            </span>
                         </div>
 
-                        <div>
-
-                            <span>
-                            <label>categoria</label>
+                        <div className='pra-baixo2'>
+                            <p>Categoria</p>
                             <select>
-                                <option > Vestuario</option>
-                                <option>Acessorio</option>
                                 <option>Profissional</option>
-                                
+                                <option>Acessesório</option>
+                                <option>Vestuario</option>
                             </select>
-                            </span>
-                        </div>
-
-                        <div>
-                            <nav>
-                            <label>
-                                Situação
-                            </label>
-                            <section>Ativo</section>
-                            <section>Desativo</section>
-                            </nav>
                         </div>
                     </div>
-                    
-
-                </div>
-                <hr id='hrr' />
-            </div>
-
-            <div>
-                <div>
-                    <p>preço do produto</p>
-                    <input type='text' />
                 </div>
 
-                <div>
-                    <p>preço da venda</p>
-                    <input type='' />
-                </div>
+                <div className='pro-lado'>
+                    <div>
+                        <p>Unidade</p>
+                        <input type='number' />
 
-                <div>
-                    <p>Valor total</p>
-                    <input type='number'/>
+                    </div>
+
+                    <div className='pro-lado2'>
+                        <p>Situação</p>
+                        <select>
+                            <option>ativo</option>
+                            <option>Desativo</option>
+                        </select>
+                    </div>
+                </div>
                 </div>
             </div>
 
-            <div>
-                <button>
-                    Cancelar
-                </button>
-
-                <button>Salvar</button>
             </div>
-    </div>
-    )
-}
+
+
+     )}
