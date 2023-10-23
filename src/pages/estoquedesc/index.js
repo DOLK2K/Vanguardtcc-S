@@ -8,6 +8,7 @@ import Quadradobranco from '../../assets/images/Quadradobranco.png'
 import Image62 from '../../assets/images/image 62 (1).png'
 
 
+
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
 // nao usar padding desnecessariamente, com proporção muito alta
 // tem coisas q não está igual no figma, e não está alinhado direito
