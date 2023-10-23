@@ -12,9 +12,11 @@ export default function  Pagamento() {
     
         <div className='all'>
             <div className='quaaddrraaddoo'>
+                <div className='resumo-do-pedido'> RESUMO DO PEDIDO</div>
                 <div className='divisoriaa'>
                     <div className='titullo'>COMO VOÇE DESEJA PAGAR</div>
                     <div className='pressente'></div>
+
 
                     <div className='cartao'>
                     <img src={cartao} />
@@ -47,10 +49,11 @@ export default function  Pagamento() {
                     </div>
 
 
+
+
+
                 </div>
-
-
-
+       
             </div>
         </div>
             

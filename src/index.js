@@ -7,7 +7,7 @@ import Chupeta from '../src/pages/add-adm'
 import Login from './pages/login';
 import Produto from './pages/produto';
 import Estoquedesc from './pages/estoquedesc'
-import Pedido from './pages/pedidos'
+import Pedidos from './pages/pedidos'
 import Compra from './pages/compra'
 import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
@@ -25,7 +25,7 @@ root.render(
       <Route path='/Login' element = {<Login/>} />
       <Route path='/produto' element = {<Produto/>} />
       <Route path='/estoquedesc' element = {<Estoquedesc/>} />
-      <Route path='/pedido' element = {<Pedido/>} />
+      <Route path='/pedidos' element = {<Pedidos/>} />
       <Route path= '/compra' element = {<Compra/>} />
       <Route path= '/destaques' element = {<Destaques/>} />
       <Route path='/pagamento' element ={<Pagamento/>} />
