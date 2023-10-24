@@ -1,0 +1,321 @@
+.Appz{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.cabecalho1z{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+       width: 500px;
+       height: 30px;
+       border-radius: 11px;
+       border: none;
+    }
+
+    input::placeholder {
+        padding: 30px;
+
+    }
+}
+
+.alinhamento2z {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Lupa {
+    position: relative;
+    left: 25px;
+}
+.links a  {
+    text-decoration: none;
+    color: #000000;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho22z {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+
+}
+
+.cabecalho22z p, a {
+    color: #ffff;
+}
+
+
+.cabecalho22z a {
+   margin: 30px;
+}
+
+#Vestuario {
+    margin-left: 220px;
+}
+
+.Titlez{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.primeiraptz{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.inputs input{
+    color: green;
+}
+
+
+
+
+
+
+.Filtrosz{
+    padding-left: 20px;
+    background-color: #383636;
+    width: 250px;
+    
+}
+
+.Filtrosz h3{
+ 
+}
+
+
+.produtozz{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.inputsz{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    font-size: 15px;
+    height: 195px;
+    width: 250px;
+    
+}
+.inputsz p{
+    margin-left: 10px;
+}
+.inputs input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 4px;
+    width: 35px;
+    height: 32px;
+    
+}
+
+#abrirosite{
+    margin-top: 10px;
+}
+#gerenciarprodutos{
+    margin-top: 10px;
+}
+#pppeedidos{
+    margin-top: 10px;
+}
+#confiiguraacoes{
+    margin-top: 10px;
+}
+#vendaeprodu{
+    margin-top: 10px;
+    width: 200px;
+}
+#detcoonta{
+    margin-top: 10px;   
+}
+
+
+
+
+
+
+.objetossz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+.objetoz{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;
+    margin-left: 120px;
+    
+}
+
+.objetoz img{
+    
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+.objeto1z{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 200px;
+    border-color: #000000;
+    height: 170px;
+    margin-left: 100px;
+    
+}
+
+.objeto1z img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.objeto2z{
+    
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;   
+    margin-left: 100px;
+}
+
+.objeto2z img{
+    width: 180px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+
+
+
+.Nomesz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.Nomesz h1{
+    padding-left: 250px;
+    font-size: 18px;
+}
+
+
+.Nomesz h3{
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.Nomesz h4{
+    font-size: 18px;
+    
+}
+
+
+.objetosssz{
+    display: flex;
+    flex-direction: row;
+    padding-left: 390px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+
+.objeto0z{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;
+    
+    
+}
+
+.objeto0z img{
+    
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+.objeto11z{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 200px;
+    border-color: #000000;
+    height: 170px;
+    
+    
+    
+}
+
+.objeto11z img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.objeto22z{
+    
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;   
+    margin-right: 90px;
+    
+}
+
+.objeto22z img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.Nomes1z{
+    display: flex;
+    flex-direction: row;
+    width: 660px;
+    padding-left: 380px;
+}
+
+.Nomes1z h1{
+    padding-bottom: 51px;
+    font-size: 18px;
+    
+}

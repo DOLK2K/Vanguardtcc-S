@@ -108,8 +108,8 @@ export default function Resumo(){
                         </div>
 
                         <div className='descprd'>
-                            <h1>Saída do Produto:</h1>
-                            <h3>Entrada do Produto:</h3>
+                            <h1>Entrada do Produto</h1>
+                            
                         </div>
 
                         
