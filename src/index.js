@@ -11,6 +11,7 @@ import Pedidos from './pages/pedidos'
 import Compra from './pages/compra'
 import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
+import Admdetalhes from './pages/admdetalhes'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,7 +30,7 @@ root.render(
       <Route path= '/compra' element = {<Compra/>} />
       <Route path= '/destaques' element = {<Destaques/>} />
       <Route path='/pagamento' element ={<Pagamento/>} />
-
+      <Route path='/admdetalhes' element ={<Admdetalhes/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
