@@ -7,9 +7,15 @@
 
 .resu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-top: 30px;
-    padding-right: 170px;
+    
+}
+    
+
+.engloba{
+    display: flex;
+    flex-direction: column;
 }
 
 .osdois{
@@ -18,95 +24,119 @@
 } 
 
 .pagarrr{
+    display:flex;
+    flex-direction: column;
     margin-top: 20px;
     margin-left: 50px;
     border:solid;
     width: 570px;
     height: 450px;
-    border-color: rgb(85, 85, 84)
+    border-color: rgb(3, 22, 27)
 
 }
 
 .titlezin h1{
     font-size: 17px;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 55, 68);
 }
 
 .cartao{
     display: flex;
     flex-direction: row;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(219, 219, 219);
+    width: 500px;
     height: 50px;
 }
 
-.cartao img{
-    height:35px ;
-    width:35px ;
+.cartao img{ 
+    margin-left: 0px;
+    height:22px;
+    width:30px;
 }
 
 .cartao h1{
     font-size: 17px;
-    padding-top: 5px;
+    padding-top: 0px;
+    padding-left: 13px;
 }
 
 .pix{
     display: flex;
     flex-direction: row;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
-    height: 50px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 7px;
+    width: 500px;
+    height: 49px;
 }
 
 .pix img{
+    margin-left: 19px;
+    margin-top: 8px;
     height:35px ;
     width:35px ;
 }
 
 .pix h1{
     font-size: 17px;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 .boleto{
     display: flex;
     flex-direction: row;
+    margin-left: 10px;
+    border-radius: 7px;
     margin-top: 20px;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
+    background-color: rgb(219, 219, 219);
+    width: 500px;
     height: 50px;
     
 }
 
 .boleto img{
-    height:35px;
-    width:35px;
+    margin-left: 20px;
+    margin-top: 13px;
+    height:25px ;
+    width:30px ;
 }
 
 .boleto h1{
     font-size: 17px;
-    padding-top:5px;
+    padding-top:15px;
+    padding-left: 12px;
 }
 
 .carne{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(219, 219, 219);
+    width: 500px;
     height: 50px;
 }
 
 .carne img{
-    margin-left: 2px;
-    height:35px;
-    width:35px;
+    margin-left: 18px;
+    margin-top: 7px;
+    height:35px ;
+    width:35px ;
 }
 
 .carne h1{
     font-size: 17px;
-    padding-top:10px;
+    padding-top:18px;
+    padding-left: 9px;
 
 }
 
@@ -114,20 +144,24 @@
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(219, 219, 219);
+    width: 500px;
     height: 50px;
 }
 
 .banqi img{
-    height:35px;
-    width:35px;
+    margin-left: 4px;
+    
+    height:25px ;
+    width:29px ;
 }
 
 .banqi h1{
     font-size: 17px;
-    padding-top:10px;
-    padding-left: 5px;
+    padding-top:0px;
+    padding-left: 10px;
 
 }
 
@@ -136,29 +170,36 @@
 .giftcard{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    background-color: rgb(168, 168, 168);
-    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(219, 219, 219);
+    width: 500px;
     height: 50px;
 }
 
 .giftcard img{
-    height:35px;
-    width:35px;
+    margin-left: 18px;
+    margin-top: 8px;
+    height:35px ;
+    width:35px ;
 }
 
 .giftcard h1{
     font-size: 17px;
-    padding-top:5px;
-
+    padding-top:15px;
+    padding-left: 7px;
 }
 
 
-.resumo{
+
+
+
+
+.resumo1{
     display: flex;
     flex-direction: row;
 }
-
 
 .imagemprd{
     display: flex;
@@ -179,28 +220,20 @@
 }
 
 .imagemprd h1{
-    width: 100px;
-    height: 100px;
-    padding-left: 30px;
+    
+    padding-left: 40px;
 }
 
-
-.descprd{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 170px;
-    
+.dtl{
+    padding-top: 65px;
+    margin-left: 10px;
     
 }
 
-.descprd h1{
+.dtl h1{
     font-size: 18px;
 }
 
 
-.quant{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
+

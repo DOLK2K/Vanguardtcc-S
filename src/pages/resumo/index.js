@@ -3,7 +3,7 @@ import Lupa from '../../assets/images/Frame.png'
 import Carro from '../../assets/images/Untitled.png'
 import Barra from '../../assets/images/Untitled (2).png'
 import Seta from '../../assets/images/Untitled (3).png'
-import Cartao from '../../assets/images/cartao.png'
+import Cartao2 from '../../assets/images/cartao2.png'
 import Pix from '../../assets/images/pix.png'
 import Boleto from '../../assets/images/boleto.png'
 import Carne from '../../assets/images/carne.png'
@@ -61,7 +61,7 @@ export default function Resumo(){
                         </div>
 
                         <div className='cartao'>
-                            <img src={Cartao}/>
+                            <img src={Cartao2}/>
                             <h1>Cartao de Credito</h1>
 
                         </div>
@@ -99,21 +99,26 @@ export default function Resumo(){
 
                     </div>
 
-                        <div className='resumo'>
-                        <div className='imagemprd'>
-                            <img src={Incolor} />
-                            <h1>Nome do Produto:</h1>
-                        </div>
+                        <div className='resumo1'>
+                            <div className='eles'>
+                            <div className='imagemprd'>
+                                <img src={Incolor} />                                                       
+                            </div>
+
+                            <div className='dtl'>
+                                <h1>Nome do Produto:</h1>
+                            </div>
+                            </div>
                         
                         </div>
 
-                        <div className='descprd'>
-                            <h1>Entrada do Produto</h1>
-                            
-                        </div>
+                        
+
+                        
 
                         
                 </div>
+                        
 
             </div>
         </div>
