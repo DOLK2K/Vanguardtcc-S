@@ -102,13 +102,21 @@ export default function Resumo(){
                         <div className='resumo1'>
                             <div className='eles'>
                             <div className='imagemprd'>
-                                <img src={Incolor} />                                                       
+                                <img src={Incolor} />   
+                                <h1>Nome do Produto:</h1>                                                    
                             </div>
 
                             <div className='dtl'>
-                                <h1>Nome do Produto:</h1>
+                                <h1>Saída do Produto:</h1>
+                                <h3>Chegada do Produto:</h3>
+                            </div>
+
+                            <div className='botaoqtd'>
+                                <button>QUANTIDADE</button>
                             </div>
                             </div>
+
+                            
                         
                         </div>
 
@@ -117,7 +125,11 @@ export default function Resumo(){
                         
 
                         
+
+                        
                 </div>
+
+                
                         
 
             </div>
