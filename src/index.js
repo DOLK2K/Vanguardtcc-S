@@ -13,7 +13,9 @@ import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
 import Resumo from './pages/resumo';
 import Admdetalhes from './pages/admdetalhes'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Meuspedidos from './pages/meuspedidos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +35,7 @@ root.render(
       <Route path='/pagamento' element ={<Pagamento/>} />
       <Route path='/resumo' element ={<Resumo/>} />
       <Route path='/admdetalhes' element ={<Admdetalhes/>} />
-
+      <Route path='/meuspedidos' element ={<Meuspedidos/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
