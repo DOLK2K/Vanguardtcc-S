@@ -27,6 +27,7 @@ import twitter from '../../assets/images/twitter.png'
 import insta from '../../assets/images/insta.png'
 import youtube from '../../assets/images/youtube.png'
 import Formapag from '../../assets/images/bandeirascartoes.png'
+import Cinza from '../../assets/images/cinzamedio.png'
 import './index.scss'
 import { useState } from 'react'
 import axios from 'axios'
@@ -256,6 +257,7 @@ function App() {
 
           <div className='promocoes-mae'>
             
+            
 
             <div className='itensgeral'> 
             
@@ -264,8 +266,8 @@ function App() {
               <img src={Bolsaaa}/>
               <div className='caixaazul'>
                 <div className='item1'>
-                  <h1>MOCHILA MILITAR WOLF CARGO DOUBLE BLACK</h1>
-                  <p>CORDURA 1000D ZÍPER YKK</p>
+                  <h1>Mochila Militar Wolf Cargo Double Black</h1>
+                  
                   <p>DE 700,00 R$  POR R$500,00</p>
                   <p>8X R$62,50</p>
                   <button>Comprar</button>
@@ -299,7 +301,7 @@ function App() {
 
               <div className='caixaazul3'>
                 <div className='item3'>
-                  <h1>JAQUETA MILITAR IMPERMEÁVEL</h1>
+                  <h1>Jaqueta Militar Impermeável</h1>
                   <p>DE 584,99 R$ POR R$497,00</p>
                   <p> 12x de 51,24</p>
                   <button>Comprar</button>
