@@ -13,6 +13,13 @@ import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
 import Resumo from './pages/resumo';
 import Admdetalhes from './pages/admdetalhes'
+import Acessórios from './pages/acessórios'
+import Calçados from './pages/calçados'
+import Jaquetas from './pages/jaquetas'
+import Lanternas from './pages/lanternas'
+import Luvas from './pages/luvas'
+import Profissionais from './pages/profissionais'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +40,13 @@ root.render(
       <Route path='/pagamento' element ={<Pagamento/>} />
       <Route path='/resumo' element ={<Resumo/>} />
       <Route path='/admdetalhes' element ={<Admdetalhes/>} />
+      <Route path= '/acessórios' element ={<Acessórios/>} />
+      <Route path= '/calçados' element ={<Calçados/>} />
+      <Route path= '/jaquetas' element ={<Jaquetas/>} />
+      <Route path= '/lanternas' element ={<Lanternas/>} />
+      <Route path= '/luvas' element ={<Luvas/>} />
+      <Route path= '/profissionais' element ={<Profissionais/>} />
+
 
     </Routes>
     </BrowserRouter>

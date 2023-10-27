@@ -388,21 +388,25 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;        
+    justify-content: center;  
+        
 }
 
 .itensgeral{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .itens1 {
     background: transparent;
-    border: 1px solid #000;
+    border: 2px solid #000;
     width: 270px;
     height: 390px;
-    border-radius: 10px;
+    border-radius: 8px;
+    background-image: url('../../assets/images/texturizado.png');
+    
 }
 
 .itens1 img{
@@ -428,9 +432,11 @@
 }
 
 .item1 p {
-    margin: 2px;
+    margin: 5px;
     font-size: 14px;
 }
+
+
 
 .item1 button{
     width: 100px;
@@ -451,12 +457,14 @@
     display: flex;
     flex-direction: column;
     background: transparent;
-    border: 1px solid #000;
-    margin: 10px 30px;
+    border: 2px solid #000;
+    margin: 10px 60px;
+    margin-left: 90px;
     width: 270px;
     align-items: center;
     height: 390px;
-    border-radius: 10px;
+    border-radius: 8px;
+    background-image: url('../../assets/images/texturizado.png');
 
 }
 
@@ -473,13 +481,15 @@
 }
 
 .item2 p {
-    font-size: 16px;
-    margin: 0px 20px;
+    margin-top: 2px;
+    font-size: 13px;
+    margin: 2px 20px;
 }
 
 .item2 button{
     width: 100px;
     border-radius: 10px;
+    top: 20px;
     margin-left: 70px;
     border: none;
     cursor: pointer;
@@ -498,12 +508,14 @@
     display: flex;
     flex-direction: column;
     background: transparent;
-    border: 1px solid #000;
+    border: 2px solid #000;
     margin: 10px 30px;
     width: 270px;
     align-items: center;
     height: 390px;
-    border-radius: 10px
+    border-radius: 8px;
+    background-image: url('../../assets/images/texturizado.png');
+    
 }
 
 
@@ -520,12 +532,12 @@
 
 
 .item3 h1 {
-    font-size: 18px;
-    margin: 25px 10px;
+    font-size: 17px;
+    margin: 30px 10px;
 }
 
 .item3 p {
-    font-size: 16px;
+    font-size: 13px;
     
 }
 
