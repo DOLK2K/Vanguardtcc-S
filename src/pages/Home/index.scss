@@ -95,6 +95,15 @@
   .lista li {
     
   }
+
+  .lista span{
+    color: #F8F8F8;
+  }
+
+  .lista span:hover{
+    transition: 0.3s;
+    color: #0eadad;
+  }
   
   .lista  .dropdown-menu {
    display: none;
