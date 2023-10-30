@@ -28,28 +28,30 @@
    display: flex;
    flex-direction: row;
    padding: 5px;
-   background-color: #F1EDED;
    font-size: 20px;
    padding-bottom: 15x;
    justify-content: space-around;
 }
-.descricaooooy h1{
-    
+.descricaooooy h4{
+    font-size: 35px;
 }
 
 .a97y{  
     display: flex;
     flex-direction: row;   
     font-size: 12px;
-    padding-left: 90px;
+    padding-left: 100px;
+    background-color: #F1EDED;
     
 }
 .a97y h1{
    
 }
+
 .a97y h3{
     font-size: 30px;
-    padding-left: 280px;
+    padding-left: 125px;
+    width: 800px;
 }
 .a97y h3 img{
     height: 60px;
@@ -57,13 +59,12 @@
 .a97y h4{
     width: 500px;
     font-size: 25px;
-    padding-left: 190px;
+    padding-left: 80px;
 }
 
 .a440y{
     display: flex;
     flex-direction: row;
-    background-color: #F1EDED;
     font-size: 12px;
     padding-left: 100px;
     
@@ -73,10 +74,11 @@
 }
 .a440y h3{
     font-size: 30px;
-    padding-left: 265px;
+    padding-left: 64px;
+    width: 500px;
 }
 .a440y h4{
-    padding-left: 260px;
+    padding-left: 232px;
     font-size: 25px;
     width: 600px;   
 }
@@ -85,41 +87,62 @@
     flex-direction: row;
     font-size: 12px;
     padding-left: 100px;
+    background-color: #F1EDED;
 }
 .a364y h1{
     
 }
 .a364y h3{
     font-size: 30px;
-    padding-left: 273px;
+    padding-left: 68px;
+    width: 500px;
     
 }
 .a364y h3 img  {
     height: 60px;
 }
 .a364y h4{
-    padding-left: 295px;
+    padding-left: 230px;
     font-size: 25px;
     width: 600px;
 }
 .a123y{
     display: flex;
     flex-direction: row;
-    background-color: #F1EDED;
+
     font-size: 12px;
     padding-left: 100px;
+    padding-bottom: 412px;
 }
 .a123y h1{
-    
+   
+    width: 300px;
 }
 .a123y h3{
     font-size: 30px;
-    padding-left: 132px;
+    padding-left: 187px;
+    width: 800px;
 }
 
 .a123y h4{
-    padding-left: 206px;
+    padding-left: 106px;
     font-size: 25px;
     width: 500px;
+}
+
+.emmbaix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    height: 170px;
+}
+
+.emmbaix p{
+    color: #F8F8F8;
+    
+    
+
 }
 
