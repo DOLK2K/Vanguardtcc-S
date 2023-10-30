@@ -31,6 +31,7 @@ import Cinza from '../../assets/images/cinzamedio.png'
 import './index.scss'
 import { useState } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 
 
@@ -95,21 +96,34 @@ function App() {
             <nav>
               <ul>
                 <li class='dropdown'>
-                  <a id='Vestuario-home'>Vestuario</a>
+                  
                   <ul class='dropdown-menu'>
                     <li>Camiseta</li>
-                    <li>Calça</li>
+                    
+                    
                     <li>Boné</li>
                   </ul>
                 </li>
-                <li><a>Mochilas</a></li>
-                <li><a>Calçados</a></li>
-                <li><a>Profissional</a></li>
-                <li><a>Acessórios</a></li>
+                <Link to= "/destaques">
+                  <span>Vestuario</span>
+                </Link>
+                <Link to= "/mochilas">
+                <span>Mochilas</span>
+                </Link>
+                <Link to= "/Calçados">
+                      <span>Calçados</span>
+                    </Link>
+                    <Link to= "/Profissional">
+                      <span>Profissional</span>
+                    </Link>
+                    <Link to= "/Acessórios">
+                      <span>Acessórios</span>
+                    </Link>
+                                          
               </ul>
-            </nav>
-          </div>
+           </nav>
 
+          </div>
           </div>  
 
           <div className='Centro'>

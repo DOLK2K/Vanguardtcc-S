@@ -60,7 +60,7 @@ export default function Destaques() {
     </div> 
 
             <div className='Title'>
-              <h1>Produtos em Destaque</h1>
+              <h1>Calçados</h1>
             </div>
 
             

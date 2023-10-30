@@ -18,7 +18,8 @@ import Calçados from './pages/calçados'
 import Jaquetas from './pages/jaquetas'
 import Lanternas from './pages/lanternas'
 import Luvas from './pages/luvas'
-import Profissionais from './pages/profissionais'
+import Profissional from './pages/profissional'
+import Mochilas from './pages/mochilas'
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -48,7 +49,9 @@ root.render(
       <Route path= '/jaquetas' element ={<Jaquetas/>} />
       <Route path= '/lanternas' element ={<Lanternas/>} />
       <Route path= '/luvas' element ={<Luvas/>} />
-      <Route path= '/profissionais' element ={<Profissionais/>} />
+      <Route path= '/mochilas' element ={<Mochilas/>} />
+      <Route path= '/profissional' element ={<Profissional/>} />
+
 
 
 

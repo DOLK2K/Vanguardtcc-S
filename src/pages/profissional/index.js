@@ -60,7 +60,7 @@ export default function Destaques() {
     </div> 
 
             <div className='Title'>
-              <h1>Acessórios</h1>
+              <h1>Profissional  </h1>
             </div>
 
             
