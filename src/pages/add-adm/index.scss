@@ -37,6 +37,13 @@ label {
     cursor: pointer;
 }
 
+.upload-imagem-produto {
+    position: absolute;
+    bottom: 78%;
+    left: 2%;
+    width: 100px;
+    height: 100px;
+}
 .element-produto {
     margin-left: 40px;
 }
@@ -149,7 +156,9 @@ label {
     background: transparent;
     border: 1px solid #30A9ED;
     color: #30A9ED;
-    
+    width: 8%;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .produto-botao button {
     width: 8%;

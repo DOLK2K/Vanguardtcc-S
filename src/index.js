@@ -13,15 +13,13 @@ import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
 import Resumo from './pages/resumo';
 import Admdetalhes from './pages/admdetalhes'
-<<<<<<< HEAD
-=======
 import Acessórios from './pages/acessórios'
 import Calçados from './pages/calçados'
 import Jaquetas from './pages/jaquetas'
 import Lanternas from './pages/lanternas'
 import Luvas from './pages/luvas'
 import Profissionais from './pages/profissionais'
->>>>>>> 4b8e51222ada66e9ece27f003498aa76175dadeb
+
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
@@ -44,9 +42,7 @@ root.render(
       <Route path='/pagamento' element ={<Pagamento/>} />
       <Route path='/resumo' element ={<Resumo/>} />
       <Route path='/admdetalhes' element ={<Admdetalhes/>} />
-<<<<<<< HEAD
       <Route path='/meuspedidos' element ={<Meuspedidos/>} />
-=======
       <Route path= '/acessórios' element ={<Acessórios/>} />
       <Route path= '/calçados' element ={<Calçados/>} />
       <Route path= '/jaquetas' element ={<Jaquetas/>} />
@@ -55,7 +51,7 @@ root.render(
       <Route path= '/profissionais' element ={<Profissionais/>} />
 
 
->>>>>>> 4b8e51222ada66e9ece27f003498aa76175dadeb
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
