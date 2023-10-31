@@ -45,12 +45,14 @@ export default function Login () {
     }
     }
     return(
+        
         <div className='login'>
             <LoadingBar ref={ref} />
             <div className='login-elemento'>
             <img src={Simbolo} />
             <a href='/'>Inicio</a>
         </div>
+        <div className='td-login'>
         <div className='logo'>
             <img src={Logo} />
             <hr />
@@ -74,17 +76,18 @@ export default function Login () {
             <div className='erro'>
             {erro}
             </div>
-            <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
+            <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Política de Privacidade </span>  </p>
             <div className='botoes'>
                 <div className='facebook'>
-                <img src={Facebook} /> <button>connect With Facebook</button>
+                <img src={Facebook} /> <button>Connect With Facebook</button>
                 </div>
                 <div className='google'>
-                <img src={Google} /> <button>connect With Google</button>
+                <img src={Google} /> <button>Connect With Google</button>
                 </div>
             </div>
         
 
+        </div>
         </div>
     )
 }

@@ -3,7 +3,7 @@
 .login {
     display: flex;
     flex-direction: column;
-    background-color: #A4A4A4;
+    background-color: #fafafa;
     height: 100%;
     
 }
@@ -17,6 +17,10 @@
 .login-elemento a {
     font-size: 26.1px;
     color: black;
+}
+
+.login img{
+    height: 30px;
 }
 
 

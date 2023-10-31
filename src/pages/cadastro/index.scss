@@ -6,7 +6,7 @@
 .Cadastro {
     display: flex;
     flex-direction: column;
-    background-color: #A4A4A4;
+    background-color:   #ffffff;
     height: 100%;
     
 }
@@ -20,6 +20,20 @@
 .ELEMENTO a {
     font-size: 26px;
     color: black;
+}
+
+.ELEMENTO img{
+    width: 30px;
+}
+
+
+    
+    
+
+
+.td-cadastro{
+    
+    
 }
 
 .logo {
@@ -36,10 +50,16 @@
 }
 
 
+.inputzz{
+    margin-left: 150px;
+    
+}
+
+
 .primeiro-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px 10px;
+    margin: 10px 200px 10px;
 }
 
 .primeiro-input h1 {
@@ -52,13 +72,13 @@ section input {
     width: 70%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    
 }
     .primeiro-input input {
-    width: 100%;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    
     }
 
     .primeiro-input input::placeholder {
@@ -77,10 +97,10 @@ section input {
     }
 
     .segundo-input input {
-    width: 100%;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    
     }
 
     .terceiro-input {
@@ -90,7 +110,7 @@ section input {
     
     height: 40px;
      border-radius: 10px;
-    border: none;
+    
     }
     
 
@@ -110,7 +130,7 @@ section input {
     }
 
     .terceiro-input input {
-        width: 100%;
+        width: 20%;
     }
 
     .elemento-input {
@@ -120,10 +140,10 @@ section input {
     }
 
     .elemento-input input {
-    width: 100%;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    ;
     }
 
     .terceiro-input input::placeholder {
@@ -142,14 +162,14 @@ section input {
 
     .quarto-input h1 {
     font-size: 19px;
-    margin: 0px 0px 10px;
+    margin: 10px 0px 10px;
     }
 
     .quarto-input input {
-    width: 100%;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    
     }
 
     .quinto-input input::placeholder {
@@ -159,20 +179,22 @@ section input {
     .quinto-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px 10px;
+    margin: 30px 70px 10px;
     }
 
     .quinto-input h1 {
     font-size: 19px;
-    margin: 0px 0px 10px;
+    margin: 0px 130px 10px;
+
     }
 
 
     .ele  .input {
-        width: 100%;
+    width: 51.5%;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    margin-left: 130px;
+    
     }
 
     .inputs input {
@@ -191,13 +213,14 @@ section input {
     background-color: #0B1B45 !important;
     border: none;
     border-radius: 5px;
-    width: 64% !important;
+    width: 34% !important;
     cursor: pointer;
+    border-radius: 5px;
 }
 .texto {
     margin-top: 30px;
     
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -205,14 +228,14 @@ span{
     color: #0185FF;
 }
 
-.botoes {
+.botoess {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px;
 }
 
-.botoes img {
+.botoess img {
     position: relative;
     left: 60px;
     width: 30px;

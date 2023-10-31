@@ -1,4 +1,4 @@
-import Simbolo from '../../assets/images/simbolo-esquerdo.png'
+import Voltar from '../../assets/images/voltar.png'
 import Logo from '../../assets/images/LogoCabeçalho.png'
 import Olho from '../../assets/images/image 62 (1).png'
 import Facebook from '../../assets/images/image 59.png'
@@ -46,14 +46,22 @@ export default function Cadastro() {
 
     return(
         <div className='Cadastro'>
+
         <div className='ELEMENTO'>
-            <img src={Simbolo} />
+            <img src={Voltar} />
             <a href='/'>Inicio</a>
         </div>
+
+        
+
         <div className='logo'>
             <img src={Logo} />
             <hr />
         </div>
+        <div className='faixaz'>
+            <div className='td-cadastro'>
+
+             <div className='inputzz'>   
  
             <div className='primeiro-input'>
                 <h1>ENDEREÇO DE EMAIL</h1>
@@ -84,6 +92,8 @@ export default function Cadastro() {
                 </div>
             </div>
 
+            </div>
+
             <div className='botao-cadastro'>
             <button onClick={entrarCadastro} >Continue</button>
             </div>
@@ -91,13 +101,16 @@ export default function Cadastro() {
             <div className='erro-cadastro'>{erro}</div>
 
             <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
-            <div className='botoes'>
+            <div className='botoess'>
                 <div className='facebook'>
-                <img src={Facebook} /> <button>connect With Facebook</button>
+                <img src={Facebook} /> <button>Connect With Facebook</button>
                 </div>
                 <div className='google'>
-                <img src={Google} /> <button>connect With Google</button>
+                <img src={Google} /> <button>Connect With Google</button>
                 </div>
+            </div>
+
+            </div>
             </div>
 
         </div>
