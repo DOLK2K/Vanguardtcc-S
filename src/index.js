@@ -20,6 +20,7 @@ import Lanternas from './pages/lanternas'
 import Luvas from './pages/luvas'
 import Profissional from './pages/profissional'
 import Mochilas from './pages/mochilas'
+import Saiba from './pages/saiba-mais';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
 
@@ -49,7 +50,7 @@ root.render(
       <Route path= '/luvas' element ={<Luvas/>} />
       <Route path= '/mochilas' element ={<Mochilas/>} />
       <Route path= '/profissional' element ={<Profissional/>} />
-     
+      <Route path='/saiba-mais' element = {<Saiba/>} />
 
 
 
