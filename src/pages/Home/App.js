@@ -302,7 +302,7 @@ function App() {
           <h1 >Quem somos</h1>
           <p>Somos apaixonados por fornecer os melhores equipamentos e soluções para aqueles que buscam aventuras sobrevivência e preparação tática.Nossa empresa nasceu do desejo de fornecer equipamentos de qualidade para pessoas que valorizam a segurança, a confiabilidade e excelência em todas as suas expêriencias ao ar livre. Com uma equipe especializada e dedicada, selecionamos cuidadosamente os melhores produtos de marcas renomadas, garantindo que voçê tenha acesso aos equipamentos mais avançados e funcionais do mercado. Seja voçê um aventureiro, um entusiasta de esportes ao ar livre ou um profissional em busca de equipamentos confiáveis, estamos aqui para atender suas necessidades e superar suas expectativas.Junte-se à nossa comunidade de exploradores e conte conosco para equipá-lo com tudo o que voçê precisa para enfrentar qualquer desafio com segurança.</p>
 
-          <button>Saiba mais</button>
+          <a href='/saiba'> <button >Saiba mais</button> </a>  
         </div>
       </div>
       <div className='infopess'>

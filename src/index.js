@@ -50,8 +50,8 @@ root.render(
       <Route path= '/luvas' element ={<Luvas/>} />
       <Route path= '/mochilas' element ={<Mochilas/>} />
       <Route path= '/profissional' element ={<Profissional/>} />
-      <Route path='/saiba-mais' element = {<Saiba/>} />
-
+      <Route path='/saiba' element = {<Saiba/>} />
+        
 
 
     </Routes>
