@@ -10,9 +10,7 @@ import LoadingBar from 'react-top-loading-bar'
 import {useNavigate} from 'react-router-dom'
 import { useState, useRef } from 'react'
 
-// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
-// nao usar padding desnecessariamente, com proporção muito alta
-// tem coisas q não está igual no figma, e não está alinhado direito
+
 
 export default function Login () {
     const [email, setemail] = useState('')
@@ -57,8 +55,10 @@ export default function Login () {
             <img src={Logo} />
             <hr />
         </div>
-
-        <div className='primeiro-input-login'>
+            <div className='centralizando'>
+            <div className='login11'>
+            <div className='login2'>
+            <div className='primeiro-input-login'>
             <img src={Email} />
                 <h1>ENDEREÇO DE EMAIL</h1>
                 <input type='text' placeholder='Digite seu e-mail'  value={email} onChange={e => setemail(e.target.value)}/>
@@ -66,7 +66,7 @@ export default function Login () {
 
             <div className='segundo-input-login'>
                 <h1>DIGITE SUA SENHA</h1>
-                <img src={Chave} />
+                <img src={Chave} alt=''/>
                 <input type='text' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
             </div>
             <div className='botaoooo'>
@@ -76,7 +76,10 @@ export default function Login () {
             <div className='erro'>
             {erro}
             </div>
-            <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Política de Privacidade </span>  </p>
+            
+
+            <div className='fim-bt'>
+
             <div className='botoes'>
                 <div className='facebook'>
                 <img src={Facebook} /> <button>Connect With Facebook</button>
@@ -84,6 +87,12 @@ export default function Login () {
                 <div className='google'>
                 <img src={Google} /> <button>Connect With Google</button>
                 </div>
+            </div>
+
+            </div>
+
+            </div>
+            </div>
             </div>
         
 

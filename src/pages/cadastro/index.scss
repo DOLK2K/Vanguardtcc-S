@@ -7,7 +7,9 @@
     display: flex;
     flex-direction: column;
     background-color:   #ffffff;
-    height: 100%;
+    height: 847px;
+    background-image: url('../../assets/images/Untitled\ \(1\).png');
+
     
 }
 
@@ -29,11 +31,23 @@
 
     
     
+.central{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
 
 
 .td-cadastro{
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: #ffffff; 
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    height: 455px;
+    width: 500px;
 }
 
 .logo {
@@ -51,20 +65,36 @@
 
 
 .inputzz{
-    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
     
 }
 
+.titulo-cd{
+    display: flex;
+    justify-content: center;
+}
+.titulo-cd h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.inputzz2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
 
 .primeiro-input {
     display: flex;
     flex-direction: column;
-    margin: 10px 200px 10px;
+    
 }
 
 .primeiro-input h1 {
-    font-size: 19px;
-    margin: 0px 0px 10px;
+    font-size: 13px;
+    margin: 0px 10px 0px;
 }
 
 section input {
@@ -75,38 +105,40 @@ section input {
     
 }
     .primeiro-input input {
-    width: 70%;
+    width: 94%;
     height: 40px;
     border-radius: 10px;
+    margin-left: 10px;
     
     }
 
     .primeiro-input input::placeholder {
-    padding: 45px;
+    padding: 10px;
     }
 
     .segundo-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px 10px;
+    
     }
 
     .segundo-input h1 {
-    font-size: 19px;
-    margin: 0px 0px 10px;
+    font-size: 13px;
+    margin: 4px 10px 10px;
     }
 
     .segundo-input input {
-    width: 70%;
+    width: 94%;
     height: 40px;
     border-radius: 10px;
+    margin-left: 10px;
     
     }
 
     .terceiro-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px 28px;
+    
     
     height: 40px;
      border-radius: 10px;
@@ -115,8 +147,9 @@ section input {
     
 
     .terceiro-input h1 {
-    font-size: 19px;
-    margin: 0px 0px 10px;
+        font-size: 13px;
+        margin: 0px 10px 10px;
+        
     }
 
 
@@ -130,7 +163,8 @@ section input {
     }
 
     .terceiro-input input {
-        width: 20%;
+        width: 100%;
+        width: 20px;
     }
 
     .elemento-input {
@@ -139,61 +173,64 @@ section input {
     align-items: center;
     }
 
-    .elemento-input input {
-    width: 70%;
+    .elemento-input input { 
     height: 40px;
     border-radius: 10px;
-    ;
+    margin-left: 10px;
+    width: 600px;
+    
     }
 
     .terceiro-input input::placeholder {
-    padding: 50px;
+    padding: 13px;
     }
 
     .quarto-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px 10px;
+    margin: 30px 00px 10px;
     }
 
     .quarto-input input::placeholder {
-        padding: 50px;
+        padding: 12px;
     }
 
     .quarto-input h1 {
-    font-size: 19px;
-    margin: 10px 0px 10px;
+        font-size: 13px;
+        margin: 0px 10px 10px;
     }
 
     .quarto-input input {
-    width: 70%;
+    width: 94%;
     height: 40px;
     border-radius: 10px;
+    margin-left: 10px;
     
     }
 
     .quinto-input input::placeholder {
-        padding: 50px;
+        padding: 13px;
     }
 
     .quinto-input {
     display: flex;
     flex-direction: column;
-    margin: 30px 70px 10px;
+    
     }
 
     .quinto-input h1 {
-    font-size: 19px;
-    margin: 0px 130px 10px;
+        font-size: 13px;
+        margin: 0px 10px 10px;
+   
 
     }
 
 
     .ele  .input {
-    width: 51.5%;
+    width: 94%;
     height: 40px;
     border-radius: 10px;
-    margin-left: 130px;
+    margin-left: 10px;
     
     }
 
@@ -206,33 +243,42 @@ section input {
     display: flex;
     align-items: center !important;
     justify-content: center !important; 
-
+    font-size: 20px;
 }
+
 
 .botao-cadastro button {
     background-color: #0B1B45 !important;
     border: none;
+    font-size: 17px;
     border-radius: 5px;
-    width: 34% !important;
+    width: 20% !important;
     cursor: pointer;
+    height: 50px;
     border-radius: 5px;
 }
+
+.botao-cadastro button:hover{
+    transition: 0.4s;
+    color: #09c3bd;
+}
+
 .texto {
-    margin-top: 30px;
+    margin-top: 5px;
     
-    font-size: 23px;
+    font-size: 19px;
     text-align: center;
 }
 
 span{
     color: #0185FF;
+    
 }
 
 .botoess {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .botoess img {
@@ -256,17 +302,25 @@ span{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px;
+    
 }
 
 .facebook button {
-    width: 360px;
+    width: 300px;
     height: 60px;
-    color: #0A32A6;
+    color: #ffffff;
+    border-radius: 10px;
     font-size: 18px;
-    background-color: #D9D9D9;
+    background-color: #399fae;
     border: none;
+    cursor: pointer;
 }
+
+.facebook button:hover{
+    transition: 0.3s;
+    color: #1944ae;
+}
+
 .google {
     display: flex;
     flex-direction: row;
@@ -274,10 +328,17 @@ span{
 }
 
 .google button {
-    width: 360px;
+    width: 300px;
     height: 60px;
-    color: #0A32A6;
+    color: #0d6cb9;
     font-size: 18px;
-    background-color: #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
     border: none;
+}
+
+.google button:hover{
+    transition: 0.3s;
+    color: #f51432;
 }

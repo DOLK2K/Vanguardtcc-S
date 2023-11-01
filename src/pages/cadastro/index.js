@@ -9,9 +9,6 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 
-// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
-// nao usar padding desnecessariamente, com proporção muito alta
-// tem coisas q não está igual no figma, e não está alinhado direito
 export default function Cadastro() {
     const [email, setEmail] = useState('')
     const[telefone, setTelefone] = useState('')
@@ -59,34 +56,41 @@ export default function Cadastro() {
             <hr />
         </div>
         <div className='faixaz'>
+            <div className='central'>
             <div className='td-cadastro'>
 
              <div className='inputzz'>   
+
+             <div className='titulo-cd'>
+                <h1>Cadastre-se Conosco</h1>
+             </div>
+
+             <div className='inputzz2'>
  
             <div className='primeiro-input'>
-                <h1>ENDEREÇO DE EMAIL</h1>
+                <h1>ENDEREÇO DE EMAIL:</h1>
                 <input type='text' placeholder='Digite seu e-mail' value={email} onChange={e => setEmail (e.target.value)} />
             </div>
 
             <div className='segundo-input'>
-                <h1>NÚMERO DE TELEFONE</h1>
+                <h1>NÚMERO DE TELEFONE:</h1>
                 <input type='number' placeholder='Digite seu numero de telefone' value={telefone} onChange={e => setTelefone (e.target.value)} />
             </div>
 
             <div className='terceiro-input'>
-                <h1>CRIE SUA SENHA</h1>
+                <h1>CRIE SUA SENHA:</h1>
                 <div className='elemento-input'>
                     <input type='password' placeholder='Insira sua senha' value={senha} onChange={e => setSenha (e.target.value)} />  <img src={Olho} />
                 </div>
             </div>
 
             <div className='quarto-input'>
-                <h1>CONFIRME SUA SENHA</h1>
+                <h1>CONFIRME SUA SENHA:</h1>
                 <input type='password' placeholder='Confirme sua senha' value={Confirme} onChange={e => setConfirme(e.target.value)} />
             </div>
 
             <div className='quinto-input'>
-                <h1>NOME COMPLETO</h1>
+                <h1>NOME COMPLETO:</h1>
                 <div className='ele'>
                     <input className='input' type='text' placeholder='Nome e Sobrenome' value={nomecompleto} onChange={e => setNomecompleto(e.target.value)} />
                 </div>
@@ -94,25 +98,30 @@ export default function Cadastro() {
 
             </div>
 
+            </div>
+            </div>
+            </div>
+
             <div className='botao-cadastro'>
-            <button onClick={entrarCadastro} >Continue</button>
+            <button onClick={entrarCadastro} >Cadastrar</button>
             </div>
 
             <div className='erro-cadastro'>{erro}</div>
 
-            <p className='texto'>Ao me inscrever, aceito os <span> Termos de Serviços </span> & <span> Poolítica de Privacidade </span>  </p>
+            <p className='texto'>Ao me cadastrar, aceito os <span> Termos de Serviços </span> & <span> Política de Privacidade </span>  </p>
             <div className='botoess'>
                 <div className='facebook'>
-                <img src={Facebook} /> <button>Connect With Facebook</button>
+                <img src={Facebook} /> <button>Entrar com Facebook</button>
                 </div>
                 <div className='google'>
-                <img src={Google} /> <button>Connect With Google</button>
+                <img src={Google} /> <button>Entrar com Google</button>
                 </div>
             </div>
 
+            
+            
             </div>
-            </div>
-
         </div>
     )
 }
+
