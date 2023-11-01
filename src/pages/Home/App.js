@@ -1,37 +1,36 @@
-import icone from '../../assets/images/LogoCabeçalho.png'
-import Lupa from '../../assets/images/Frame.png'
-import Carro from '../../assets/images/Untitled.png'
-import Barra from '../../assets/images/Untitled (2).png'
-import Seta from '../../assets/images/Untitled (3).png'
-import Calçados from '../../assets/images/acessórios.png'
-import Mochila from '../../assets/images/mochila1.png'
-import Acessório from '../../assets/images/acess.png'
-import Pro from '../../assets/images/profissional.png'
-import Mochilaa from '../../assets/images/mochilaa.png'
-import Lanterna from '../../assets/images/lanternaaa.png'
-import Jaqueta from '../../assets/images/jaqueta3.png'
-import Sapato from '../../assets/images/Untitled (4).png'
-import Garrafa from '../../assets/images/a.png'
-import Bolsa from '../../assets/images/Untitled (5).png'
-import Luva from '../../assets/images/Untitled (6).png'
-import Bolsaaa from '../../assets/images/image 16.png'
-import fundo4 from '../../assets/images/Rectangle 4.png'
+import icone from '../../assets/images/LogoCabeçalho.png';
+import Lupa from '../../assets/images/Frame.png';
+import Carro from '../../assets/images/Untitled.png';
+import Barra from '../../assets/images/Untitled (2).png';
+import Seta from '../../assets/images/Untitled (3).png';
+import Calçados from '../../assets/images/acessórios.png';
+import Mochila from '../../assets/images/mochila1.png';
+import Acessório from '../../assets/images/acess.png';
+import Pro from '../../assets/images/profissional.png';
+import Mochilaa from '../../assets/images/mochilaa.png';
+import Lanterna from '../../assets/images/lanternaaa.png';
+import Jaqueta from '../../assets/images/jaqueta3.png';
+import Sapato from '../../assets/images/Untitled (4).png';
+import Garrafa from '../../assets/images/a.png';
+import Bolsa from '../../assets/images/Untitled (5).png';
+import Luva from '../../assets/images/Untitled (6).png';
+import Bolsaaa from '../../assets/images/image 16.png';
+import fundo4 from '../../assets/images/Rectangle 4.png';
 import cartao from '../../assets/images/cartao.png';
 import caminhao from '../../assets/images/caminhao.png';
 import troca from '../../assets/images/troca.png';
 import pagar from '../../assets/images/pagar.png';
-import vanguard from '../../assets/images/vanguard.png'
-import correio from '../../assets/images/correio.png'
-import face from '../../assets/images/facebook.png'
-import twitter from '../../assets/images/twitter.png'
-import insta from '../../assets/images/insta.png'
-import youtube from '../../assets/images/youtube.png'
-import Formapag from '../../assets/images/bandeirascartoes.png'
-import Cinza from '../../assets/images/cinzamedio.png'
-import './index.scss'
-import { useState } from 'react'
-import axios from 'axios'
-import { Link } from 'react-router-dom'
+import vanguard from '../../assets/images/vanguard.png';
+import correio from '../../assets/images/correio.png';
+import face from '../../assets/images/facebook.png';
+import twitter from '../../assets/images/twitter.png';
+import insta from '../../assets/images/insta.png';
+import youtube from '../../assets/images/youtube.png';
+import Formapag from '../../assets/images/bandeirascartoes.png';
+import './index.scss';
+import { useState } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 
