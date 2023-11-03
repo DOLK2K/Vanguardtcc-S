@@ -21,6 +21,7 @@ import Luvas from './pages/luvas'
 import Profissional from './pages/profissional'
 import Mochilas from './pages/mochilas'
 import Saiba from './pages/saiba-mais';
+import Notfound from './pages/notFound/pagina';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
 
@@ -51,6 +52,7 @@ root.render(
       <Route path= '/mochilas' element ={<Mochilas/>} />
       <Route path= '/profissional' element ={<Profissional/>} />
       <Route path='/saiba' element = {<Saiba/>} />
+      <Route path='*' element = {<Notfound/>} />
         
 
 
