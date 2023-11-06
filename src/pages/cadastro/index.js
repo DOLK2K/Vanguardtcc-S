@@ -17,12 +17,11 @@ export default function Cadastro() {
     const[nomecompleto, setNomecompleto] = useState('')
     const [erro, setErro] = useState('')
 
-    ///daqwdqwdw
     const navigate = useNavigate()
 
     async function entrarCadastro () {
         try {
-            const api = await axios.post('http://localhost:5000/usuario', {
+            const api = await axios.post('http://localhost:5015/usuario', {
                 email: email,
                 telefone:telefone,
                 senha:senha,

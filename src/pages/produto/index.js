@@ -1,9 +1,8 @@
 import Carrinho from '../../assets/images/image 74.png'
 import Calça from '../../assets/images/image 73.png'
 import icone from '../../assets/images/LogoCabeçalho.png'
-
+import Cabecalho from '../renderizacao'
 import './index.scss'
-
 
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
 // nao usar padding desnecessariamente, com proporção muito alta
@@ -11,8 +10,9 @@ import './index.scss'
 export default function  Produto() {
     return(
         <div>
-            
- 
+
+        {/* <Cabecalho />     */}
+        
     <div className='funndo'>
         <div className='cabecalho11'>
           <img src={icone} />
