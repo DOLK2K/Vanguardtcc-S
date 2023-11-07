@@ -1,10 +1,17 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
 
 .login {
     
     
     background-color: #fafafa;
-    height: 848px;
+    height: 917px;
     background-image: url('../../assets/images/Untitled\ \(1\).png');
     
 }
@@ -18,6 +25,16 @@
 .login-elemento a {
     font-size: 26.1px;
     color: black;
+    margin-left: 10px;
+}
+
+.login-elemento img{
+    margin-left: 10px;
+}
+
+
+.logo img{
+    height: 70px;
 }
 
 .login img{
@@ -28,65 +45,89 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 
 .login11{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     height: 350px;
-    width: 550px;
+    width: 450px;
+    border-radius: 10px;
     background-color: #fafafa;
 }
+
 
 .login2{
      
 
-    
-
 }
 
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.log h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .primeiro-input-login {
     display:flex;
     flex-direction: column;
-    margin-left: 24%;
+    margin-left: 20%;
 }
 .primeiro-input-login img {
     position: relative;
-    top: 84px;
+    top: 87px;
     left: 12px;
     height: 30px;
     width: 30px;
 }
 
 .primeiro-input-login h1 {
-    margin-bottom: 2%;
+    margin-bottom: 7%;  
+    font-size: 17px;
 }
 .primeiro-input-login input{
-    padding-left: 5%;
+    padding-left: 10%;
     margin-bottom: 5%;
     width: 70%;
+    border-radius: 5px;
+}
+
+.text h1{
+    padding-left: 20px;
 }
 
 .segundo-input-login {
     display: flex;
     flex-direction: column;
-    margin-left: 24%;
+    margin-left: 20%;
 }
 
 .segundo-input-login img {
     position: relative;
-    top: 38px;
+    top: 35px;
     left: 12px;
-    height: 30px;
-    width: 30px;
+    height: 27px;
+    width: 29px;
 }
 
+.segundo-input-login h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
 .segundo-input-login input {
-    padding-left: 5%;
+    padding-left: 10%;
     width: 70%;
+    border-radius: 5px;
 }
 
 .botaoooo {
@@ -102,8 +143,9 @@
         border-radius: 5px;
         width: 20% !important;
         cursor: pointer;
-        height: 50px;
-        border-radius: 4px;
+        height: 40px;
+        border-radius: 6px;
+        margin-top: 0px;
     }
 
     .botaoooo button:hover{
@@ -127,6 +169,7 @@
 .fim-bt{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .botoes{
@@ -134,4 +177,47 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+}
+
+.botoes img{
+    position: relative;
+    left: 0px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.faceebook button{
+    width: 250px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #399fae;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 13px;
+}
+
+.faceebook button:hover{
+    transition: 0.3s;
+    color: #1944ae;
+}
+
+
+.googgle button{
+    width: 250px;
+    height: 60px;
+    color: #0d6cb9;
+    padding-bottom: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+}
+
+.googgle button:hover{
+    transition: 0.3s;
+    color: #f51432;
 }

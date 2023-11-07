@@ -9,6 +9,7 @@ import './index.scss'
 import LoadingBar from 'react-top-loading-bar'
 import {useNavigate} from 'react-router-dom'
 import { useState, useRef } from 'react'
+import Volar from '../../assets/images/voltar.png'
 
 
 
@@ -47,7 +48,7 @@ export default function Login () {
         <div className='login'>
             <LoadingBar ref={ref} />
             <div className='login-elemento'>
-            <img src={Simbolo} />
+            <img src={Volar} />
             <a href='/'>Inicio</a>
         </div>
         <div className='td-login'>
@@ -57,15 +58,21 @@ export default function Login () {
         </div>
             <div className='centralizando'>
             <div className='login11'>
+
             <div className='login2'>
+
+            <div className='log'>
+                <h1>Faça seu Login</h1>
+            </div>
+
             <div className='primeiro-input-login'>
             <img src={Email} />
-                <h1>ENDEREÇO DE EMAIL</h1>
+                <h1>ENDEREÇO DE EMAIL:</h1>
                 <input type='text' placeholder='Digite seu e-mail'  value={email} onChange={e => setemail(e.target.value)}/>
             </div>
 
             <div className='segundo-input-login'>
-                <h1>DIGITE SUA SENHA</h1>
+                <h1>DIGITE SUA SENHA:</h1>
                 <img src={Chave} alt=''/>
                 <input type='text' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
             </div>
@@ -81,11 +88,11 @@ export default function Login () {
             <div className='fim-bt'>
 
             <div className='botoes'>
-                <div className='facebook'>
-                <img src={Facebook} /> <button>Connect With Facebook</button>
+                <div className='faceebook'>
+                 <button> <img src={Facebook} />Entrar Com Facebook</button>
                 </div>
-                <div className='google'>
-                <img src={Google} /> <button>Connect With Google</button>
+                <div className='googgle'>
+                <button> <img src={Google} />Entrar Com Google</button>
                 </div>
             </div>
 
