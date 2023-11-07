@@ -110,6 +110,12 @@
    padding: 20px;
 }
 
+.lista span:hover{
+    transition: 0.3s;
+    color: rgb(0, 121, 168);
+
+}
+
 .dropdown-menu {
     opacity: 0;
     transition: opacity 0.5s ease ;
