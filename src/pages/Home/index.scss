@@ -113,6 +113,7 @@
 .lista span:hover{
     transition: 0.3s;
     color: rgb(0, 121, 168);
+    transition:  0.5s ease;
 
 }
 
@@ -759,8 +760,9 @@
 }
 
 .cabecario h3:hover{
+    
     transition: 0.4s;
-    color: rgb(1, 117, 212);
+    color: rgb(86, 134, 138);
 }
 
 .cabecario h4{
@@ -771,7 +773,7 @@
 
 .cabecario h4:hover{
     transition: 0.4s;
-    color: rgb(1, 117, 212);
+    color: rgb(86, 134, 138);
 }
 
 .cabecario h5{
@@ -783,7 +785,7 @@
 
 .cabecario h5:hover{
     transition: 0.4s;
-    color: rgb(1, 117, 212);
+    color: rgb(86, 134, 138);
 }
 
 .cabecario h6{
@@ -796,7 +798,7 @@
 
 .cabecario h6:hover{
     transition: 0.4s;
-    color: rgb(1, 117, 212);
+    color: rgb(86, 134, 138);
 }
 
 
@@ -880,6 +882,3 @@ padding: 20px;
 
 
 
-// nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
-// nao usar padding desnecessariamente, com proporção muito alta
-// tem coisas q não está igual no figma, e não está alinhado direito
