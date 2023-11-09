@@ -52,10 +52,14 @@ export default function Login () {
             <a href='/'>Inicio</a>
         </div>
         <div className='td-login'>
-        <div className='logo'>
+            <div className='logoas1'>
+        <div className='logoas'>
             <img src={Logo} />
+            </div>
+            
+            </div>
             <hr />
-        </div>
+        
             <div className='centralizando'>
             <div className='login11'>
 

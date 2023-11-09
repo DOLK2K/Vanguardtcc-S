@@ -115,7 +115,7 @@ function App() {
                   </ul>
                 </li>
                 <Link to="/destaques">
-                  <span>Vestuario</span>
+                  <a>Vestuario</a>
                 </Link>
                 <Link to="/mochilas">
                   <span>Mochilas</span>

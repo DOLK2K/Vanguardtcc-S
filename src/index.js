@@ -11,7 +11,6 @@ import Pedidos from './pages/pedidos'
 import Compra from './pages/compra'
 import Destaques from './pages/destaques'
 import Pagamento from './pages/pagamento';
-import Resumo from './pages/resumo';
 import Admdetalhes from './pages/admdetalhes'
 import Acessórios from './pages/acessórios'
 import Calçados from './pages/calçados'
@@ -41,7 +40,6 @@ root.render(
       <Route path= '/compra' element = {<Compra/>} />
       <Route path= '/destaques' element = {<Destaques/>} />
       <Route path='/pagamento' element ={<Pagamento/>} />
-      <Route path='/resumo' element ={<Resumo/>} />
       <Route path='/admdetalhes' element ={<Admdetalhes/>} />
       <Route path='/meuspedidos' element ={<Meuspedidos/>} />
       <Route path= '/acessórios' element ={<Acessórios/>} />
