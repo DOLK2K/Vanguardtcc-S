@@ -49,15 +49,17 @@ export default function Pagamento(){
             </div> 
             </div>
 
-            <div className='resu'>
-                <h1>Pagamento</h1>
-            </div>
+            
 
             <div className='engloba'>
-                <div className='osdois'>
+                <div className='pg'>
+                    <h1>Pagamento</h1>
+                    <h3>Resumo do Pedido</h3>
+                </div>
+                <div className='osdois'>                  
                     <div className='pagarrr'>
                         <div className='titlezin'>
-                        <h1>Forma de Pagamento:</h1>                     
+                        <h1>Formas de Pagamento:</h1>                     
                         </div>
 
                         <div className='cartao'>
@@ -78,7 +80,7 @@ export default function Pagamento(){
                             <div className='eles'>
                             <div className='imagemprd'>
                                 <img src={Incolor} />   
-                                <h1>Nome do Produto:</h1>                                                    
+                                <h1>Nome:</h1>                                                    
                             </div>
 
                             <div className='dtl'>
@@ -86,8 +88,10 @@ export default function Pagamento(){
                                 <h3>Chegada do Produto:</h3>
                             </div>
 
+                            <div className='divbt'>
                             <div className='botaoqtd'>
                                 <button>QUANTIDADE</button>
+                            </div>
                             </div>
                             </div>
 
@@ -96,9 +100,15 @@ export default function Pagamento(){
                         </div>
                                                                                                                           
                 </div>
+                        <div className='btpag'>
+                        <div className='confirme'>
+                            <button>Deletar Pedido</button>
+                        </div>
 
-                <div className='confirme'>
+                        <div className='confirme2'>
                             <button>Finalizar Compra</button>
+                        </div>
+
                         </div>
 
                 
