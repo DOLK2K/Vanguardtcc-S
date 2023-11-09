@@ -18,8 +18,10 @@ export default function Produtoo() {
     const [precoproduto, setPrecoproduto] = useState(0)
     const [frete, setFrete] = useState(0);
     const [total, setTotal] = useState(0)
+    
 
     
+  
 
     function EscolherImagem() {
         document.getElementById('arquivo').click()
@@ -109,7 +111,11 @@ export default function Produtoo() {
 
 
             </div>
+
+           
             <hr id='hr' />
+
+
 
             <div className='parte-do-preco'>
                 <div>

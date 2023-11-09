@@ -21,7 +21,7 @@ export default function Cadastro() {
 
     async function entrarCadastro () {
         try {
-            const api = await axios.post('http://localhost:5015/usuario', {
+            const api = await axios.post('http://localhost:5000/usuario', {
                 email: email,
                 telefone:telefone,
                 senha:senha,
