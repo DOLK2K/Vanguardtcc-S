@@ -20,6 +20,7 @@ import historico from '../../assets/images/historico.png'
 
 import './index.scss';
 import React,{ useState } from 'react'
+import Cabecalho from '../renderizacao'
 
 
 export default function Destaques() {
@@ -31,38 +32,8 @@ export default function Destaques() {
     return (  
   <div className='globamentoz'>
   <div className="Appz">
-        <div className='parte-inicial1z'>
-        <div className='cabecalho1z'>
-          <img src={icone} />
-          <div className='alinhamento2z'>
-          <img id='Lupa' src={Lupa} alt='Lupa'  />  <input type='text' placeholder='Pesquisar...'  />
-          </div>
-          <div className='linksz'>
-          <a href=''>Fale conosco</a>
-          <a href='/loginz' >Entrar</a>
-          <a href='/cadastroz'>Cadastrar</a>
-          </div>
-          <img src={Carro} />
-          
-          </div> 
-  
-          <div className='cabecalho22z'>
-            <img src={Barra} />
-            <p>Todas as Categorias</p>
-            <img src={Seta} />
-  
-            <div className='lista1z'>
-            <a id='Vestuarioz'>Vestuario</a>
-            <a>Mochilas</a>
-            <a>Calçados</a>
-            <a>Profissional</a>
-            <a>Acessórios</a>
-            </div>  
-
-            </div> 
-
-    </div> 
-
+        <Cabecalho /> 
+        
             
 
             

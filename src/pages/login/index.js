@@ -26,7 +26,7 @@ export default function Login () {
 
     try {
         
-        const r = await axios.post('http://localhost:5015/usuario/login', {
+        const r = await axios.post('http://localhost:5000/usuario/login', {
             email: email, 
             senha: senha 
          });
@@ -71,12 +71,12 @@ export default function Login () {
 
             <div className='primeiro-input-login'>
             <img src={Email} />
-                <h1>ENDEREÇO DE EMAIL:</h1>
+                <h1>Endereço de Email:</h1>
                 <input type='text' placeholder='Digite seu e-mail'  value={email} onChange={e => setemail(e.target.value)}/>
             </div>
 
             <div className='segundo-input-login'>
-                <h1>DIGITE SUA SENHA:</h1>
+                <h1>Digite sua Senha:</h1>
                 <img src={Chave} alt=''/>
                 <input type='text' placeholder='Digite sua senha' value={senha} onChange={e => setsenha(e.target.value)} />
             </div>

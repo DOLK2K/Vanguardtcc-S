@@ -84,7 +84,7 @@ function App() {
     <div className="App">
       <div className='parte-inicial'>
         <div className='cabecalho'>
-          <img src={icone} />
+          <a href='/'> <img src={icone} /> </a> 
           <div className='alinhamento'>
             <img id='Lupa' src={Lupa} alt='Lupa' />  <input type='text' placeholder='Pesquisar...' />
           </div>
@@ -114,19 +114,19 @@ function App() {
                     <li>Boné</li>
                   </ul>
                 </li>
-                <Link to="/destaques">
+                <Link style={{textDecoration:"none"}} to="/destaques">
                   <a>Vestuario</a>
                 </Link>
-                <Link to="/mochilas">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/mochilas">
                   <span>Mochilas</span>
                 </Link>
-                <Link to="/Calçados">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/Calçados">
                   <span>Calçados</span>
                 </Link>
-                <Link to="/Profissional">
+                <Link  id='linha-redirecionada'style={{textDecoration:"none"}} to="/Profissional">
                   <span>Profissional</span>
                 </Link>
-                <Link to="/Acessórios">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/Acessórios">
                   <span>Acessórios</span>
                 </Link>
 

@@ -83,7 +83,6 @@
 }
 
 #vestuario-home {
-    margin-left: 400px;
     color: #ffff;
 }
 
@@ -93,8 +92,13 @@
     text-decoration: none;
   }
   
-  .lista li {
-    
+  #linha-redirecionada a {
+    color: #ffff;
+
+  }
+
+  #linha-redirecionada a:hover {
+    text-decoration: underline;
   }
 
   .lista span{
@@ -111,12 +115,7 @@
    padding: 20px;
 }
 
-.lista span:hover{
-    transition: 0.3s;
-    color: rgb(0, 121, 168);
-    transition:  0.5s ease;
 
-}
 
 .dropdown-menu {
     opacity: 0;
@@ -131,20 +130,12 @@
 .lista .dropdown:hover .dropdown-menu {
     display: block;
      
-}
+ }
 
-
-  .lista .dropdown-menu li a {
+ .lista .dropdown-menu li a {
     color: #000;
   }
  
-  
-  
-  
-  .lista a:hover {
-    text-decoration: underline;
-  }
-  
 
 .Centro{
     display: flex;

@@ -11,7 +11,7 @@ export default function Cabecalho () {
         
       <main id='fixed'>
         <div className='cabecalho'>
-          <img src={icone} />
+          <a href='/'> <img src={icone} /> </a> 
           <div className='alinhamento'>
             <img id='Lupa' src={Lupa} alt='Lupa' />  <input type='text' placeholder='Pesquisar...' />
           </div>
@@ -41,19 +41,19 @@ export default function Cabecalho () {
                     <li>Boné</li>
                   </ul>
                 </li>
-                <Link to="/destaques">
-                  <span>Vestuario</span>
+                <Link style={{textDecoration:"none"}} to="/destaques">
+                  <a>Vestuario</a>
                 </Link>
-                <Link to="/mochilas">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/mochilas">
                   <span>Mochilas</span>
                 </Link>
-                <Link to="/Calçados">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/Calçados">
                   <span>Calçados</span>
                 </Link>
-                <Link to="/Profissional">
+                <Link  id='linha-redirecionada'style={{textDecoration:"none"}} to="/Profissional">
                   <span>Profissional</span>
                 </Link>
-                <Link to="/Acessórios">
+                <Link id='linha-redirecionada' style={{textDecoration:"none"}} to="/Acessórios">
                   <span>Acessórios</span>
                 </Link>
 
@@ -61,7 +61,7 @@ export default function Cabecalho () {
             </nav>
 
           </div>
-        </div>
+          </div>
       </main>
         
     )
