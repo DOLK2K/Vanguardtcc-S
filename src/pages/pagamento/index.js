@@ -10,6 +10,8 @@ import Carne from '../../assets/images/carne.png'
 import Banqi from '../../assets/images/banqi.png'
 import gift from '../../assets/images/cartaopresente.png'
 import Incolor from '../../assets/images/fundotemporario.png'
+import Somar from '../../assets/images/Somar.png'
+import Menor from '../../assets/images/menor.png'
 
 import './index.scss'
 
@@ -72,9 +74,26 @@ export default function Pagamento(){
                         <img src={Pix}/>
                         <h1>PIX</h1>
                             
-                        </div>                                                                                  
+                        </div>      
 
+                        <div className='btpag'>
+                        <div className='confirme'>
+                            <button>Deletar Pedido</button>
+                        </div>
+
+                        <div className='confirme2'>
+                            <button>Finalizar Compra</button>
+                        </div>
+                                                       
+                         </div>                  
+                                                                                                   
                     </div>
+
+                    
+
+                    
+
+                    
 
                         <div className='resumo1'>
                             <div className='eles'>
@@ -92,6 +111,24 @@ export default function Pagamento(){
                             <div className='botaoqtd'>
                                 <button>QUANTIDADE</button>
                             </div>
+
+                            <div className='globadiv'>
+                            <div className='divqtd'>
+                                <div className='qtd2'>
+                                    <img src= {Somar}></img>
+                                    <input></input>
+                                    <img src= {Menor}></img>
+                                    
+
+                                </div>
+                                </div> 
+
+                        </div>
+                            </div>
+
+
+                               
+
                             </div>
                             </div>
 
@@ -100,21 +137,8 @@ export default function Pagamento(){
                         </div>
                                                                                                                           
                 </div>
-                        <div className='btpag'>
-                        <div className='confirme'>
-                            <button>Deletar Pedido</button>
-                        </div>
-
-                        <div className='confirme2'>
-                            <button>Finalizar Compra</button>
-                        </div>
-
-                        </div>
-
-                
                         
 
-            </div>
         </div>
         </div>
     )
