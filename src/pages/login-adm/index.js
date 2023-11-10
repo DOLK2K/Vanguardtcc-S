@@ -22,7 +22,7 @@ export default function Loginadm() {
                 email2: email,
                 senha2: senha
             })
-
+            
             navigate('/add')
         }catch(err){
             if(err.response.status === 401) {
