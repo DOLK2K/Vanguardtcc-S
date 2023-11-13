@@ -3,15 +3,12 @@ import Lupa from '../../assets/images/Frame.png'
 import Carro from '../../assets/images/Untitled.png'
 import Barra from '../../assets/images/Untitled (2).png'
 import Seta from '../../assets/images/Untitled (3).png'
-import Cartao2 from '../../assets/images/cartao2.png'
+import Cartaorico from '../../assets/images/cartaorico.png'
 import Pix from '../../assets/images/pix.png'
-import Boleto from '../../assets/images/boleto.png'
-import Carne from '../../assets/images/carne.png'
-import Banqi from '../../assets/images/banqi.png'
-import gift from '../../assets/images/cartaopresente.png'
 import Incolor from '../../assets/images/fundotemporario.png'
 import Somar from '../../assets/images/Somar.png'
 import Menor from '../../assets/images/menor.png'
+import Linha from '../../assets/images/linha.png'
 
 import './index.scss'
 
@@ -65,14 +62,14 @@ export default function Pagamento(){
                         </div>
 
                         <div className='cartao'>
-                            <img src={Cartao2}/>
+                            <img src={Cartaorico}/>
                             <h1>Cartao de Credito</h1>
 
                         </div>
 
                         <div className='pix'>
-                        <img src={Pix}/>
-                        <h1>PIX</h1>
+                            <img src={Pix}/>
+                            <h1>PIX</h1>
                             
                         </div>      
 
@@ -125,15 +122,39 @@ export default function Pagamento(){
 
                         </div>
                             </div>
-
-
-                               
-
+                              
                             </div>
+
+
+
                             </div>
 
                             
                         
+                        </div>
+
+                        <div className='pr1'>
+                                <img src= {Linha}></img>                          
+                        </div>
+
+                        <div className='pr2'>
+                            <h1>01 Produto:</h1>
+                        </div>
+
+                        <div className='pr3'>
+                            <h1>Entrega:</h1>
+
+                            <h3>Undefined</h3>
+                            
+                        </div>
+
+                        <div className='line1'>
+                        <img src= {Linha}></img>
+                        </div>
+
+                        <div className='pr4'>
+                            <h1>Total:</h1>
+                            <h3>Undefined</h3>
                         </div>
                                                                                                                           
                 </div>

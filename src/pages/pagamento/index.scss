@@ -51,7 +51,7 @@
     margin-left: 50px;
     border:solid;
     border-radius: 5px;
-    width: 570px;
+    width: 547px;
     height: 230px;
     border-color: rgb(3, 22, 27)
 
@@ -73,19 +73,19 @@
     border-radius: 7px;
     background-color: rgb(219, 219, 219);
     width: 500px;
-    height: 50px;
+    height: 90px;
 }
 
 .cartao img{ 
-    margin-top: 16px;
-    margin-left: 25px;
-    height:22px;
-    width:30px;
+    margin-top: 2px;
+    margin-left: 20px;
+    height:40px;
+    width:40px;
 }
 
 .cartao h1{
     font-size: 17px;
-    padding-top: 17px;
+    padding-top: 14px;
     padding-left: 13px;
 }
 
@@ -93,23 +93,23 @@
     display: flex;
     flex-direction: row;
     background-color: rgb(219, 219, 219);
-    margin-top: 15px;
+    margin-top: 2pc;
     margin-left: 10px;
     border-radius: 7px;
     width: 500px;
-    height: 49px;
+    height: 55px;
 }
 
 .pix img{
     margin-left: 22px;
-    margin-top: 8px;
-    height:35px ;
+    margin-top: 3px;
+    height:40px ;
     width:35px ;
 }
 
 .pix h1{
     font-size: 17px;
-    padding-top: 15px;
+    padding-top: 14px;
     padding-left: 15px;
 }
 
@@ -159,7 +159,7 @@
 }
 
 .dtl h3{
-    padding-top: 2px;
+    padding-top: 29px;
     font-size: 16px;
 }
 
@@ -202,12 +202,12 @@
     display: flex;
     flex-direction: row;
     
-    margin-top: 90px;
+    margin-top: 250px;
 }
 
 
 .confirme button{
-    margin-left: 50px;
+    margin-left: 10px;
     width: 230px;
     border: none;
     height: 50px;
@@ -256,6 +256,61 @@
 }
 
 
+.pr1{
+    display: flex;
+    justify-content: end;
+    margin-right: 7pc;
+}
+
+.pr1 img{
+    height: 30px;
+    width: 400px;
+}
 
 
+.pr2{
+    display: flex;
+    justify-content: center;
+    margin-left: 25pc;
+    
+}
+
+.pr3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 38pc;
+    
+}
+
+.pr3 h3{
+    margin-top: 7px;
+    font-size: 15px;
+    margin-left: 10pc;
+}
+
+.pr4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 38pc
+    
+}
+
+.pr4 h3{
+    margin-top: 7px;
+    font-size: 15px;
+    margin-left: 12pc;
+}
+
+.line1{
+    display: flex;
+    justify-content: end;
+    margin-right: 7pc;
+}
+
+.line1 img{
+    height: 30px;
+    width: 400px;
+}
 
