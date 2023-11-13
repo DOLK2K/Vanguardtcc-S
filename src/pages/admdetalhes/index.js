@@ -17,14 +17,27 @@ import dados from '../../assets/images/dadoscliente.png'
 import avaliacao from '../../assets/images/avaliacao.png'
 import historico from '../../assets/images/historico.png'
 import caveira from '../../assets/images/Leonardo_Diffusion_XL_faa_uma_logo_tatical_com_um_pouco_de_opa_3.jpg'
-
+import Storage from 'local-storage'
 import './index.scss';
-import React,{ useState } from 'react'
+import React,{ useEffect, useState } from 'react'
 import Cabecalho from '../renderizacao'
 import { useNavigate, Link } from 'react-router-dom'
 
 export default function Destaques() {
 
+  const navigate = useNavigate()
+
+
+  function SairClick () {
+    Storage.remove('usuario-logado')
+    navigate('/adm')
+  }
+
+  useEffect(() => {
+    if(!Storage('usuario-logado')) {
+      navigate('/adm')
+    }
+  }, [])
 
     return (  
   <div className='globamentoz'>
@@ -63,7 +76,10 @@ export default function Destaques() {
                   <a id='detcoonta'>Detalhes da conta</a>
                   </Link>
                   <hr />
-                  
+                  <Link id='sair-usuario' to=''>
+                  <a  onClick={SairClick}>Sair</a>
+                  <hr />
+                  </Link>
                 </div>
 
                 <div className='objetossz'>

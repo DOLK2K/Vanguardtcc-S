@@ -1,7 +1,7 @@
 import Simbolo from '../../assets/images/simbolo-esquerdo.png'
 import './index.scss'
 import { useNavigate } from 'react-router-dom'
-
+import Storage from 'local-storage'
 
 import { useState } from 'react'
 import axios from 'axios'
@@ -18,12 +18,12 @@ export default function Loginadm() {
         
         
         try {
-            const apiadmin = await axios.post  ('http://localhost:5015/administrador', {
+            const apiadmin = await axios.post  ('http://localhost:5000/administrador', {
                 email2: email,
                 senha2: senha
             })
-            
-            navigate('/add')
+            Storage('usuario-logado' , apiadmin) 
+            navigate('/admdetalhes')
         }catch(err){
             if(err.response.status === 401) {
                 seterro(err.response.data.erro)
@@ -44,7 +44,7 @@ export default function Loginadm() {
         <div className="principal">
             <h1>AREA RESTRITA</h1>
 
-            <div className='login'>
+            <div className='loginn'>
             <p>Login</p>
             <input type="text" value={email} onChange={e => setemail(e.target.value)} />
             </div>

@@ -1,41 +1,51 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
 
 .elemento-notfound {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin-top: 140px;
 
     img {
-        height: 350px;
+        height:500px;
 
     }
 }
 
-
-.textos-aviso {
+.textos-not {
     display: flex;
     flex-direction: column;
+    margin: 0px 50px; 
+    
+}
+
+.textos-not h1 {
+    font-size: 42px;
+    margin: 20px 30px 5px;
+    padding-top: 100px;
+    font-family: 'Poppins';
+}
+
+.textos-not p {
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin: 0px 28px;
+}
+
+.textos-not button {
+    background-color: #250466;
+    width: 196px;
+    justify-content: center;
     align-items: center;
-    margin: 100px;
-}
-
-.textos-aviso h1 {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.textos-aviso p {
-    font-size: 16px;
-    width: 400px;
-}
-
-.textos-aviso button {
-    width: 120px;
-    border-radius: 10px;
+    border-radius: 13px; 
+    font-size: 18px;
     border: none;
-    cursor: pointer;
 }
 
+#centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
