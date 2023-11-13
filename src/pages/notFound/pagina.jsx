@@ -1,6 +1,5 @@
 
 import './index.scss'
-import NaoEncontrada from '../../assets/images/ups-erro-404-com-ilustracao-de-conceito-de-robo-quebrado_114360-5529.avif'
 import Notfoundd from '../../assets/images/Group 1.png'
 import { Link } from 'react-router-dom'
 
