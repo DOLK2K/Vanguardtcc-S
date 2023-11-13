@@ -23,6 +23,8 @@ import Saiba from './pages/saiba-mais';
 import Notfound from './pages/notFound/pagina';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
+import Minhaconta from './pages/minhaconta';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,7 +53,7 @@ root.render(
       <Route path= '/profissional' element ={<Profissional/>} />
       <Route path='/saiba' element = {<Saiba/>} />
       <Route path='*' element = {<Notfound/>} />
-        
+      <Route path='/minhaconta' element = {<Minhaconta/>} />
 
 
     </Routes>
