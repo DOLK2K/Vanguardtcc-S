@@ -1,0 +1,117 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+ }
+
+.fundolg{
+    background-image: url('../../assets/images/Untitled\ \(1\).png');
+    height: 760px
+}
+
+.pedidos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.pedidos1 h1{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.pedidos1 img{
+    margin-top: 1pc;
+    margin-right: 2pc;
+    height: 35px;
+}
+
+.line11{
+    display: flex;
+    align-items: center;
+}
+
+.line11 img{
+    display: flex;
+    justify-content:center;
+    height: 40px;
+    width: 710px;
+}
+
+.compratudo{
+    display: flex;
+    justify-content: center;
+}
+
+.comprarné{
+    display: flex;
+    flex-direction: column;
+    
+    height: 700px;
+    width: 700px;
+    margin-top: 2pc;
+    background-color: rgb(250, 250, 250);
+}
+
+.classepropria{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+.comprabt{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+}
+
+.comprabt button{
+    border: none;  
+    border-radius: 7px; 
+    
+}
+
+.comprabt1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+
+.comprabt1 button{
+    border: none;  
+    border-radius: 7px; 
+    
+}
+
+.comprabt2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+}
+
+.comprabt2 button{
+    border: none;  
+    border-radius: 7px; 
+    
+}
+
+.comprabt3{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    width: 126px;
+}
+
+.comprabt3 button{
+    border: none;  
+    border-radius: 7px; 
+    
+}
