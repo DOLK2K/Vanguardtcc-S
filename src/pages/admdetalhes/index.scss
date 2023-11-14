@@ -1,87 +1,41 @@
 
 
-.Appz{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-
-
-.primeiraptz{
+.globamentoz {
     display: flex;
     flex-direction: row;
-   
 }
 
-
-.Filtrosz{
-    padding-left: 20px;
+.fundo-adm {
+    width: 240px;
     background-color: #383636;
-    height: 160px;
-    width: 250px;
-    
-}
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-.Filtrosz h3{
+    .link-do-adm {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        align-items: center;
+        margin: 25px;
+        text-decoration: none;
+
+      
+    }
+
+    .link-do-adm a {
+        text-decoration: none;
+        
+       }
+
+    .link-do-adm hr {
+        width: 240px;
+    }
+
  
+    .toninho {
+        padding-top: 300px;
+    }
 }
-
-
-.produtozz{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.inputsz{
-    display: flex;
-    flex-direction: column;
-    background-color: #383636;
-    font-size: 15px;
-    height: 720px;
-    width: 250px;
-    
-}
-
-
-.inputsz a{
-    text-decoration: none;
-    margin: 20px;
-}
-.inputs input{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-    border-radius: 4px;
-    width: 35px;
-    height: 32px;
-    
-}
-
-#abrirosite{
-    margin-top: 10px;
-}
-#gerenciarprodutos{
-    margin-top: 10px;
-}
-#pppeedidos{
-    margin-top: 10px;
-}
-#confiiguraacoes{
-    margin-top: 10px;
-}
-#vendaeprodu{
-    margin-top: 10px;
-    width: 200px;
-}
-#detcoonta{
-    margin-top: 10px;   
-}
-
-#sair-usuario {
-    padding-top: 220px;
-}
-
-

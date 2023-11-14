@@ -9,11 +9,10 @@ export default function Destaques() {
 
   const navigate = useNavigate()
 
-
   const [usuario, setUsuario] = useState('-')
 
   function Sairclick () {
-    Storage.remove('usuario-logado')
+    Storage.remove('usuario-logado');
     navigate('/adm')
   }
 
@@ -22,65 +21,37 @@ export default function Destaques() {
       navigate('/adm')
     }else {
       const usuariologado = Storage('usuario-logado')
-      setUsuario(usuariologado.nome)
+      setUsuario(usuariologado.data.nome);
 
     }
-  }, [])
+  }, []);
 
     return (  
   <div className='globamentoz'>
-  <div className="Appz">
-                   
-              <div className='Filtrosz'>
-                <img src={vanguard} />
-                
-              </div>
-              <div className='primeiraptz'>
-                
-              <div className='produtozz'>
-                <div className='inputsz'>
-                  
-                  <Link to='/'>
-                  <a id='abrirosite'>Abrir Site</a>
-                   </Link>
-                  <hr />
-                    <Link to=''>
-                  <a id='gerenciarprodutos'> Consultar</a>
-                  </Link> 
-                  <hr />
-                  <Link to='#'>
-                  <a id='pppeedidos'>PEDIDOS</a>
-                  </Link>
-                  <hr />
-                  <Link to='/add'>
-                  <a id='confiiguraacoes'>Cadastro Produto </a>
-                  </Link>
-                  <hr />
-                  <Link to='/mochila'>
-                  <a id='vendaeprodu'>Opções de Venda</a>
-                  </Link>
-                  <hr />
-                  <Link to='#' >
-                  <a id='detcoonta'>Detalhes da conta</a>
-                  </Link>
-                  <hr />
-                  
-                  <a onClick={Sairclick} style={{cursor:"pointer"}}> Sair</a>
-                  <hr />
-                  
-                </div>
+      <div className='fundo-adm'>
+        <img style={{width:"200px"}} src={vanguard} />
+        <div className='link-do-adm'>
+          <a href='/'>Abrir Site</a>
+          <hr />
+          <a  href='' > Consultar  </a>
+          <hr />
+          <a href=''>Pedidos</a>
+          <hr />
+          <a href=''>Cadastro Produto</a>
+          <hr />
+          <a href=''>Opções de Venda</a>
+          <hr />
+          <a href=''>Detalhes da conta</a>
+          <hr />
+          </div>
 
-                <div className='objetossz'>
-                <h1>seja bem vindo {usuario} </h1>
+          <a className='toninho' href='' >Sair</a>
+          <hr />
+        
+      </div>
 
-                <div>
-                  <span> {usuario[0].toUpperCase()} </span>
-                </div>
-                </div>
-
-
-    </div>
-    </div>
-    </div>
-    </div>
+      <div>
+        <h1>Seja bem Vindo {usuario} </h1>
+      </div>
+      </div>
     )}

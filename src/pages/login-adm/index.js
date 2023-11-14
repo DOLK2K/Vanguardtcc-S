@@ -17,12 +17,12 @@ export default function Loginadm() {
 
     async function Buscaapi() {
 
-
         try {
             const apiadmin = await axios.post('http://localhost:5000/administrador', {
                 email2: email,
                 senha2: senha
-            })
+            });
+        
             Storage('usuario-logado', apiadmin)
             navigate('/admdetalhes')
         } catch (err) {
@@ -32,6 +32,7 @@ export default function Loginadm() {
         }
     }
 
+    
     return (
         <div className="loginadm">
             <div className='ELEMENTO'>
