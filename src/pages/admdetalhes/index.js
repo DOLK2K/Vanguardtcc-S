@@ -50,7 +50,7 @@ export default function Destaques() {
         
       </div>
 
-      <div>
+      <div className='box'>
         <h1>Seja bem Vindo {usuario} </h1>
       </div>
       </div>
