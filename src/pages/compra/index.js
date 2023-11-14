@@ -12,6 +12,13 @@ import Oculos from '../../assets/images/oclinhos.png'
 import Camisa from '../../assets/images/camiseta.png'
 import Assault from '../../assets/images/mochilaa.png'
 import Usuario from '../../assets/images/usuario3.png'
+import vanguard from '../../assets/images/vanguard.png'
+import correio from '../../assets/images/correio.png'
+import face from '../../assets/images/facebook.png'
+import twitter from '../../assets/images/twitter.png'
+import insta from '../../assets/images/insta.png'
+import youtube from '../../assets/images/youtube.png'
+
 
 import './index.scss'
 
@@ -25,10 +32,10 @@ export default function Compra() {
   return (
 <div className='globamento'>
 <div className="App">
-      <div className='parte-inicial1'>
-      <div className='cabecalho1'>
+<div className='parte-inicial3'>
+      <div className='cabecalho'>
         <img src={icone} />
-        <div className='alinhamento2'>
+        <div className='alinhamento'>
         <img id='Lupa' src={Lupa} alt='Lupa'  />  <input type='text' placeholder='Pesquisar...'  />
         </div>
         <div className='links'>
@@ -37,22 +44,24 @@ export default function Compra() {
         <a href='/cadastro'>Cadastrar</a>
         </div>
         <img src={Carro} />
-        
+
         </div> 
 
-        <div className='cabecalho22'>
+        <div className='cabecalho2'>
           <img src={Barra} />
           <p>Todas as Categorias</p>
           <img src={Seta} />
 
-          <div className='lista1'>
+          <div className='lista'>
           <a id='Vestuario'>Vestuario</a>
           <a>Mochilas</a>
           <a>Calçados</a>
           <a>Profissional</a>
           <a>Acessórios</a>
-          </div>  
-          </div>  
+          </div>
+        </div>
+        
+
 
           <div className='tudo'>
           <div className='primeira'>
@@ -226,7 +235,10 @@ export default function Compra() {
 
 
         </div>
+        
         </div>
-        </div>          
+        
+        </div>    
+            
   );
 }
