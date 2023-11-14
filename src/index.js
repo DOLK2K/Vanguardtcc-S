@@ -24,6 +24,7 @@ import Notfound from './pages/notFound/pagina';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
 import Minhaconta from './pages/minhaconta';
+import Minhascompras from './pages/minhascompras';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -54,6 +55,7 @@ root.render(
       <Route path='/saiba' element = {<Saiba/>} />
       <Route path='*' element = {<Notfound/>} />
       <Route path='/minhaconta' element = {<Minhaconta/>} />
+      <Route path= '/minhascompras' element = {<Minhascompras/>} />
 
 
     </Routes>

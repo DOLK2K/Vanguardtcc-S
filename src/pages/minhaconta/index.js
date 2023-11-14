@@ -7,6 +7,12 @@ import Edit from '../../assets/images/editusuario.png'
 import Email from '../../assets/images/editemail.png'
 import Telefone from '../../assets/images/edittelefone.png'
 import Cpf from '../../assets/images/editcpf.png'
+import face from '../../assets/images/facebook.png'
+import twitter from '../../assets/images/twitter.png'
+import insta from '../../assets/images/insta.png'
+import youtube from '../../assets/images/youtube.png'
+import vanguard from '../../assets/images/vanguard.png'
+import correio from '../../assets/images/correio.png'
 import './index.scss'
 
 export default function Minhaconta(){
@@ -107,6 +113,30 @@ return (
         
         </div>
       
+
+        <div className='rodape-home'>
+
+<img src={vanguard} />
+
+<img src={correio} />
+
+<img src={face} />
+
+<img src={twitter} />
+
+<img src={insta} />
+
+<img src={youtube} />
+
+
+<div className='elements'>
+  <p>+012 345 6789</p>
+  <p>sac@vanguardtactical.com</p>
+  <p>Avenida Coronel Octaviano de Freitas Costa, 69, Socorro, São Paulo</p>
+
+</div>
+
+</div>
         </div>
    
 

@@ -6,6 +6,12 @@ import Barra from '../../assets/images/Untitled (2).png'
 import Seta from '../../assets/images/Untitled (3).png'
 import Retangulo from '../../assets/images/retanguloo.png'
 import Olho from '../../assets/images/olho.png'
+import vanguard from '../../assets/images/vanguard.png'
+import correio from '../../assets/images/correio.png'
+import face from '../../assets/images/facebook.png'
+import twitter from '../../assets/images/twitter.png'
+import insta from '../../assets/images/insta.png'
+import youtube from '../../assets/images/youtube.png'
 
 
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
@@ -116,6 +122,29 @@ export default function(){
             </div>
             </div>
 
+            <div className='emmbaix'>
+
+<img src={vanguard}/>          
+
+<img src={correio}/>
+
+<img src={face}/>
+
+<img src={twitter}/>
+
+<img src={insta}/>
+
+<img src={youtube}/>
+
+
+<div className='elements'>
+<p>+012 345 6789</p>
+<p>sac@vanguardtactical.com</p>
+<p>Avenida Coronel Octaviano de Freitas Costa, 69, Socorro, São Paulo</p>
+
+</div>
+
+</div>
 
 
 

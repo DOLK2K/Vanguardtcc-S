@@ -172,18 +172,19 @@
    
 }
 .editcliente img{
-    height: 50px;
+    height: 30px;
     width: auto;
-    padding-bottom: 20px;
-    padding-left: 55px;
+    
+    padding-left: 51px;
 }
 .editcliente p{
     font-size: 13px;
+    padding-top: 15px;
 }
 .editcliente h1{
     font-size: 13px;
     padding-left: 90px;
-    
+    padding-top: 15px;
 }
 .editemail{
     display: flex;
@@ -193,9 +194,8 @@
     margin: 20px;
 }
 .editemail img{
-    height: 40px;
+    height: 25px;
     width: auto;
-    padding-bottom: 15px;
     padding-left: 50px;
 }
 .editemail p{
@@ -215,10 +215,10 @@
     margin: 20px;
 }
 .editelefone img{
-    height: 40px;
+    height: 30px;
     width: auto;
-    padding-bottom: 15px;
-    padding-left: 60px;
+    
+    padding-left: 55px;
 }
 .editelefone p{
     font-size: 13px;
@@ -237,17 +237,17 @@
     margin: 20px;
 }
 .editcpf img{
-    height: 40px;
+    height: 30px;
     width: auto;
-    padding-bottom: 15px;
-    padding-left: 50px;
+    
+    padding-left: 46px;
 }
 .editcpf p{
     font-size: 13px;
 }
 .editcpf h1{
     font-size: 13px;
-    padding-left: 75px;
+    padding-left: 70px;
 }
 
 
@@ -259,20 +259,19 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   padding-left: 20px;
+   padding-left: 55px;
 }
 
 .rodape66 button{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
     background-color: #0D6C55;
     border: none;
-    border-radius: 8px;
+    border-radius: 20px;
     padding-left: 10px;
     cursor: pointer;
     transition:  0.5s ease;
-    width: 220px; 
+    width: 250px; 
 }
 
 .rodape66 button:hover{
