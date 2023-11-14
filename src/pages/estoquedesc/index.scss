@@ -94,7 +94,6 @@
    display: flex;
    flex-direction: row;
    padding: 5px;
-   background-color: #F1EDED;
    font-size: 20px;
    padding-bottom: 15x;
 }
@@ -106,6 +105,7 @@
     display: flex;
     flex-direction: row;   
     font-size: 22px;
+    background-color: #F1EDED;
     
 }
 .a97 h1{
@@ -124,7 +124,6 @@
 .a440{
     display: flex;
     flex-direction: row;
-    background-color: #F1EDED;
     font-size: 22px;
     
 }
@@ -142,6 +141,7 @@
 .a364{
     display: flex;
     flex-direction: row;
+    background-color: #F1EDED;
     font-size: 22px;
 }
 .a364 h1{
@@ -159,7 +159,6 @@
 .a123{
     display: flex;
     flex-direction: row;
-    background-color: #F1EDED;
     font-size: 22px;
 }
 .a123 h1{
@@ -180,6 +179,7 @@
     display: flex;
     flex-direction: row;
     font-size: 22px;
+    background-color: #F1EDED;
 }
 .a443 h1{
     padding-left: 30px;
@@ -197,8 +197,8 @@
 .a279{
     display: flex;
     flex-direction: row;
-    background-color: #F1EDED;
     font-size: 22px;
+    padding-bottom: 224px;
 }
 .a279 h1{
     padding-left: 30px;
@@ -218,4 +218,5 @@
     flex-direction: column;
     align-items: center;
     font-size: 12px;
+    
 }

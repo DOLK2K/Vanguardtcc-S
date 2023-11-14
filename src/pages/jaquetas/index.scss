@@ -1,0 +1,352 @@
+.App{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.cabecalho1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+       width: 500px;
+       height: 30px;
+       border-radius: 11px;
+       border: none;
+    }
+
+    input::placeholder {
+        padding: 30px;
+
+    }
+}
+
+.alinhamento2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Lupa {
+    position: relative;
+    left: 25px;
+}
+.links a  {
+    text-decoration: none;
+    color: #000000;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+
+}
+
+.cabecalho22 p, a {
+    color: #ffff;
+}
+
+
+.cabecalho22 a {
+   margin: 30px;
+}
+
+#Vestuario {
+    margin-left: 220px;
+}
+
+.Title5{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.primeirapt{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.inputs input{
+    color: green;
+}
+
+
+
+
+
+
+.Filtros{
+    padding-left: 20px;
+}
+
+.Filtros h3{
+ 
+}
+
+
+.produtoz{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.inputs input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 4px;
+    width: 35px;
+    height: 32px;
+    
+}
+
+
+
+.objetoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+.objeto{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;
+    margin-left: 97px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+}
+
+.objeto img{
+    
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+.objeto1{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 200px;
+    border-color: #000000;
+    height: 170px;
+    margin-left: 164px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+}
+
+.objeto1 img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.objeto2{
+    
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;   
+    margin-left: 160px;
+    border-radius: 6px;
+    border: 2px solid #000;
+}
+
+.objeto2 img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.Nomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.Nomes h1{
+    
+    font-size: 18px;
+}
+
+
+.Nomes h3{
+    font-size: 18px;
+}
+
+.Nomes h4{
+    font-size: 18px;
+    
+}
+
+
+.Preços{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.Preços h1{
+    
+    font-size: 18px;
+}
+
+
+.Preços h3{
+    font-size: 18px;
+}
+
+.Preços  h4{
+    font-size: 18px;
+    
+}
+
+.butooes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.butooes button{
+    background-color: rgb(8, 66, 47);
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 7px;
+    
+    cursor: pointer;
+}
+
+.butooes button:hover{
+    color: rgb(47, 251, 47);
+    transition: 0.5s;
+}
+
+
+.objetosss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    margin-top: 25px;
+}
+
+
+.objeto0{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+    
+}
+
+.objeto0 img{
+    
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+.objeto11{
+    display: flex;
+    background-color: #ffffff;
+    border: solid;
+    width: 200px;
+    border-color: #000000;
+    height: 170px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+    
+}
+
+.objeto11 img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.objeto22{
+    
+    background-color: #ffffff;
+    border: solid;
+    border-color: #000000;
+    width: 200px;
+    height: 170px;   
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+}
+
+.objeto22 img{
+    width: 130px;
+    height: 130px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+
+
+
+.Nomes1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.Nomes1 h1{
+    
+    font-size: 18px;
+}
+
+
+.Nomes1 h3{
+    font-size: 18px;
+}
+
+.Nomes1 h4{
+    font-size: 18px;
+    
+}
