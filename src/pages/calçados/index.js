@@ -21,7 +21,7 @@ import Cabecalho from '../renderizacao'
 
 export default function Destaques() {
 
- const [inputValue, setInputValue] = useState('');
+
 
 
 
@@ -29,35 +29,7 @@ export default function Destaques() {
   <div className='globamento'>
   <div className="App">
         
-  <div className='parte-inicial3'>
-      <div className='cabecalho'>
-        <img src={icone} />
-        <div className='alinhamento'>
-        <img id='Lupa' src={Lupa} alt='Lupa'  />  <input type='text' placeholder='Pesquisar...'  />
-        </div>
-        <div className='links'>
-        <a href=''>Fale conosco</a>
-        <a href='/login' >Entrar</a>
-        <a href='/cadastro'>Cadastrar</a>
-        </div>
-        <img src={Carro} />
-
-        </div> 
-
-        <div className='cabecalho2'>
-          <img src={Barra} />
-          <p>Todas as Categorias</p>
-          <img src={Seta} />
-
-          <div className='lista'>
-          <a id='Vestuario'>Vestuario</a>
-          <a>Mochilas</a>
-          <a>Calçados</a>
-          <a>Profissional</a>
-          <a>Acessórios</a>
-          </div>
-        </div>
-          </div>
+        <Cabecalho />
 
             <div className='Title'>
               <h1>Calçados</h1>
@@ -76,12 +48,12 @@ export default function Destaques() {
               <div className='produtoz'>
                 <div className='inputs'>
                   
-                  <input type='checkbox' id='greencheckbox' className={inputValue}></input>
-                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
-                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
-                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
-                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
-                  <input type='checkbox' id='inputclicavel' value={inputValue} onChange={onclick}></input>
+                  <input type='checkbox'></input>
+                  <input type='checkbox' ></input>
+                  <input type='checkbox'></input>
+                  <input type='checkbox'></input>
+                  <input type='checkbox'></input>
+                  <input type='checkbox'></input>
                   
                 </div>
 
