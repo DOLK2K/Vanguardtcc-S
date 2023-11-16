@@ -142,7 +142,9 @@ export default function Compra() {
           <img src= {Estrela}/>
           <img src= {Estrela}/>
           <img src= {Estrela}/>
+          <a href='/profissional'>
           <button>Comprar Novamente</button>
+          </a>
         </div>
 
         </div>
@@ -185,9 +187,9 @@ export default function Compra() {
           <img src= {Estrela}/>
           <img src= {Estrela}/>
           <img src= {Estrela}/>
-
+          <a href='/mochilas'>
           <button>Comprar Novamente</button>
-
+          </a>
         </div>
 
 
@@ -224,7 +226,9 @@ export default function Compra() {
           <img src= {Estrela}/>
           <img src= {Estrela}/>
           <img src= {Estrela}/>
+          <a href='/jaquetas'>
           <button>Comprar Novamente</button>
+          </a>
         </div>
 
         </div>
