@@ -78,7 +78,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 150px;
+    margin-left: 20px;
+    width: 170px;
 }
 
 .comprabt1 button{
@@ -87,31 +88,117 @@
     
 }
 
-.comprabt2{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100px;
-}
-
-.comprabt2 button{
-    border: none;  
-    border-radius: 7px; 
-    
-}
 
 .comprabt3{
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 40px;
-    width: 126px;
+    margin-left: 20px;
+    width: 190px;
 }
 
 .comprabt3 button{
     border: none;  
     border-radius: 7px; 
     
+}
+
+.englobadivsolta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.divsolta{
+    width: 200px;
+    height: 100px;
+    border: solid;
+    border-width: 2px;
+    
+}
+
+.divsolta1{
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    border: solid;
+    border-width: 2px;
+}
+
+.divsolta2{
+    width: 120px;
+    height: 100px;
+    margin-left: 30px;
+    border: solid;
+    border-width: 2px;
+}
+
+.englobasolta2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5pc;
+    margin-left: 30px;
+}
+
+.dvsolta1{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.dvsolta{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+}
+
+.englobasolta3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2pc;
+    margin-left: 20px;
+}
+
+.dvsolta11{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.dvsolta22{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.englobasolta4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2pc;
+    margin-left: 20px;
+}
+
+.dvsolta12{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.dvsolta23{
+    border: solid;
+    width: 175px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: 10px;
 }

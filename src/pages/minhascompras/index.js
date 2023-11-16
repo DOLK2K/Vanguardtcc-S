@@ -72,15 +72,61 @@ export default function Minhascompras(){
                         <button>PREÇO</button>
                     </div>
 
-                        <div className='comprabt2'>
-                        <button>QUANTIDADE</button>
-                        </div>
-
+                        
                         <div className='comprabt3'>
                         <button>TOTAL</button>
                         </div>
 
-                        
+                     
+                </div>
+
+                <div className='englobadivsolta'>
+                <div className='divsolta'>
+                    
+                </div>
+
+                <div className='divsolta1'>
+                    
+                </div>
+
+                <div className='divsolta2'>
+                    
+                </div>
+                </div>
+
+                <div className='englobasolta2'>
+                    <div className='dvsolta'>
+
+                    </div>
+
+                    <div className='dvsolta1'>
+
+                    </div>
+
+
+                </div>
+
+                <div className='englobasolta3'>
+
+                <div className='dvsolta11'>
+
+                </div>
+
+                <div className='dvsolta22'>
+
+                </div>
+
+                </div>
+
+                <div className='englobasolta4'>
+
+                <div className='dvsolta12'>
+
+                </div>
+
+                <div className='dvsolta23'>
+
+                </div>
                     
                 </div>
                 
