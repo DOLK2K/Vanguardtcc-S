@@ -28,10 +28,10 @@ export default function Produtoo() {
     async function salvarClick() {
         try {
             const user = Storage('usuario-logado').id;
-            const r = await cadastrarProduto(desc, tipoproduto, categoria, unidade, situacao)
-
-        } catch {
-
+            const r = await cadastrarProduto(desc, tipoproduto, categoria, unidade, situacao, precoproduto, frete)
+            alert('funcionou')
+        } catch (err){
+            alert(err.message)
         }
     }
 
