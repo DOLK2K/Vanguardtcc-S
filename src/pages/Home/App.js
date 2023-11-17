@@ -48,7 +48,7 @@ function App() {
 
     try {
 
-      const s = await axios.post('http://localhost:5000/Suportehome', {
+      const s = await axios.post('http://129.148.42.252:5015/Suportehome', {
         nome: nome,
         telefone: telefone,
         email: email,
