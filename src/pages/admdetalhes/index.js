@@ -19,7 +19,8 @@ export default function Destaques() {
   useEffect(() => {
     if(!Storage('usuario-logado')) {
       navigate('/adm')
-    }else {
+    }
+    else {
       const usuariologado = Storage('usuario-logado')
       setUsuario(usuariologado.data.nome);
 
@@ -37,21 +38,22 @@ export default function Destaques() {
           <hr />
           <a href=''>Pedidos</a>
           <hr />
-          <a href=''>Cadastro Produto</a>
+          <a href='/add'>Cadastro Produto</a>
           <hr />
           <a href=''>Opções de Venda</a>
           <hr />
           <a href=''>Detalhes da conta</a>
           <hr />
           </div>
-
-          <a className='toninho' href='' >Sair</a>
-          <hr />
+          
+          <a onClick={Sairclick} className='toninho' href='' >Sair</a>
+          <div></div>
         
       </div>
 
       <div className='box'>
-        <h1>Seja bem Vindo {usuario} </h1>
+        <h1>Seja bem Vindo {usuario} :) </h1>
+        <div className='perfil-adm'> {usuario[0]} </div>
       </div>
       </div>
     )}

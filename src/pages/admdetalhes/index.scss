@@ -1,5 +1,3 @@
-
-
 .globamentoz {
     display: flex;
     flex-direction: row;
@@ -22,20 +20,52 @@
         margin: 25px;
         text-decoration: none;
 
-      
+
     }
 
     .link-do-adm a {
         text-decoration: none;
-        
-       }
+        margin: 10px;
+
+    }
 
     .link-do-adm hr {
         width: 240px;
     }
 
- 
+
     .toninho {
-        padding-top: 300px;
+        padding-top: 200px;
+        font-size: 20px;
+        text-decoration: none;
     }
+
+
+
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-adm {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: rgb(196, 24, 24);
+    height: 40px;
+    line-height: 37px;
+    color: #fff;
+    width: 40px;
+    border-radius: 100%;
+    margin: 200px;
 }

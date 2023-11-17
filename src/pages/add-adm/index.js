@@ -1,10 +1,10 @@
 import './index.scss'
-import Atualizar from '../../assets/images/refrescar (1) 1 (1).png'
-import Lixeira from '../../assets/images/lata-de-lixo 1.png'
-import { useState } from 'react'
+import vanguard from '../../assets/images/vanguard.png'
+import { useEffect, useState } from 'react'
 import donloawd from '../../assets/images/download.png'
 import { cadastrarProduto } from '../../api/cadastroProduto'
-import Destaques from '../admdetalhes'
+import { useNavigate } from 'react-router-dom'
+import Storage from 'local-storage'
 
 // nao usar position-relative/absolute desnecessariamente, vai atralhar a responsividade
 // nao usar padding desnecessariamente, com proporção muito alta
@@ -20,8 +20,9 @@ export default function Produtoo() {
     const [precoproduto, setPrecoproduto] = useState(0)
     const [frete, setFrete] = useState(0);
     const [total, setTotal] = useState(0)
+    const [usuario, setUsuario] = useState ('')
 
-
+    const Navigate = useNavigate()
 
 
     async function salvarClick() {
@@ -34,7 +35,19 @@ export default function Produtoo() {
         }
     }
 
+    function Sairclick () {
+        Storage.remove('usuario-logado')
+        Navigate('/adm')
+    }
 
+    useEffect(() => {
+        if (!Storage('usuario-logado')) {
+            Navigate('/adm')
+        } else {
+            const usuariologado = Storage('usuario-logado')
+            setUsuario(usuariologado.data.nome)
+        }
+    }, [] )
 
     function EscolherImagem() {
         document.getElementById('arquivo').click()
@@ -56,18 +69,47 @@ export default function Produtoo() {
         setTotal(r);
     }
     return (
+       
+        <div className='globamentoz'>
+        <div className='fundo-adm'>
+          <img style={{width:"200px"}} src={vanguard} />
+          <div className='link-do-adm'>
+            <a href='/'>Abrir Site</a>
+            <hr />
+            <a  href='' > Consultar  </a>
+            <hr />
+            <a href=''>Pedidos</a>
+            <hr />
+            <a href='/add'>Cadastro Produto</a>
+            <hr />
+            <a href=''>Opções de Venda</a>
+            <hr />
+            <a href=''>Detalhes da conta</a>
+            <hr />
+            </div>
+            
+            <a onClick={Sairclick} className='toninho' href='' >Sair</a>
+            <div></div>
+          
+        </div>
+        
+        <div>
+        <div className='box'>
+          <h1>Seja bem Vindo {usuario} :) </h1>
+          <div className='perfil-adm'> {usuario[0]} </div>
+        </div>
+
         <div className='Cadastro-produtos'>
-
-
-
             <div className='cadastro-produto-cabecalho'>
 
+                
                 <div className='lateral'>
-                    <Destaques />
+                        
                     <div className='parte-meio'>
+                        
                         <div className='parte2'>
                             <div className='labell'>
-
+                            
 
                                 <div className='div-input' onClick={EscolherImagem}>
 
@@ -165,9 +207,8 @@ export default function Produtoo() {
             </div>
 
         </div>
-
-
-
+        </div>
+        </div>
 
 
     )

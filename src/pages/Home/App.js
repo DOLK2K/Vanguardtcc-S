@@ -48,7 +48,7 @@ function App() {
 
     try {
 
-      const s = await axios.post('http://localhost:5015/Suportehome', {
+      const s = await axios.post('http://localhost:5000/Suportehome', {
         nome: nome,
         telefone: telefone,
         email: email,
@@ -144,14 +144,19 @@ function App() {
       </div>
       <div className='fundo'>
         <div className='pagina-segunda'>
-          <h1 className='maisprocurado'>Mais Procurados</h1>
 
+          <h1 className='maisprocurado'>Mais Procurados</h1>
           <div className='procurado'>
             <div className='procurado1'>
               <img src={Sapato} />
               <div className='procurado1-2'>
                 <h1>Bota Impermeável Timberland</h1>
                 <p>R$39.99</p>
+                <div className='procurado1-2-novo'>
+                <p>Por apenas R$ 39.99 </p>
+                <p>Desconto de até 5% no PIX</p>
+                <button>Comprar</button>
+                </div>
                 <button className='botaoo'>Comprar</button>
               </div>
 

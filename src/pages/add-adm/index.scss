@@ -8,7 +8,7 @@
 
 .lateral {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .cadastro-produto-cabecalho h1 {
@@ -133,11 +133,7 @@
     flex-direction: column;
 }
 
-#hr {
-    margin-top: 40px;
-    background-color: #30A9ED;
-    height: 100px;
-}
+
 
 .parte-do-preco {
     display: flex;
