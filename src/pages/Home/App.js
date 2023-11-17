@@ -374,18 +374,22 @@ function App() {
 
 
       <div className='rodape-home'>
-
+      <a href='/'>
         <img src={vanguard} />
-
+      </a>
         <img src={correio} />
-
+        <Link to="https://www.facebook.com">
         <img src={face} />
-
+        </Link>
+        <Link to="https://twitter.com/"> 
         <img src={twitter} />
-
+        </Link>
+        <Link to="https://www.instagram.com/">
         <img src={insta} />
-
+        </Link>
+        <Link to="https://www.youtube.com/">
         <img src={youtube} />
+        </Link>
 
 
         <div className='elements'>
