@@ -10,7 +10,7 @@ import LoadingBar from 'react-top-loading-bar'
 import {useNavigate} from 'react-router-dom'
 import { useState, useRef } from 'react'
 import Volar from '../../assets/images/voltar.png'
-
+import Storage from 'local-storage'
 
 
 export default function Login () {
@@ -26,7 +26,7 @@ export default function Login () {
 
     try {
         
-        const r = await axios.post('http://129.148.42.252:5015/usuario/login', {
+        const r = await axios.post('http://localhost:5000/usuario/login', {
             email: email, 
             senha: senha 
          });
@@ -34,6 +34,9 @@ export default function Login () {
          setTimeout(() => {
           navigate('/')
 
+          Storage('user-logado', r)
+          console.log(r)
+            
          }, 2000);
          
     } catch (err) {

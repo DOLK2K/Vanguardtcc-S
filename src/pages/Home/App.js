@@ -15,7 +15,6 @@ import Garrafa from '../../assets/images/a.png';
 import Bolsa from '../../assets/images/Untitled (5).png';
 import Luva from '../../assets/images/Untitled (6).png';
 import Bolsaaa from '../../assets/images/image 16.png';
-import fundo4 from '../../assets/images/Rectangle 4.png';
 import cartao from '../../assets/images/cartao.png';
 import caminhao from '../../assets/images/caminhao.png';
 import troca from '../../assets/images/troca.png';
@@ -28,8 +27,10 @@ import insta from '../../assets/images/insta.png';
 import youtube from '../../assets/images/youtube.png';
 import Formapag from '../../assets/images/bandeirascartoes.png';
 import './index.scss';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Storage from 'local-storage'
+import ScrollReveal from 'scrollreveal'
 import { Link } from 'react-router-dom';
 
 
@@ -42,7 +43,9 @@ function App() {
   const [mensagem, setMensagem] = useState('');
   const [erro, setErro] = useState('')
   const [certo, setCerto] = useState('')
-
+  const [popup, setPopup] = useState(true)
+  const [aparecer, setAparecer] = useState(false)
+  const [usuario, setUsuario] = useState('-')
   async function Suporte() {
 
 
@@ -79,6 +82,22 @@ function App() {
     }
   }
 
+ const fecharpup =  () => {
+    setPopup(false)
+ }
+
+ useEffect(() => {
+  const valorarmazenado = Storage('user-logado')
+  
+  setAparecer(!valorarmazenado)
+
+})
+
+  useEffect (() => {
+    const user = Storage('user-logado')
+    setUsuario(user.data.nome)
+  },[])
+
 
   return (
     <div className="App">
@@ -98,7 +117,8 @@ function App() {
         </div>
 
         <div className='cabecalho2'>
-          <img src={Barra} />
+          <div id='login-user'>{usuario[0]} </div>
+          <div id='nome'>{usuario}</div>
           <p>Todas as Categorias</p>
           <img src={Seta} />
 
@@ -135,13 +155,24 @@ function App() {
 
           </div>
         </div>
-
+          
+          { aparecer && popup && ( 
+        <div className='popup'>
+      <button onClick={fecharpup} id='close'>&times;</button>
+      <h1>Não possui Cadastro?</h1>
+      <p>faça ele Agora clicando no botão abaixo</p>
+      <a href='/cadastro'>CADASTRO</a>
+    </div>
+     )}
+     
         <div className='Centro'>
           <h1>Equipamentos de Elite para Aventura e Sobrevivência</h1>
           <Link to="quemSomos" smooth={true} duration={500}></Link>
           <button onClick={scrollToQuemSomos}>Conheça</button>
         </div>
       </div>
+     
+      
       <div className='fundo'>
         <div className='pagina-segunda'>
 
@@ -155,9 +186,11 @@ function App() {
                 <div className='procurado1-2-novo'>
                 <p>Por apenas R$ 39.99 </p>
                 <p>Desconto de até 5% no PIX</p>
-                <button>Comprar</button>
+                {/* <button>Comprar</button> */}
                 </div>
+                
                 <button className='botaoo'>Comprar</button>
+                  
               </div>
 
 

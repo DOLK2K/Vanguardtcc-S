@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "Poppins", sans-serif;
 }
 
 .App{
@@ -19,7 +19,6 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
 
 
 .cabecalho{
@@ -69,6 +68,23 @@
 
 }
 
+#login-user {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #1F3820;
+    height: 40px;
+    line-height: 37px;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+    border-radius: 100%;
+    margin: 0px 10px 0px 40px;
+}
+
+#nome {
+    color: #ffff;
+    margin:0 28px 0px 0px
+}
 .cabecalho2 p, a {
     color: #ffff;
 }
@@ -136,6 +152,51 @@
     color: #000;
   }
  
+
+  .popup {
+    background-color: #ffff;
+    width: 450px;
+    padding: 35px 40px;
+    position: absolute;
+    transform: translate((-50%, -50%));
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif !important;
+    transition: 0.5;
+    
+}
+  
+  
+  .popup button {
+    display: block;
+    margin: 0 0 15px auto;
+    width: 0.1px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #c5c5c5;
+    cursor: pointer;
+}
+
+.popup p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.popup a {
+    display: block;
+    color: #ffff;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #0f72e5;
+    text-decoration: none;
+    padding: 5px 0px;
+    border-radius: 8px;
+}
 
 .Centro{
     display: flex;
@@ -209,7 +270,6 @@
 }
 
 
-
 .procurado1-2, .procurado2-3, .procurado3-4, .procurado4-5 {
     display: flex;
     flex-direction: column;
@@ -237,11 +297,7 @@
     border-radius: 15px;
 }
 
-.procurado1-2:hover {
-    height: 150px;
-    transition: 1s;
-    border-radius: 5px;
-}
+
 .procurado1-2-novo:hover {
     display: block;
 
@@ -292,9 +348,7 @@
     cursor: pointer;
 }
 
-.botaoo:hover {
-    display: none;
-}
+
 
 .faixaa {
     display: flex;
