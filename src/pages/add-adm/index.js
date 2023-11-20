@@ -15,8 +15,8 @@ export default function Produtoo() {
     const [tipoproduto, setTipoproduto] = useState('')
     const [categoria, setCategoria] = useState('')
     const [imagem, setImagem] = useState('')
-    const [unidade, setUnidade] = useState(false)
-    const [situacao, setSituacao] = useState('')
+    const [quantidade, setQuantidade] = useState(0)
+    const [situacao, setSituacao] = useState(false);
     const [precoproduto, setPrecoproduto] = useState(0)
     const [frete, setFrete] = useState(0);
     const [total, setTotal] = useState(0)
@@ -28,8 +28,13 @@ export default function Produtoo() {
     async function salvarClick() {
         try {
             const user = Storage('usuario-logado').id;
-            const r = await cadastrarProduto(desc, tipoproduto, categoria, unidade, situacao, precoproduto, frete)
-            alert('produto cadastrado')
+            const r = await cadastrarProduto(desc, tipoproduto, categoria, quantidade, situacao, precoproduto, frete, user);
+
+            alert('produto cadastrado');
+
+            if(!desc){
+                throw new Error("Falta descricao")
+            }
         } catch (err){
             alert(err.message)
             console.log(err)            
@@ -66,7 +71,7 @@ export default function Produtoo() {
         setFrete(Number(e.target.value))
     }
     const valortotal = (e) => {
-        const r = precoproduto + frete
+        const r = precoproduto + frete;
         setTotal(r);
     }
     return (
@@ -97,7 +102,7 @@ export default function Produtoo() {
         <div>
         <div className='box'>
           <h1>Seja bem Vindo {usuario} :) </h1>
-          <div className='perfil-adm'> {usuario[0]} </div>
+          <div className='perfil-adm'> {usuario} </div>
         </div>
 
         <div className='Cadastro-produtos'>
@@ -148,13 +153,12 @@ export default function Produtoo() {
                             <div className='pro-lado'>
                                 <div>
                                     <p>Unidade</p>
-                                    <input value={unidade} onChange={e => setUnidade(e.target.value)} type='number' />
-
+                                    <input value={quantidade} onChange={e => setQuantidade(e.target.value)} type='number' />
                                 </div>
 
                                 <div className='pro-lado2'>
                                     <p>Situação</p>
-                                    <input type='checkbox' checked={unidade} onChange={e => setUnidade (e.target.checked)}  /> &nbsp; 
+                                    <input type='checkbox' checked={situacao} onChange={e => setSituacao (e.target.checked)}  /> &nbsp; 
                                  </div>
                             </div>
                         </div>

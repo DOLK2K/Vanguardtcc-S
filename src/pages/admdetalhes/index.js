@@ -52,8 +52,8 @@ export default function Destaques() {
       </div>
 
       <div className='box'>
-        <h1>Seja bem Vindo {usuario} :) </h1>
-        <div className='perfil-adm'> {usuario[0]} </div>
+        <h1>Seja bem Vindo {usuario} : </h1>
+        <div className='perfil-adm'> {usuario} </div>
       </div>
       </div>
     )}
