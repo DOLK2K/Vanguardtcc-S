@@ -15,7 +15,7 @@ export default function Produtoo() {
     const [tipoproduto, setTipoproduto] = useState('')
     const [categoria, setCategoria] = useState('')
     const [imagem, setImagem] = useState('')
-    const [unidade, setUnidade] = useState('')
+    const [unidade, setUnidade] = useState(false)
     const [situacao, setSituacao] = useState('')
     const [precoproduto, setPrecoproduto] = useState(0)
     const [frete, setFrete] = useState(0);
@@ -29,9 +29,10 @@ export default function Produtoo() {
         try {
             const user = Storage('usuario-logado').id;
             const r = await cadastrarProduto(desc, tipoproduto, categoria, unidade, situacao, precoproduto, frete)
-            alert('funcionou')
+            alert('produto cadastrado')
         } catch (err){
             alert(err.message)
+            console.log(err)            
         }
     }
 
@@ -134,23 +135,12 @@ export default function Produtoo() {
                                 <div className='produto-categoria'>
                                     <div className='pra-baixo1'>
                                         <p>Tipo do produto</p>
-                                        <select value={tipoproduto} onChange={e => setTipoproduto(e.target.value)}>
-                                            <option>Calça</option>
-                                            <option>Camiseta</option>
-                                            <option>Oculos </option>
-                                            <option>Jaqueta</option>
-                                            <option>Barraca</option>
-                                            <option>Chapéu</option>
-                                        </select>
+                                       <input value={tipoproduto} onChange={ e => setTipoproduto(e.target.value)} type='text' />
                                     </div>
 
                                     <div className='pra-baixo2'>
                                         <p>Categoria</p>
-                                        <select value={categoria} onChange={e => setCategoria(e.target.value)}>
-                                            <option>Profissional</option>
-                                            <option>Acessesório</option>
-                                            <option>Vestuario</option>
-                                        </select>
+                                       <input value={categoria} onChange={e => setCategoria(e.target.value)} type='text' />
                                     </div>
                                 </div>
                             </div>
@@ -164,11 +154,8 @@ export default function Produtoo() {
 
                                 <div className='pro-lado2'>
                                     <p>Situação</p>
-                                    <select value={situacao} onChange={e => setSituacao(e.target.value)}>
-                                        <option>ativo</option>
-                                        <option>Desativo</option>
-                                    </select>
-                                </div>
+                                    <input type='checkbox' checked={unidade} onChange={e => setUnidade (e.target.checked)}  /> &nbsp; 
+                                 </div>
                             </div>
                         </div>
 
@@ -201,7 +188,7 @@ export default function Produtoo() {
                     <button className='produto-botao2' onClick={valortotal}>calcular</button>
                     <div className='produto-botao'>
                         <button className='produto-botao2'>Cancelar</button>
-                        <button className='produto-botao3'>Salvar</button>
+                        <button className='produto-botao3' onClick={salvarClick} >Salvar</button>
                     </div>
                 </div>
             </div>
