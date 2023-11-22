@@ -86,17 +86,17 @@ function App() {
     setPopup(false)
  }
 
- useEffect(() => {
-  const valorarmazenado = Storage('user-logado')
+ //useEffect(() => {
+  //const valorarmazenado = Storage('user-logado')
   
-  setAparecer(!valorarmazenado)
+  //setAparecer(!valorarmazenado)
 
-})
+//})
 
-  useEffect (() => {
-    const user = Storage('user-logado')
-    setUsuario(user.data.nome)
-  },[])
+  //useEffect (() => {
+    //const user = Storage('user-logado')
+    //setUsuario(user.data.nome)
+  //},[])
 
 
   return (

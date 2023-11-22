@@ -8,6 +8,22 @@ import Linha from '../../assets/images/linha.png'
 
 import './index.scss'
 
+import React, {useState} from 'react';
+
+    const Checkout = () => {
+    const [pedido, setPedido] = useState([])    
+
+}
+
+const adicionarAoPedido = (item) =>{
+    setPedido ([...pedido, item]);
+}
+
+const finalizarPedido = () =>{
+    //
+    console.log('Pedido Realizado:', pedido);
+};
+
 export default function Minhascompras(){
     return(
         <div className='todos11'>
@@ -96,6 +112,7 @@ export default function Minhascompras(){
 
                 <div className='englobasolta2'>
                     <div className='dvsolta'>
+                        <h1>SUBTOTAL</h1>
 
                     </div>
 
@@ -109,6 +126,7 @@ export default function Minhascompras(){
                 <div className='englobasolta3'>
 
                 <div className='dvsolta11'>
+                    <h1>ENTREGA</h1>
 
                 </div>
 
@@ -121,6 +139,7 @@ export default function Minhascompras(){
                 <div className='englobasolta4'>
 
                 <div className='dvsolta12'>
+                    <h1>TOTAL</h1>
 
                 </div>
 
@@ -128,6 +147,20 @@ export default function Minhascompras(){
 
                 </div>
                     
+                </div>
+
+                <div className='btdecompra'>
+                    <div className='bt11'>
+                        <button onClick={finalizarPedido}>Finalizar Pedido</button>
+                    </div>
+
+                    <div className='bt12'>
+                        <button>ADICIONAR MAIS</button>
+                    </div>
+
+                    <div className='bt13'>
+                        <button>EXCLUIR PEDIDO</button>              
+                    </div>
                 </div>
                 
             </div>
@@ -142,4 +175,6 @@ export default function Minhascompras(){
 
 
 }
+
+
 
