@@ -53,7 +53,7 @@ export default function Destaques() {
 
       <div className='box'>
         <h1>Seja bem Vindo {usuario} : </h1>
-        <div className='perfil-adm'> {usuario} </div>
+        <div className='perfil-adm'> </div>
       </div>
       </div>
     )}
