@@ -1,5 +1,5 @@
 import vanguard from '../../assets/images/vanguard.png'
-import Storage from 'local-storage'
+import Storage from 'local-storage';
 import './index.scss';
 import React,{ useEffect, useState } from 'react'
 import Cabecalho from '../renderizacao'
