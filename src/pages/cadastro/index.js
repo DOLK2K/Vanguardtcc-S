@@ -3,10 +3,17 @@ import Logo from '../../assets/images/LogoCabeçalho.png'
 import Olho from '../../assets/images/image 62 (1).png'
 import Facebook from '../../assets/images/image 59.png'
 import Google from '../../assets/images/image 60 (1).png'
+import vanguard from '../../assets/images/vanguard.png';
+import correio from '../../assets/images/correio.png';
+import face from '../../assets/images/facebook.png';
+import twitter from '../../assets/images/twitter.png';
+import insta from '../../assets/images/insta.png';
+import youtube from '../../assets/images/youtube.png';
 import './index.scss'
 import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export default function Cadastro() {
@@ -110,16 +117,48 @@ export default function Cadastro() {
             <p className='texto'>Ao me cadastrar, aceito os <span> Termos de Serviços </span> & <span> Política de Privacidade </span>  </p>
             <div className='botoess'>
                 <div className='facebook'>
+                <Link to="https://www.facebook.com"> 
                 <img src={Facebook} /> <button>Entrar com Facebook</button>
+                </Link>
                 </div>
                 <div className='google'>
+                <Link to="https://www.gmail.com"> 
                 <img src={Google} /> <button>Entrar com Google</button>
+                </Link>
                 </div>
             </div>
 
             
             
             </div>
+            <div className='rodape-home'>
+      <a href='/'>
+        <img src={vanguard} />
+      </a>
+        <img src={correio} />
+        <Link to="https://www.facebook.com">
+        <img src={face} />
+        </Link>
+        <Link to="https://twitter.com/"> 
+        <img src={twitter} />
+        </Link>
+        <Link to="https://www.instagram.com/">
+        <img src={insta} />
+        </Link>
+        <Link to="https://www.youtube.com/">
+        <img src={youtube} />
+        </Link>
+
+
+        <div className='elements'>
+          <p>+012 345 6789</p>
+          <p>sac@vanguardtactical.com</p>
+          <p>Avenida Coronel Octaviano de Freitas Costa, 69, Socorro, São Paulo</p>
+
+        </div>
+
+      </div>
+            
         </div>
     )
 }
