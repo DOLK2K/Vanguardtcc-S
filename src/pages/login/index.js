@@ -1,4 +1,4 @@
-import Simbolo from '../../assets/images/simbolo-esquerdo.png'
+
 import Logo from '../../assets/images/LogoCabeçalho.png'
 import Email from '../../assets/images/o-email 1.png'
 import Chave from '../../assets/images/chave 1.png'
@@ -7,10 +7,18 @@ import Google from '../../assets/images/image 60 (1).png'
 import axios from 'axios'
 import './index.scss'
 import LoadingBar from 'react-top-loading-bar'
+import vanguard from '../../assets/images/vanguard.png';
 import {useNavigate} from 'react-router-dom'
 import { useState, useRef } from 'react'
+import correio from '../../assets/images/correio.png';
+import face from '../../assets/images/facebook.png';
+import twitter from '../../assets/images/twitter.png';
+import insta from '../../assets/images/insta.png';
+import youtube from '../../assets/images/youtube.png';
 import Volar from '../../assets/images/voltar.png'
 import Storage from 'local-storage'
+
+import { Link } from 'react-router-dom'
 
 
 export default function Login () {
@@ -106,11 +114,13 @@ export default function Login () {
             </div>
 
             </div>
+            
             </div>
             </div>
         
 
         </div>
+        
         </div>
     )
 }
