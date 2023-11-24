@@ -98,17 +98,17 @@ function App() {
     setPopup(false)
  }
 
- //useEffect(() => {
-  //const valorarmazenado = Storage('user-logado')
+//  useEffect(() => {
+//   const valorarmazenado = Storage('user-logado')
   
-  //setAparecer(!valorarmazenado)
+//   setAparecer(!valorarmazenado)
 
-//})
+// })
 
-  //useEffect (() => {
-    //const user = Storage('user-logado')
-    //setUsuario(user.data.nome)
-  //},[])
+//   useEffect (() => {
+//     const user = Storage('user-logado')
+//     setUsuario(user.data.nome)
+//   },[])
 
 
   return (
@@ -282,65 +282,7 @@ function App() {
       </div>
 
 
-      <div className='promocoes-mae'>
-
-
-
-        <div className='itensgeral'>
-
-
-          <div className='itens1'>
-            <img src={Bolsaaa} />
-            <div className='caixaazul'>
-              <div className='item1'>
-                <h1>Mochila Militar Wolf Cargo Double Black</h1>
-
-                <p>DE 700,00 R$  POR R$500,00</p>
-                <p>8X R$62,50</p>
-                <button>Comprar</button>
-              </div>
-            </div>
-
-
-          </div>
-
-
-
-
-          <div className='itens2'>
-            <img src={Lanterna} />
-
-            <div className='caixaazul2'>
-
-              <div className='item2'>
-                <h1>Lanterna Jetbeam Bc25 1480 Lúmens</h1>
-                <p>DE 450R$ POR R$300,00</p>
-                <p>5x de 60,00</p>
-
-                <button>Comprar</button>
-              </div>
-            </div>
-
-          </div>
-
-          <div className='itens3'>
-            <img src={Jaqueta} />
-
-            <div className='caixaazul3'>
-              <div className='item3'>
-                <h1>Jaqueta Militar Impermeável</h1>
-                <p>DE 584,99 R$ POR R$497,00</p>
-                <p> 12x de 51,24</p>
-                <button>Comprar</button>
-              </div>
-            </div>
-
-          </div>
-
-
-
-        </div>
-      </div>
+      
 
 
     
