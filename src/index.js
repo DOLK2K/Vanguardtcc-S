@@ -25,7 +25,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Meuspedidos from './pages/meuspedidos';
 import Minhaconta from './pages/minhaconta';
 import Minhascompras from './pages/minhascompras';
-
+import PaymentPage from './pages/cartao';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -56,6 +56,7 @@ root.render(
       <Route path='*' element = {<Notfound/>} />
       <Route path='/minhaconta' element = {<Minhaconta/>} />
       <Route path= '/minhascompras' element = {<Minhascompras/>} />
+      <Route path= '/cartao' element = {<PaymentPage/>} />
 
 
     </Routes>

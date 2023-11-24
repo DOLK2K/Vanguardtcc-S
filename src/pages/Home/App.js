@@ -253,27 +253,27 @@ function App() {
             <div className='faixaa'>
               <div className='faixa-02'>
 
-                <img src={Mochila} />
+                <a href='/mochilas'> <img src={Mochila} /> </a>
                 <h1>Mochilas</h1>
 
-                <img src={Acessório}></img>
+               <a href='/acessórios'>  <img src={Acessório}></img> </a>
                 <h2>Acessorio</h2>
 
               </div>
 
               <div className='faixa-03'>
 
-                <img src={Calçados}></img>
+               <a href='/calçados'>  <img src={Calçados}></img> </a>
                 <h1>Calçados</h1>
 
-                <img src={Pro}></img>
+              <a href='/profissional'>    <img src={Pro}></img> </a> 
                 <h2>Profissional</h2>
 
-
+              
               </div>
             </div>
             <div className='faixa-button'>
-              <button>Ver Mais</button>
+              <a></a> <button>Ver Mais</button>
             </div>
           </div>
         </div>
