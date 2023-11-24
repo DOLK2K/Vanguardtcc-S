@@ -2,7 +2,7 @@ import './index.scss'
 import vanguard from '../../assets/images/vanguard.png'
 import { useEffect, useState } from 'react'
 import donloawd from '../../assets/images/download.png'
-import { cadastrarProduto } from '../../api/cadastroProduto'
+import { cadastrarProduto, enviarImagem } from '../../api/cadastroProduto'
 import { useNavigate } from 'react-router-dom'
 import Storage from 'local-storage'
 
@@ -28,8 +28,8 @@ export default function Produtoo() {
     async function salvarClick() {
         try {
             const user = Storage('usuario-logado').id;
-            const r = await cadastrarProduto(desc, tipoproduto, categoria, quantidade, situacao, precoproduto, frete, user);
-
+            const novoproduto = await cadastrarProduto(desc, tipoproduto, categoria, quantidade, situacao, precoproduto, frete, user);
+            const r = enviarImagem(novoproduto.id, imagem)
             alert('produto cadastrado');
 
             if(!desc){

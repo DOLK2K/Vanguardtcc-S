@@ -26,6 +26,7 @@ import twitter from '../../assets/images/twitter.png';
 import insta from '../../assets/images/insta.png';
 import youtube from '../../assets/images/youtube.png';
 import Formapag from '../../assets/images/bandeirascartoes.png';
+import { listartodosproduto, buscarpornome } from '../../api/cadastroProduto';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -46,9 +47,20 @@ function App() {
   const [popup, setPopup] = useState(true)
   const [aparecer, setAparecer] = useState(false)
   const [usuario, setUsuario] = useState('-')
+  const [produto, setProduto] = useState([])
+  
+
+  async function carregartodosproduto () {
+    const resp = await listartodosproduto()
+    setProduto(resp)
+
+  }
+
+  useEffect(() => {
+    
+  }, [])
+  
   async function Suporte() {
-
-
     try {
 
       const s = await axios.post('http://129.148.42.252:5015/Suportehome', {

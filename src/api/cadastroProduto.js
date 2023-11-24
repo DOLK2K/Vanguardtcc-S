@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://129.148.42.252:5015'
+    baseURL: 'http://localhost:5000'
 })
 
 
@@ -32,4 +32,18 @@ export async function enviarImagem(id, imagem) {
     })
 
     return resposta.status
+}
+
+
+
+
+export async function listartodosproduto () {
+    const resposta = await api.get('/produto');
+    return resposta.data
+}
+
+
+
+export async function buscarpornome (nome) {
+    const resposta = await api.get(`/produto/busca?nome=${nome}`)
 }

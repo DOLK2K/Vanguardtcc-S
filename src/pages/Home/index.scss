@@ -516,12 +516,7 @@
     cursor: pointer;
 }
 
-.item1 button:hover{
-    
-    transition: 1.0s;
-    color: #00f0b0;
-    
-}
+
 
 .itens2 {
     display: flex;
@@ -564,11 +559,6 @@
     cursor: pointer;
 }
 
-.item2 button:hover{
-    transition: 0.8s;
-    color: #00f0b0;
-    border-color: #00f0b0;
-}
 
 
 
@@ -617,18 +607,6 @@
     border: none;
     cursor: pointer;
 }
-
-.item3 button:hover{
-    transition: 1.0s;
-    color: #00f0b0;
-}
-
-
-
-
-
-
-
 
 .fundo2{
     background-size: cover;
